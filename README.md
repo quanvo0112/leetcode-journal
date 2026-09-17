@@ -57,7 +57,7 @@
 1. **Cách 1: Web App cá nhân qua GitHub Pages (Khuyên dùng - Tiện nhất)**
    - Đẩy repo này lên GitHub.
    - Bật **GitHub Pages** (Source: `Deploy from a branch`, nhánh `main`, thư mục `/ (root)`).
-   - Truy cập trang web từ điện thoại (ví dụ: `https://<username>.github.io/leetcode-journal/`).
+   - Truy cập trang web từ điện thoại: **`https://quanvo0112.github.io/leetcode-journal/`**.
    - Chọn **"Add to Home Screen" (Thêm vào màn hình chính)** trên Safari/Chrome để mở như một app riêng biệt, có thanh tìm kiếm, chế độ đọc ban đêm, hỗ trợ công thức toán $O(N)$ và highlight code C++.
 
 2. **Cách 2: Ứng dụng GitHub Mobile**
@@ -68,3 +68,4 @@
 3. **Cách 3: Obsidian Vault (Offline & Sync)**
    - Trên máy tính: Mở trực tiếp thư mục `leetcode-journal` này bằng phần mềm [Obsidian](https://obsidian.md/).
    - Trên điện thoại: Cài Obsidian app, đồng bộ qua GitHub (Obsidian Git plugin) hoặc iCloud / Google Drive.
+
