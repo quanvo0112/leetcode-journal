@@ -43,14 +43,10 @@
 
 ## 5. Clean Code
 
-```cpp
-#include <vector>
-#include <unordered_map>
-
 class Solution {
 public:
-    std::vector<int> twoSum(std::vector<int>& nums, int target) {
-        std::unordered_map<int, int> prevMap;
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> prevMap;
 
         for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
@@ -73,3 +69,4 @@ public:
 
 * *Next Review Date:* Low priority (benchmark problem).
 * *Key Takeaway:* Transform a pair-matching problem from "finding $A + B = C$" to "looking up $C - A$ in a lookup table." The one-pass hash map simultaneously prevents self-matching and reduces overall passes.
+

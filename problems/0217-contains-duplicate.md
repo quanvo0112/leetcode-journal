@@ -21,7 +21,7 @@
 1. **Brute Force:** Nested loops comparing all pairs $\rightarrow$ Time: $O(N^2)$, Space: $O(1)$. Triggers TLE for $N = 10^5$.
 2. **Sorting:** Sort array first, then check adjacent pairs `nums[i] == nums[i-1]` $\rightarrow$ Time: $O(N \log N)$, Space: $O(1)$ to $O(N)$ depending on sorting algorithm.
 3. **Hash Set (Optimal):**
-   - Initialize an empty hash set (`std::unordered_set<int> seen`).
+   - Initialize an empty hash set (`unordered_set<int> seen`).
    - Iterate through `nums`. If `num` exists in `seen`, return `true` immediately (early return).
    - Otherwise, insert `num` into `seen`.
    - Return `false` if loop finishes without duplicates.
@@ -37,20 +37,17 @@
 ## 4. Edge Cases & Gotchas
 - [x] Single-element array: The loop executes once and correctly returns `false` without out-of-bound errors.
 - [x] Negative numbers: Handled automatically by hash function.
-- **C++ Tip:** Avoid `std::set` here unless ordered elements are required, because `std::set` uses a balanced BST ($O(\log N)$ operations) instead of a hash table ($O(1)$ average).
+- **C++ Tip:** Avoid `set` here unless ordered elements are required, because `set` uses a balanced BST ($O(\log N)$ operations) instead of a hash table ($O(1)$ average).
 
 ---
 
 ## 5. Clean Code
 
 ```cpp
-#include <vector>
-#include <unordered_set>
-
 class Solution {
 public:
-    bool containsDuplicate(std::vector<int>& nums) {
-        std::unordered_set<int> seen;
+    bool containsDuplicate(vector<int>& nums) {
+        unordered_set<int> seen;
         
         for (int num : nums) {
             if (seen.find(num) != seen.end()) {

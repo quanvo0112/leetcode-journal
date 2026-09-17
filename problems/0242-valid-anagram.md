@@ -26,7 +26,7 @@
    - Iterate through the 26-element array to ensure all values returned to 0.
 3. **Follow-up (Unicode handling):**
    - Fixed 26-element indexing does not support variable-width encodings.
-   - Replace the array with `std::unordered_map<char32_t, int>` or `std::unordered_map<wchar_t, int>`.
+   - Replace the array with `unordered_map<char32_t, int>` or `unordered_map<wchar_t, int>`.
 
 ---
 
@@ -46,11 +46,9 @@
 ## 5. Source Code (Submitted Solution)
 
 ```cpp
-#include <string>
-
 class Solution {
 public:
-    bool isAnagram(std::string s, std::string t) {
+    bool isAnagram(string s, string t) {
         if (s.length() != t.length()) {
             return false;
         }
@@ -84,7 +82,7 @@ Instead of running a second loop over the 26-element array at the end, populate 
 ```cpp
 class Solution {
 public:
-    bool isAnagram(std::string s, std::string t) {
+    bool isAnagram(string s, string t) {
         if (s.length() != t.length()) return false;
 
         int count[26] = {0};
