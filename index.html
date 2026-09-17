@@ -52,6 +52,10 @@
     .markdown-section li {
       margin: 6px 0;
     }
+    /* Hide GitHub corner ribbon */
+    .github-corner {
+      display: none !important;
+    }
     /* Mobile responsive tweaks */
     @media screen and (max-width: 768px) {
       .markdown-section {
@@ -65,7 +69,6 @@
   <script>
     window.$docsify = {
       name: '🧠 LeetCode Journal',
-      repo: 'https://github.com/quanvo0112/leetcode-journal',
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
