@@ -28,6 +28,30 @@
     .sidebar-nav strong {
       color: #334155;
     }
+    /* Fix task list checkboxes alignment */
+    .markdown-section ul.task-list,
+    .markdown-section .task-list-item {
+      list-style-type: none;
+    }
+    .markdown-section input[type="checkbox"] {
+      margin: 0 8px 0 0 !important;
+      vertical-align: middle !important;
+      display: inline-block !important;
+      cursor: pointer;
+    }
+    .markdown-section li > p {
+      display: inline !important;
+      margin: 0 !important;
+    }
+    .markdown-section li > ol {
+      display: inline-block !important;
+      margin: 0 !important;
+      padding-left: 0 !important;
+      vertical-align: middle !important;
+    }
+    .markdown-section li {
+      margin: 6px 0;
+    }
     /* Mobile responsive tweaks */
     @media screen and (max-width: 768px) {
       .markdown-section {

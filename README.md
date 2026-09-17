@@ -25,30 +25,30 @@
 ### 🎯 Roadmap by Topic
 
 - [x] **Arrays & Hashing**
-  - [x] 0217. Contains Duplicate
-  - [x] 0242. Valid Anagram
-  - [x] 0001. Two Sum
-  - [ ] 0049. Group Anagrams
-  - [ ] 0347. Top K Frequent Elements
+  - [x] [0001. Two Sum](problems/0001-two-sum.md)
+  - [x] [0217. Contains Duplicate](problems/0217-contains-duplicate.md)
+  - [x] [0242. Valid Anagram](problems/0242-valid-anagram.md)
+  - [ ] 0049\. Group Anagrams
+  - [ ] 0347\. Top K Frequent Elements
 - [ ] **Two Pointers**
-  - [ ] 0125. Valid Palindrome
-  - [ ] 0167. Two Sum II - Input Array Is Sorted
-  - [ ] 0015. 3Sum
+  - [ ] 0125\. Valid Palindrome
+  - [ ] 0167\. Two Sum II - Input Array Is Sorted
+  - [ ] 0015\. 3Sum
 - [ ] **Sliding Window**
-  - [ ] 0121. Best Time to Buy and Sell Stock
-  - [ ] 0003. Longest Substring Without Repeating Characters
+  - [ ] 0121\. Best Time to Buy and Sell Stock
+  - [ ] 0003\. Longest Substring Without Repeating Characters
 - [ ] **Stack**
-  - [ ] 0020. Valid Parentheses
-  - [ ] 0155. Min Stack
+  - [ ] 0020\. Valid Parentheses
+  - [ ] 0155\. Min Stack
 - [ ] **Binary Search**
-  - [ ] 0704. Binary Search
-  - [ ] 0074. Search a 2D Matrix
+  - [ ] 0704\. Binary Search
+  - [ ] 0074\. Search a 2D Matrix
 - [ ] **Linked List**
-  - [ ] 0206. Reverse Linked List
-  - [ ] 0021. Merge Two Sorted Lists
+  - [ ] 0206\. Reverse Linked List
+  - [ ] 0021\. Merge Two Sorted Lists
 - [ ] **Trees**
-  - [ ] 0226. Invert Binary Tree
-  - [ ] 0104. Maximum Depth of Binary Tree
+  - [ ] 0226\. Invert Binary Tree
+  - [ ] 0104\. Maximum Depth of Binary Tree
 - [ ] **Dynamic Programming & Graphs**
   - *(Coming soon)*
 
