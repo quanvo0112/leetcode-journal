@@ -1,6 +1,6 @@
 # 🧠 LeetCode Journal & Problem Notes
 
-> Một cuốn sổ tay kỹ thuật cá nhân để tổng hợp pattern, thuật toán, tư duy giải quyết vấn đề và theo dõi tiến độ luyện tập LeetCode.
+> A structured personal technical notebook for documenting LeetCode solutions, algorithmic patterns, problem-solving intuitions, and tracking practice progress.
 
 ---
 
@@ -52,20 +52,34 @@
 
 ---
 
-### 📱 Cách đọc ghi chú mọi lúc mọi nơi (PC & Điện thoại)
+### 📱 How to Read Notes Anywhere (PC & Mobile)
 
-1. **Cách 1: Web App cá nhân qua GitHub Pages (Khuyên dùng - Tiện nhất)**
-   - Đẩy repo này lên GitHub.
-   - Bật **GitHub Pages** (Source: `Deploy from a branch`, nhánh `main`, thư mục `/ (root)`).
-   - Truy cập trang web từ điện thoại: **`https://quanvo0112.github.io/leetcode-journal/`**.
-   - Chọn **"Add to Home Screen" (Thêm vào màn hình chính)** trên Safari/Chrome để mở như một app riêng biệt, có thanh tìm kiếm, chế độ đọc ban đêm, hỗ trợ công thức toán $O(N)$ và highlight code C++.
+1. **Option 1: Personal Web App via GitHub Pages (Recommended)**
+   - Push this repository to GitHub.
+   - Enable **GitHub Pages** under **Settings** $\rightarrow$ **Pages** (Source: `Deploy from a branch`, branch `main`, folder `/ (root)`).
+   - Visit your site on mobile or desktop: **[quanvo0112.github.io/leetcode-journal](https://quanvo0112.github.io/leetcode-journal/)**.
+   - Tap **"Add to Home Screen"** on Safari/Chrome to use it as a standalone app with instant full-text search, KaTeX math rendering ($O(N)$, $O(\log N)$), and C++ syntax highlighting.
 
-2. **Cách 2: Ứng dụng GitHub Mobile**
-   - Đẩy repo lên GitHub (Public hoặc Private đều được).
-   - Tải ứng dụng **GitHub** trên App Store (iOS) hoặc Google Play (Android).
-   - Mở repo và thư mục `problems/` để đọc bất kỳ lúc nào. App GitHub hiển thị định dạng Markdown và bảng rất đẹp.
+2. **Option 2: Official GitHub Mobile App**
+   - Push the repository to GitHub (works with both Public and Private repos).
+   - Install the official **GitHub** app on [iOS](https://apps.apple.com/app/github/id1477376905) or [Android](https://play.google.com/store/apps/details?id=com.github.android).
+   - Open the repository and browse the `problems/` directory anytime. Markdown and tables are rendered cleanly with offline caching.
 
-3. **Cách 3: Obsidian Vault (Offline & Sync)**
-   - Trên máy tính: Mở trực tiếp thư mục `leetcode-journal` này bằng phần mềm [Obsidian](https://obsidian.md/).
-   - Trên điện thoại: Cài Obsidian app, đồng bộ qua GitHub (Obsidian Git plugin) hoặc iCloud / Google Drive.
+3. **Option 3: Obsidian Vault (Offline & Sync)**
+   - **Desktop:** Open this folder directly as a vault in [Obsidian](https://obsidian.md/).
+   - **Mobile:** Install the Obsidian app and sync using the free **Obsidian Git** community plugin or cloud storage (iCloud, Google Drive, OneDrive).
 
+---
+
+### ⚡ Quick Start: Adding a New Problem
+
+Generate a new note with pre-filled metadata using the helper script:
+
+```powershell
+python new_note.py 242 "Valid Anagram" "Easy" "Array / Hash Table"
+```
+
+Or run interactively:
+```powershell
+python new_note.py
+```
