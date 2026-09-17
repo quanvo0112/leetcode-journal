@@ -8,7 +8,7 @@
 
 | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | :---: | :---: | :---: | :---: |
-| **1** | 1 | 0 | 0 |
+| **2** | 2 | 0 | 0 |
 
 ---
 
@@ -17,6 +17,7 @@
 | # | Title | Difficulty | Topic / Pattern | Solution & Notes | Status | Review Date |
 |:---:|:---|:---:|:---|:---:|:---:|:---:|
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | `Easy` | Array, Hash Table | [📝 Note](problems/0217-contains-duplicate.md) | 🟢 Solved | - |
+| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | `Easy` | String, Hash Table, Counting | [📝 Note](problems/0242-valid-anagram.md) | 🟢 Solved | - |
 
 ---
 
@@ -24,7 +25,7 @@
 
 - [x] **Arrays & Hashing**
   - [x] 0217. Contains Duplicate
-  - [ ] 0242. Valid Anagram
+  - [x] 0242. Valid Anagram
   - [ ] 0001. Two Sum
   - [ ] 0049. Group Anagrams
   - [ ] 0347. Top K Frequent Elements
