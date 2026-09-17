@@ -18,8 +18,8 @@
 ---
 
 ## 2. Approach & Trade-offs
-1. **Brute Force:** Check every pair $(i, j)$ where $i \ne j$ with nested loops $\rightarrow$ Time: $O(N^2)$, Space: $O(1)$. Exceeds optimal limits for large inputs.
-2. **Two Pointers (After Sorting):** Sort array and use left/right pointers $\rightarrow$ Time: $O(N \log N)$, Space: $O(N)$ (storing original indices). Feasible, but slower than hash map and requires tracking original indices.
+1. **Brute Force:** Check every pair $(i, j)$ where $i \ne j$ with nested loops $\rightarrow$ Time: $O(N^2)$, Space: $O(1)$. Triggers TLE for large inputs ($N = 10^5$).
+2. **Sort + Two Pointers:** Sort array and use left/right pointers $\rightarrow$ Time: $O(N \log N)$, Space: $O(N)$ (requires storing original indices `pair<value, index>`). Slower than hash map and loses original index positioning.
 3. **One-Pass Hash Map (Optimal):**
    - Initialize an empty hash map `prevMap` storing `{number: index}`.
    - For each element `nums[i]`, compute `complement = target - nums[i]`.
@@ -29,19 +29,19 @@
 ---
 
 ## 3. Complexity Analysis
-- **Time Complexity:** $O(N)$ — We traverse the array once; hash map lookups and insertions operate in $O(1)$ average time.
-- **Space Complexity:** $O(N)$ — In the worst case, the hash map holds up to $N - 1$ key-value pairs before locating the answer on the final element.
+- **Time Complexity:** $O(N)$ — Single pass through the array; hash map operations operate in $O(1)$ average time.
+- **Space Complexity:** $O(N)$ — In the worst-case scenario (matching pair at the very end), the hash map holds up to $N - 1$ entries.
 
 ---
 
 ## 4. Edge Cases & Gotchas
-- [x] Duplicate values (e.g., `nums = [3, 3]`, `target = 6`): The first `3` is looked up, but not found in the map initially. When the second `3` is reached, `target - 3 = 3` matches the first index already inserted.
-- [x] Negative values: Negative integers and negative targets are handled directly by arithmetic without special branches.
-- [x] Reusing the same index: Searching the map *before* adding the current element guarantees index $i \ne j$.
+- [x] Duplicate values (e.g., `nums = [3, 3]`, `target = 6`): The first `3` is looked up (not found) and stored at index `0`. When the second `3` arrives, `target - 3 = 3` matches the stored key, correctly returning `{0, 1}`.
+- [x] Negative values: Negative numbers and negative targets are handled transparently by arithmetic.
+- [x] Preventing self-matching: Searching the map *before* inserting `nums[i]` guarantees that an element cannot pair with itself ($i \ne j$).
 
 ---
 
-## 5. Clean Code
+## 5. Clean Code (Submitted Solution)
 
 ```cpp
 class Solution {
@@ -68,6 +68,65 @@ public:
 
 ## 6. Review & Takeaways
 
-* *Next Review Date:* Low priority (benchmark problem).
-* *Key Takeaway:* Transform a pair-matching problem from "finding $A + B = C$" to "looking up $C - A$ in a lookup table." The one-pass hash map simultaneously prevents self-matching and reduces overall passes.
+### 🚀 Better Implementation: Single Lookup & Reserve
 
+In the submitted solution:
+```cpp
+if (prevMap.find(complement) != prevMap.end()) {
+    return {prevMap[complement], i}; // Triggers a second hash computation & lookup
+}
+```
+`prevMap` is queried **twice** for the same key: once in `find()` and once in `operator[]`. We can optimize this into a **single lookup** by storing the iterator from `find()`:
+
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> prevMap;
+        // Optional: Pre-allocate bucket count to eliminate rehashing overhead
+        prevMap.reserve(nums.size());
+
+        for (int i = 0; i < nums.size(); ++i) {
+            int complement = target - nums[i];
+
+            auto it = prevMap.find(complement);
+            if (it != prevMap.end()) {
+                return {it->second, i}; // Single lookup via iterator
+            }
+
+            prevMap[nums[i]] = i;
+        }
+
+        return {};
+    }
+};
+```
+
+---
+
+### 💡 C++ Interview Deep Dive
+
+#### 1. Why `unordered_map` over `map`?
+- **`unordered_map`:** Built on a Hash Table $\rightarrow$ **Average $O(1)$** lookup and insertion. Since Two Sum does not require sorted keys, this is optimal.
+- **`map`:** Built on a Red-Black Tree (Self-balancing BST) $\rightarrow$ **Strict $O(\log N)$** operations.
+
+#### 2. Interview Question: *"Is `unordered_map` always $O(1)$?"*
+- **No.** Average-case lookup/insert is $O(1)$, but in the worst case (excessive hash collisions mapping many keys into the same bucket), operations degrade to **$O(N)$**, resulting in an overall $O(N^2)$ runtime.
+
+#### 3. Why Iterate Once and Check *Before* Inserting?
+- Doing a single pass and checking before inserting serves two crucial purposes:
+  1. Handles duplicate pairs (e.g., `[3, 3]`, `target = 6`) naturally without collisions overwriting the key prematurely.
+  2. Automatically prevents self-matching ($i \neq j$) because `nums[i]` is not in the map when we search for its complement.
+
+---
+
+### 📊 Comparison Summary
+
+| Approach | Time Complexity | Space Complexity | Notes |
+| :--- | :---: | :---: | :--- |
+| **Brute Force** | $O(N^2)$ | $O(1)$ | Simple nested loops, TLE on large arrays |
+| **Sort + Two Pointers** | $O(N \log N)$ | $O(N)$ | Requires tracking original indices `pair<val, idx>` |
+| **`unordered_map` (Optimal)** | **Average $O(N)$** | **$O(N)$** | **Most direct, optimal for interviews** |
+
+* **Next Review Date:** Low priority (benchmark pattern mastered).
+* **Key Takeaway:** Formulate pair search as $\text{complement} = \text{target} - \text{nums}[i]$. Always use iterator-based access (`it->second`) to eliminate redundant hash lookups.
