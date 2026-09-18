@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **3 / 150 (2%)** | **3** | 3 | 0 | 0 |
+| **4 / 150 (3%)** | **4** | 3 | 1 | 0 |
 
 ---
 
@@ -17,6 +17,7 @@
 | # | Title | Difficulty | Topic / Pattern | Solution & Notes | Status | Review Date |
 |:---:|:---|:---:|:---|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | `Easy` | Array, Hash Table | [📝 Note](problems/0001-two-sum.md) | 🟢 Solved | - |
+| 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | `Medium` | Array, Hash Table, String | [📝 Note](problems/0049-group-anagrams.md) | 🟢 Solved | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | `Easy` | Array, Hash Table | [📝 Note](problems/0217-contains-duplicate.md) | 🟢 Solved | - |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | `Easy` | String, Hash Table, Counting | [📝 Note](problems/0242-valid-anagram.md) | 🟢 Solved | - |
 
@@ -24,11 +25,11 @@
 
 ### 🎯 NeetCode 150 Roadmap
 
-#### 1. Arrays & Hashing (3/9)
+#### 1. Arrays & Hashing (4/9)
 - [x] [0217. Contains Duplicate](problems/0217-contains-duplicate.md)
 - [x] [0242. Valid Anagram](problems/0242-valid-anagram.md)
 - [x] [0001. Two Sum](problems/0001-two-sum.md)
-- [ ] 0049\. Group Anagrams
+- [x] [0049. Group Anagrams](problems/0049-group-anagrams.md)
 - [ ] 0347\. Top K Frequent Elements
 - [ ] 0271\. Encode and Decode Strings
 - [ ] 0238\. Product of Array Except Self
