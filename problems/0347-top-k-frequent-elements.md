@@ -5,9 +5,9 @@
 - **Topic / Pattern:** `Array` / `Hash Table` / `Bucket Sort` / `Counting`
 - **Last Practiced:** 2026-09-18
 - **Proficiency Level:** 
-  - [x] 🟢 Level 1: Solved smoothly (< 20 mins, optimal)
-  - [ ] 🟡 Level 2: Struggled / Non-optimal / Edge-case bugs
-  - [ ] 🔴 Level 3: Needed editorial or hints
+  - [x] Level 1: Solved smoothly (< 20 mins, optimal)
+  - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
+  - [ ] Level 3: Needed editorial or hints
 
 ---
 
@@ -103,7 +103,7 @@ public:
 
 ## 6. Review & Takeaways
 
-### 🔄 Visualizing the Workflow
+### Visualizing the Workflow
 
 ```text
 nums = [1, 1, 1, 2, 2, 3], k = 2
@@ -163,7 +163,7 @@ public:
 
 ---
 
-### 📊 Comparison of All Approaches
+### Comparison of All Approaches
 
 | Approach | Time Complexity | Space Complexity | Pros & Cons |
 | :--- | :---: | :---: | :--- |
@@ -174,7 +174,7 @@ public:
 
 ---
 
-### 💡 C++ Interview Takeaway
+### C++ Interview Takeaway
 
 > *"When frequencies or values are bounded, avoid comparison-based sorting ($O(N \log N)$) and heaps ($O(N \log K)$) — use **Bucket Sort** to achieve strictly linear $O(N)$ time."*
 

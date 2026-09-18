@@ -5,9 +5,9 @@
 - **Topic / Pattern:** `Array` / `Hash Table` / `Two Pointers` / `Sliding Window` / ...
 - **Last Practiced:** YYYY-MM-DD
 - **Proficiency Level:** 
-  - [ ] 🟢 Level 1: Solved smoothly (< 20 mins, optimal)
-  - [ ] 🟡 Level 2: Struggled / Non-optimal / Edge-case bugs
-  - [ ] 🔴 Level 3: Needed editorial or hints
+  - [ ] Level 1: Solved smoothly (< 20 mins, optimal)
+  - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
+  - [ ] Level 3: Needed editorial or hints
 
 ---
 

@@ -5,9 +5,9 @@
 - **Topic / Pattern:** `Array` / `Hash Table` / `String` / `Counting`
 - **Last Practiced:** 2026-09-18
 - **Proficiency Level:** 
-  - [x] 🟢 Level 1: Solved smoothly (< 20 mins, optimal)
-  - [ ] 🟡 Level 2: Struggled / Non-optimal / Edge-case bugs
-  - [ ] 🔴 Level 3: Needed editorial or hints
+  - [x] Level 1: Solved smoothly (< 20 mins, optimal)
+  - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
+  - [ ] Level 3: Needed editorial or hints
 
 ---
 
@@ -181,7 +181,7 @@ public:
 
 ---
 
-### 📊 Summary of Approaches
+### Summary of Approaches
 
 | Approach | Time Complexity | Space Complexity | Description |
 | :--- | :---: | :---: | :--- |
@@ -191,7 +191,7 @@ public:
 
 ---
 
-### 💡 Engineering Mindset & Interview Takeaways
+### Engineering Mindset & Interview Takeaways
 
 1. **Don't Obsess Over Raw Milliseconds (e.g. 50ms vs 20ms):**
    LeetCode runtime measurements exhibit substantial variance based on judge server load and harness execution. 50ms does not mean an algorithm is bad. What matters in interviews and production is:

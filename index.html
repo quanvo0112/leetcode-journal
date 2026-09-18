@@ -315,22 +315,34 @@
        TABLES (Progress Tracker & Problem Lists)
        ========================================================================== */
     .markdown-section table {
-      width: 100%;
+      width: 100% !important;
       border-collapse: separate !important;
       border-spacing: 0 !important;
-      margin: 1.5rem 0 !important;
+      margin: 1.6rem 0 !important;
       border: 1px solid var(--border-subtle) !important;
       border-radius: 8px !important;
       overflow: hidden;
       background: var(--bg-surface) !important;
+      background-color: var(--bg-surface) !important;
+    }
+    .markdown-section table tr,
+    .markdown-section table tr:nth-child(2n),
+    .markdown-section table tr:nth-child(2n+1),
+    .markdown-section table tbody tr,
+    .markdown-section table tbody tr:nth-child(2n),
+    .markdown-section table tbody tr:nth-child(2n+1) {
+      background: var(--bg-surface) !important;
+      background-color: var(--bg-surface) !important;
+      border: none !important;
     }
     .markdown-section th {
-      background: #131c31 !important;
-      color: var(--text-primary) !important;
+      background: #111a2e !important;
+      background-color: #111a2e !important;
+      color: var(--text-muted) !important;
       font-weight: 600 !important;
-      font-size: 12.5px !important;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      font-size: 11.5px !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.06em !important;
       padding: 12px 16px !important;
       border-bottom: 1px solid var(--border-subtle) !important;
       border-top: none !important;
@@ -339,20 +351,92 @@
       text-align: left;
     }
     .markdown-section td {
-      padding: 11px 16px !important;
+      background: transparent !important;
+      background-color: transparent !important;
+      padding: 12px 16px !important;
       border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
       border-top: none !important;
       border-left: none !important;
       border-right: none !important;
-      color: var(--text-secondary);
-      font-size: 14px;
+      color: var(--text-secondary) !important;
+      font-size: 13.5px !important;
       font-variant-numeric: tabular-nums;
+      vertical-align: middle;
     }
     .markdown-section tr:last-child td {
       border-bottom: none !important;
     }
     .markdown-section tr:hover td {
-      background: rgba(56, 189, 248, 0.03) !important;
+      background-color: rgba(56, 189, 248, 0.04) !important;
+    }
+
+    /* Table Column Typography & Monospace IDs */
+    .markdown-section table td:first-child {
+      font-family: 'JetBrains Mono', monospace !important;
+      font-size: 12.5px !important;
+      color: var(--text-faint) !important;
+    }
+
+    /* Badges (Difficulty & Status) */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-weight: 600;
+      border-radius: 4px;
+      line-height: 1.4;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+    .badge-easy {
+      background: rgba(52, 211, 153, 0.1) !important;
+      color: #34d399 !important;
+      border: 1px solid rgba(52, 211, 153, 0.25) !important;
+    }
+    .badge-medium {
+      background: rgba(251, 191, 36, 0.1) !important;
+      color: #fbbf24 !important;
+      border: 1px solid rgba(251, 191, 36, 0.25) !important;
+    }
+    .badge-hard {
+      background: rgba(244, 63, 94, 0.1) !important;
+      color: #f43f5e !important;
+      border: 1px solid rgba(244, 63, 94, 0.25) !important;
+    }
+    .badge-solved {
+      background: rgba(56, 189, 248, 0.1) !important;
+      color: #38bdf8 !important;
+      border: 1px solid rgba(56, 189, 248, 0.22) !important;
+    }
+    .badge-solved::before {
+      content: "";
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #38bdf8;
+      margin-right: 5px;
+    }
+
+    /* Note Link Pill in Tables */
+    .markdown-section table td a[href*="problems/"] {
+      display: inline-flex !important;
+      align-items: center !important;
+      padding: 3px 9px !important;
+      font-size: 12px !important;
+      font-weight: 500 !important;
+      color: #38bdf8 !important;
+      background: rgba(56, 189, 248, 0.08) !important;
+      border: 1px solid rgba(56, 189, 248, 0.2) !important;
+      border-radius: 4px !important;
+      text-decoration: none !important;
+      transition: all 0.15s ease !important;
+    }
+    .markdown-section table td a[href*="problems/"]:hover {
+      background: rgba(56, 189, 248, 0.18) !important;
+      border-color: #38bdf8 !important;
+      color: #ffffff !important;
     }
 
     /* ==========================================================================
@@ -364,7 +448,7 @@
     }
     .katex-display {
       margin: 1.2rem 0 !important;
-      padding: 12px 0;
+      padding: 12px 14px;
       background: rgba(255, 255, 255, 0.02);
       border-radius: 8px;
       overflow-x: auto;
@@ -431,24 +515,128 @@
       display: none !important;
     }
 
-    /* Mobile Responsive Optimizations */
+    /* Sidebar Toggle Button (Desktop & Mobile) */
+    .sidebar-toggle {
+      position: fixed !important;
+      top: 14px !important;
+      left: 14px !important;
+      bottom: auto !important;
+      width: 38px !important;
+      height: 38px !important;
+      padding: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background: rgba(15, 23, 42, 0.92) !important;
+      backdrop-filter: blur(12px) !important;
+      -webkit-backdrop-filter: blur(12px) !important;
+      border: 1px solid var(--border-subtle) !important;
+      border-radius: 8px !important;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+      cursor: pointer !important;
+      z-index: 999 !important;
+      transition: all 0.2s ease !important;
+    }
+    .sidebar-toggle:hover {
+      border-color: var(--accent-cyan) !important;
+      background: rgba(21, 31, 56, 0.98) !important;
+    }
+    .sidebar-toggle span {
+      display: block !important;
+      background-color: var(--text-secondary) !important;
+      height: 2px !important;
+      width: 17px !important;
+      margin: 2px 0 !important;
+      border-radius: 4px !important;
+      transition: all 0.2s ease !important;
+    }
+    .sidebar-toggle:hover span {
+      background-color: var(--accent-cyan) !important;
+    }
+
+    /* ==========================================================================
+       MOBILE RESPONSIVE ENGINE (Screen width <= 768px)
+       ========================================================================== */
     @media screen and (max-width: 768px) {
+      html, body {
+        font-size: 14px !important;
+      }
+      .content {
+        padding-top: 0 !important;
+      }
       .markdown-section {
-        padding: 20px 18px 60px 18px !important;
+        padding: 68px 16px 60px 16px !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
       }
-      .sidebar-toggle {
-        background: rgba(15, 23, 42, 0.8) !important;
-        backdrop-filter: blur(8px) !important;
-        border: 1px solid var(--border-subtle) !important;
-        border-radius: 8px !important;
-        top: 14px !important;
-        left: 14px !important;
-        padding: 8px !important;
+      .markdown-section h1 {
+        font-size: 1.6rem !important;
+        letter-spacing: -0.025em !important;
+        margin-bottom: 1rem !important;
       }
+      .markdown-section h2 {
+        font-size: 1.25rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 0.8rem !important;
+      }
+      .markdown-section h3 {
+        font-size: 1.08rem !important;
+        margin-top: 1.5rem !important;
+      }
+
+      /* Horizontal Touch Scrolling for Tables */
       .markdown-section table {
-        display: block;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+        display: block !important;
+        width: 100% !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        white-space: nowrap !important;
+        border-radius: 8px !important;
+        margin: 1.2rem 0 !important;
+      }
+      .markdown-section table th,
+      .markdown-section table td {
+        white-space: nowrap !important;
+        padding: 10px 12px !important;
+        font-size: 13px !important;
+      }
+      .markdown-section table td:nth-child(2) {
+        white-space: normal !important;
+        min-width: 130px !important;
+      }
+
+      /* Responsive Code Blocks */
+      .markdown-section pre {
+        padding: 14px 12px !important;
+        margin: 1.1rem 0 !important;
+        border-radius: 8px !important;
+        font-size: 12.5px !important;
+      }
+      .markdown-section pre > code {
+        font-size: 12.5px !important;
+        line-height: 1.6 !important;
+      }
+
+      /* Responsive KaTeX Equations */
+      .katex-display {
+        padding: 8px 6px !important;
+        font-size: 0.92em !important;
+      }
+
+      /* Dim Backdrop Overlay when Sidebar is open on Mobile */
+      body.close::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.65);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        z-index: 90;
+        pointer-events: auto;
       }
     }
   </style>
@@ -457,14 +645,14 @@
   <div id="app">Loading journal...</div>
   <script>
     window.$docsify = {
-      name: '🧠 LeetCode Journal',
+      name: 'LeetCode Journal',
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
       search: {
         maxAge: 86400000,
         paths: 'auto',
-        placeholder: '🔍 Search problems, patterns, tags...',
+        placeholder: 'Search problems, patterns, topics...',
         noData: 'No matching notes found',
         depth: 4
       },
@@ -477,7 +665,32 @@
         previousText: 'Previous',
         nextText: 'Next',
         crossChapter: true
-      }
+      },
+      plugins: [
+        function(hook, vm) {
+          hook.doneEach(function() {
+            // Auto-close sidebar on mobile after clicking any sidebar navigation link
+            var sidebarLinks = document.querySelectorAll('.sidebar-nav a');
+            sidebarLinks.forEach(function(link) {
+              link.addEventListener('click', function() {
+                if (window.innerWidth <= 768) {
+                  document.body.classList.remove('close');
+                }
+              });
+            });
+
+            // Close sidebar on mobile when clicking content area
+            var contentArea = document.querySelector('.content');
+            if (contentArea) {
+              contentArea.addEventListener('click', function() {
+                if (window.innerWidth <= 768 && document.body.classList.contains('close')) {
+                  document.body.classList.remove('close');
+                }
+              });
+            }
+          });
+        }
+      ]
     }
   </script>
   <!-- Docsify v4 -->

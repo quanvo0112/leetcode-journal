@@ -5,9 +5,9 @@
 - **Topic / Pattern:** `String` / `Hash Table` / `Counting`
 - **Last Practiced:** 2026-09-17
 - **Proficiency Level:** 
-  - [x] 🟢 Level 1: Solved smoothly (< 20 mins, optimal)
-  - [ ] 🟡 Level 2: Struggled / Non-optimal / Edge-case bugs
-  - [ ] 🔴 Level 3: Needed editorial or hints
+  - [x] Level 1: Solved smoothly (< 20 mins, optimal)
+  - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
+  - [ ] Level 3: Needed editorial or hints
 
 ---
 

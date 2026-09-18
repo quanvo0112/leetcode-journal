@@ -5,9 +5,9 @@
 - **Topic / Pattern:** `Array` / `Prefix Sum (Product)`
 - **Last Practiced:** 2026-09-18
 - **Proficiency Level:** 
-  - [x] 🟢 Level 1: Solved smoothly (< 20 mins, optimal)
-  - [ ] 🟡 Level 2: Struggled / Non-optimal / Edge-case bugs
-  - [ ] 🔴 Level 3: Needed editorial or hints
+  - [x] Level 1: Solved smoothly (< 20 mins, optimal)
+  - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
+  - [ ] Level 3: Needed editorial or hints
 
 ---
 
@@ -90,7 +90,7 @@ public:
 
 ## 6. Review & Takeaways
 
-### 🔍 Dry Run Walkthrough
+### Dry Run Walkthrough
 
 ```text
 nums = [1, 2, 3, 4]
@@ -113,7 +113,7 @@ nums = [1, 2, 3, 4]
 
 ---
 
-### 💡 Visualizing the Accumulation Pattern
+### Visualizing the Accumulation Pattern
 
 ```text
                  Prefix Pass (→)
@@ -130,7 +130,7 @@ Instead of allocating memory for both `prefix[]` and `suffix[]`, we reuse the ou
 
 ---
 
-### 💬 Interview Pitch: *"Why this solution?"*
+### Interview Pitch: *"Why this solution?"*
 
 > *"I use two linear passes. The first pass traverses from left to right, storing the cumulative product of all elements to the left of each index directly inside the result array. The second pass traverses from right to left, multiplying each entry by a running suffix product of all elements to its right. This achieves $O(N)$ time complexity while maintaining strictly $O(1)$ auxiliary space."*
 

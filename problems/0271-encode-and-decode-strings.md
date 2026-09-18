@@ -5,9 +5,9 @@
 - **Topic / Pattern:** `Array` / `String` / `Design` / `Serialization`
 - **Last Practiced:** 2026-09-18
 - **Proficiency Level:** 
-  - [x] 🟢 Level 1: Solved smoothly (< 20 mins, optimal)
-  - [ ] 🟡 Level 2: Struggled / Non-optimal / Edge-case bugs
-  - [ ] 🔴 Level 3: Needed editorial or hints
+  - [x] Level 1: Solved smoothly (< 20 mins, optimal)
+  - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
+  - [ ] Level 3: Needed editorial or hints
 
 ---
 
@@ -99,7 +99,7 @@ public:
 
 ## 6. Review & Takeaways
 
-### 🔍 Dry Run Walkthrough
+### Dry Run Walkthrough
 
 ```text
 Input: strs = {"neet", "code", "#abc", ""}
@@ -156,7 +156,7 @@ public:
 
 ---
 
-### 💡 C++ Backend & Systems Architecture Takeaway
+### C++ Backend & Systems Architecture Takeaway
 
 1. **Protocol Framing & Serialization:**
    This problem is an abstraction of real-world communication protocols:

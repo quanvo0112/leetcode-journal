@@ -5,9 +5,9 @@
 - **Topic / Pattern:** `Array` / `Hash Table`
 - **Last Practiced:** 2026-09-17
 - **Proficiency Level:** 
-  - [x] 🟢 Level 1: Solved smoothly (< 20 mins, optimal)
-  - [ ] 🟡 Level 2: Struggled / Non-optimal / Edge-case bugs
-  - [ ] 🔴 Level 3: Needed editorial or hints
+  - [x] Level 1: Solved smoothly (< 20 mins, optimal)
+  - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
+  - [ ] Level 3: Needed editorial or hints
 
 ---
 
@@ -68,7 +68,7 @@ public:
 
 ## 6. Review & Takeaways
 
-### 🚀 Better Implementation: Single Lookup & Reserve
+### Better Implementation: Single Lookup & Reserve
 
 In the submitted solution:
 ```cpp
@@ -104,7 +104,7 @@ public:
 
 ---
 
-### 💡 C++ Interview Deep Dive
+### C++ Interview Deep Dive
 
 #### 1. Why `unordered_map` over `map`?
 - **`unordered_map`:** Built on a Hash Table $\rightarrow$ **Average $O(1)$** lookup and insertion. Since Two Sum does not require sorted keys, this is optimal.
@@ -120,7 +120,7 @@ public:
 
 ---
 
-### 📊 Comparison Summary
+### Comparison Summary
 
 | Approach | Time Complexity | Space Complexity | Notes |
 | :--- | :---: | :---: | :--- |

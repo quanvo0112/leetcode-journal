@@ -1,4 +1,4 @@
-* [🏠 Home](README.md)
+* [Overview](README.md)
 
 * **Arrays & Hashing**
   * [0001. Two Sum](problems/0001-two-sum.md)
