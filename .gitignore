@@ -12,3 +12,12 @@ Thumbs.db
 scratch/
 __pycache__/
 
+# Agent / Skills (Impeccable & AI assistant configuration)
+.agent/
+.agents/
+.impeccable/
+*impeccable*
+.claude/
+.codex/
+.gemini/
+.opencode/
