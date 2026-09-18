@@ -37,7 +37,7 @@
 
 ## 3. Complexity Analysis
 - **Time Complexity:** $O(N \cdot K)$
-  - Counting characters in string of length $K$ takes $O(K)$.
+  - Counting characters in a string of length $K$ takes $O(K)$.
   - Constructing the 26-element signature string takes $O(26) = O(1)$ constant time.
   - Hash map lookup/insertion takes average $O(K)$ time for string hashing.
   - Repeating for $N$ strings results in $O(N \cdot K)$ overall time.
@@ -54,7 +54,7 @@
 
 ---
 
-## 5. Clean Code (Frequency Signature — Optimal)
+## 5. Clean Code (Frequency Signature — Primary Solution)
 
 ```cpp
 class Solution {
@@ -95,9 +95,63 @@ public:
 
 ## 6. Review & Takeaways
 
+### 🚀 Advanced Optimization: Direct 26-Byte Array Key with Custom Hash
+
+In the primary solution, constructing `string key` requires:
+1. Creating heap-allocated `string`.
+2. Calling `to_string()` 26 times per word.
+3. String concatenation.
+4. Hashing the generated string in `unordered_map`.
+
+We can eliminate all serialization overhead by using a compact **26-byte array** (`array<unsigned char, 26>`) directly as the map key with a custom polynomial rolling hash:
+
+```cpp
+class Solution {
+    using Key = array<unsigned char, 26>;
+
+    struct KeyHash {
+        size_t operator()(const Key& key) const {
+            size_t hash = 0;
+            for (unsigned char c : key) {
+                hash = hash * 31 + c; // Polynomial rolling hash
+            }
+            return hash;
+        }
+    };
+
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<Key, vector<string>, KeyHash> groups;
+        groups.reserve(strs.size());
+
+        for (const string& str : strs) {
+            Key count{};
+            for (char c : str) {
+                ++count[c - 'a'];
+            }
+            groups[count].push_back(str); // Zero string serialization
+        }
+
+        vector<vector<string>> result;
+        result.reserve(groups.size());
+
+        for (auto& [key, group] : groups) {
+            result.push_back(move(group));
+        }
+
+        return result;
+    }
+};
+```
+
+#### Why is `unsigned char` valid?
+The problem constraint states `strs[i].length <= 100`. An `unsigned char` covers range $[0, 255]$, so each letter's count (at most 100) fits comfortably in **1 byte**. This keeps the entire key at just **26 bytes** on the stack with **zero heap allocations**.
+
+---
+
 ### Alternative Implementation: Sorted String Key
 
-When interviewing, if string lengths $K$ are small or time is tight, sorting each string is a valid and clean alternative:
+When interviewing, if string lengths $K$ are small or time is constrained, sorting each string is concise and interview-friendly:
 
 ```cpp
 class Solution {
@@ -125,18 +179,27 @@ public:
 
 ---
 
-### 💡 C++ Interview Deep Dive
+### 📊 Comparison of Approaches
 
-#### 1. Why use `string` as map key instead of `array<int, 26>`?
-In C++, `std::unordered_map` provides built-in hash specialization for `std::string`, but **not** for `std::array<int, 26>`.
-If you want to use `unordered_map<array<int, 26>, vector<string>>`, you must provide a custom hash functor. Converting the 26-count array into a delimiter-separated `string` is the standard, clean idiom in C++.
+| Approach | Time Complexity | Space Complexity | Pros & Cons |
+| :--- | :---: | :---: | :--- |
+| **1. Sort String Key** | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | Shortest code, easiest to write in interviews. |
+| **2. Frequency $\rightarrow$ String Key** | $O(N \cdot K)$ | $O(N \cdot K)$ | Linear asymptotic complexity, no custom hash required. |
+| **3. Frequency $\rightarrow$ Array Key (Optimized)** | **$O(N \cdot K)$** | **$O(N \cdot K)$** | **Fastest in practice, zero string allocation/serialization overhead.** |
 
-#### 2. Interview Pitch: *"Why this solution?"*
-> *"I group strings based on their character frequency counts. Since the problem is constrained to lowercase English letters, every string can be canonically represented by a 26-element frequency signature. Anagrams generate identical signatures, allowing them to hash to the same bucket in an `unordered_map`. This achieves $O(N \cdot K)$ time complexity, which avoids the $O(N \cdot K \log K)$ cost of sorting each string."*
+---
 
-#### 3. Core Pattern Takeaway
-* **Problem 1 (Two Sum):** Target Complement Lookup.
-* **Problem 49 (Group Anagrams):** **Canonical Representation + Hashing**. Whenever you need to cluster items by equivalence, construct an invariant canonical key (sorted form or frequency signature) and group them with a hash map.
+### 💡 C++ Interview & Engineering Mindset
+
+1. **Don't Obsess Over Raw Milliseconds (e.g. 50ms vs 20ms):**
+   LeetCode runtime fluctuations are heavily influenced by judge server load and test harness variations. What interviewers care about is **asymptotic scaling** ($O(N \cdot K)$ vs $O(N \cdot K \log K)$) and avoiding unnecessary allocations.
+
+2. **The Core Pattern:**
+   $$\text{Group Anagrams} \longrightarrow \text{Order doesn't matter} \longrightarrow \text{Canonical Representation} \longrightarrow \text{Frequency Table [26]} \longrightarrow \text{Hash Map}$$
+
+3. **Interview Rule of Thumb:**
+   - **Problem 1 (Two Sum):** Target Complement Lookup.
+   - **Problem 49 (Group Anagrams):** **Canonical Representation + Hashing**. Whenever you need to cluster items by equivalence, construct an invariant canonical key and group them using a hash map.
 
 * **Next Review Date:** Medium priority (foundational string hashing pattern).
-* **Key Takeaway:** Hash table grouping requires a canonical key. A delimited frequency signature provides optimal $O(N \cdot K)$ grouping for anagrams.
+* **Key Takeaway:** Hash table grouping requires a canonical key. Using `array<unsigned char, 26>` with a custom hash eliminates serialization overhead while keeping memory footprint to just 26 bytes.
