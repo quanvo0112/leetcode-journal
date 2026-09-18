@@ -21,3 +21,6 @@ __pycache__/
 .codex/
 .gemini/
 .opencode/
+
+DESIGN.md
+PRODUCT.md

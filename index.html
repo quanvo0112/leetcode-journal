@@ -2,42 +2,414 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>LeetCode Journal</title>
+  <title>LeetCode Journal — NeetCode 150</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Personal LeetCode Journal & Problem Notes">
+  <meta name="description" content="Personal LeetCode Journal & Problem Notes following NeetCode 150">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <!-- Web App Manifest & Mobile Theme Color -->
+  <meta name="theme-color" content="#090d16">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Google Fonts: Be Vietnam Pro & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Docsify Theme Base (Dark) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+  
   <!-- KaTeX for Math ($O(N)$, etc.) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+
   <style>
+    /* ==========================================================================
+       DARK ENGINEERING CODEX THEME (Linear / Raycast / Tokyo Night inspired)
+       ========================================================================== */
     :root {
-      --theme-color: #0284c7;
+      --bg-canvas: #090d16;
+      --bg-surface: #0f172a;
+      --bg-surface-elevated: #151f38;
+      --bg-sidebar: #0b0f19;
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-focus: rgba(56, 189, 248, 0.4);
+      --text-primary: #f8fafc;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --text-faint: #64748b;
+      --accent-cyan: #38bdf8;
+      --accent-cyan-glow: rgba(56, 189, 248, 0.15);
+      --accent-emerald: #34d399;
+      --accent-amber: #fbbf24;
+      --accent-rose: #f43f5e;
+      --theme-color: #38bdf8;
     }
-    .markdown-section {
-      max-width: 900px;
-      padding: 30px 20px;
+
+    /* Global Reset & Typography */
+    html, body {
+      background-color: var(--bg-canvas) !important;
+      color: var(--text-secondary) !important;
+      font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+      font-size: 15px;
+      line-height: 1.75;
+      letter-spacing: -0.011em;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-    .markdown-section pre > code {
-      font-family: 'Consolas', 'Courier New', monospace;
+
+    /* Selection & Scrollbars */
+    ::selection {
+      background: var(--accent-cyan-glow) !important;
+      color: var(--accent-cyan) !important;
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg-canvas);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+
+    /* ==========================================================================
+       SIDEBAR
+       ========================================================================== */
+    .sidebar {
+      background: var(--bg-sidebar) !important;
+      border-right: 1px solid var(--border-subtle) !important;
+      color: var(--text-secondary) !important;
+      padding: 24px 16px;
       font-size: 14px;
     }
-    .sidebar {
-      font-size: 15px;
+    .sidebar > h1 {
+      margin: 0 0 16px 0;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .sidebar > h1 .app-name-link {
+      color: var(--text-primary) !important;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
     .sidebar-nav strong {
-      color: #334155;
+      color: var(--text-muted) !important;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      display: block;
+      margin: 22px 0 8px 8px;
     }
-    /* Fix task list checkboxes alignment */
+    .sidebar-nav ul {
+      padding-left: 0 !important;
+      margin: 0 !important;
+    }
+    .sidebar-nav li {
+      margin: 3px 0 !important;
+      list-style: none !important;
+    }
+    .sidebar-nav li a {
+      color: var(--text-secondary) !important;
+      text-decoration: none !important;
+      display: block;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all 0.15s ease;
+      font-size: 13.5px;
+      border-left: 2px solid transparent;
+    }
+    .sidebar-nav li a:hover {
+      color: var(--text-primary) !important;
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .sidebar-nav li.active > a {
+      color: var(--accent-cyan) !important;
+      background: var(--accent-cyan-glow) !important;
+      border-left: 2px solid var(--accent-cyan) !important;
+      font-weight: 600;
+    }
+
+    /* Sidebar Search Box */
+    .sidebar .search {
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 16px;
+    }
+    .sidebar .search input {
+      background: var(--bg-surface) !important;
+      border: 1px solid var(--border-subtle) !important;
+      color: var(--text-primary) !important;
+      border-radius: 8px !important;
+      padding: 9px 14px !important;
+      font-size: 13px !important;
+      font-family: inherit !important;
+      transition: all 0.2s ease;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .sidebar .search input:focus {
+      border-color: var(--accent-cyan) !important;
+      box-shadow: 0 0 0 3px var(--accent-cyan-glow) !important;
+      outline: none;
+    }
+    .sidebar .search input::placeholder {
+      color: var(--text-faint) !important;
+    }
+
+    /* ==========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================== */
+    .content {
+      background: var(--bg-canvas) !important;
+      padding-top: 20px;
+    }
+    .markdown-section {
+      max-width: 880px !important;
+      padding: 30px 40px 80px 40px !important;
+      color: var(--text-secondary) !important;
+    }
+
+    /* Headings */
+    .markdown-section h1 {
+      color: var(--text-primary) !important;
+      font-size: 2rem !important;
+      font-weight: 700 !important;
+      letter-spacing: -0.03em !important;
+      margin-top: 0 !important;
+      margin-bottom: 1.2rem !important;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-section h2 {
+      color: var(--text-primary) !important;
+      font-size: 1.4rem !important;
+      font-weight: 600 !important;
+      letter-spacing: -0.02em !important;
+      margin-top: 2.5rem !important;
+      margin-bottom: 1rem !important;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .markdown-section h3 {
+      color: var(--text-primary) !important;
+      font-size: 1.15rem !important;
+      font-weight: 600 !important;
+      letter-spacing: -0.015em !important;
+      margin-top: 1.8rem !important;
+      margin-bottom: 0.75rem !important;
+    }
+    .markdown-section h4 {
+      color: #e2e8f0 !important;
+      font-size: 1.02rem !important;
+      font-weight: 600 !important;
+      margin-top: 1.4rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    /* Horizontal Rules */
+    .markdown-section hr {
+      border: none;
+      height: 1px;
+      background: var(--border-subtle);
+      margin: 2.2rem 0;
+    }
+
+    /* Blockquotes & Alerts */
+    .markdown-section blockquote {
+      background: var(--bg-surface);
+      border-left: 3px solid var(--accent-cyan);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 1.4rem 0;
+      color: var(--text-secondary);
+      font-size: 14.5px;
+    }
+    .markdown-section blockquote p {
+      margin: 0 !important;
+    }
+
+    /* Inline Links */
+    .markdown-section a {
+      color: var(--accent-cyan) !important;
+      text-decoration: none !important;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+    .markdown-section a:hover {
+      color: #7dd3fc !important;
+      border-bottom-color: #7dd3fc;
+    }
+
+    /* Inline Code */
+    .markdown-section p code,
+    .markdown-section li code,
+    .markdown-section td code {
+      background: #111a2e !important;
+      color: #38bdf8 !important;
+      border: 1px solid rgba(56, 189, 248, 0.18) !important;
+      padding: 2px 6px !important;
+      border-radius: 4px !important;
+      font-family: 'JetBrains Mono', 'Consolas', monospace !important;
+      font-size: 0.88em !important;
+    }
+
+    /* Code Blocks */
+    .markdown-section pre {
+      background: #0d1527 !important;
+      border: 1px solid rgba(56, 189, 248, 0.15) !important;
+      border-radius: 10px !important;
+      padding: 18px 20px !important;
+      margin: 1.4rem 0 !important;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+      position: relative;
+    }
+    .markdown-section pre > code {
+      background: transparent !important;
+      color: #e2e8f0 !important;
+      font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace !important;
+      font-size: 13.5px !important;
+      line-height: 1.65 !important;
+      padding: 0 !important;
+    }
+
+    /* Prism Syntax Highlighting Custom Palette (Tokyo Night / One Dark) */
+    .token.comment, .token.prolog, .token.doctype, .token.cdata { color: #64748b !important; font-style: italic; }
+    .token.punctuation { color: #94a3b8 !important; }
+    .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol { color: #f59e0b !important; }
+    .token.selector, .token.attr-name, .token.string, .token.char, .token.builtin { color: #34d399 !important; }
+    .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string { color: #38bdf8 !important; }
+    .token.atrule, .token.attr-value, .token.keyword { color: #ec4899 !important; font-weight: 500; }
+    .token.function, .token.class-name { color: #60a5fa !important; }
+    .token.regex, .token.important, .token.variable { color: #a78bfa !important; }
+
+    /* Copy Code Button */
+    .docsify-copy-code-button {
+      background: var(--bg-surface-elevated) !important;
+      color: var(--text-muted) !important;
+      border: 1px solid var(--border-subtle) !important;
+      border-radius: 6px !important;
+      padding: 5px 10px !important;
+      font-size: 12px !important;
+      font-family: 'Be Vietnam Pro', sans-serif !important;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .docsify-copy-code-button:hover {
+      background: var(--bg-surface) !important;
+      color: var(--text-primary) !important;
+      border-color: var(--accent-cyan) !important;
+    }
+
+    /* ==========================================================================
+       TABLES (Progress Tracker & Problem Lists)
+       ========================================================================== */
+    .markdown-section table {
+      width: 100%;
+      border-collapse: separate !important;
+      border-spacing: 0 !important;
+      margin: 1.5rem 0 !important;
+      border: 1px solid var(--border-subtle) !important;
+      border-radius: 8px !important;
+      overflow: hidden;
+      background: var(--bg-surface) !important;
+    }
+    .markdown-section th {
+      background: #131c31 !important;
+      color: var(--text-primary) !important;
+      font-weight: 600 !important;
+      font-size: 12.5px !important;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 12px 16px !important;
+      border-bottom: 1px solid var(--border-subtle) !important;
+      border-top: none !important;
+      border-left: none !important;
+      border-right: none !important;
+      text-align: left;
+    }
+    .markdown-section td {
+      padding: 11px 16px !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+      border-top: none !important;
+      border-left: none !important;
+      border-right: none !important;
+      color: var(--text-secondary);
+      font-size: 14px;
+      font-variant-numeric: tabular-nums;
+    }
+    .markdown-section tr:last-child td {
+      border-bottom: none !important;
+    }
+    .markdown-section tr:hover td {
+      background: rgba(56, 189, 248, 0.03) !important;
+    }
+
+    /* ==========================================================================
+       KATEX FORMULA STYLING
+       ========================================================================== */
+    .katex {
+      font-size: 1.02em !important;
+      color: #e0e7ff !important;
+    }
+    .katex-display {
+      margin: 1.2rem 0 !important;
+      padding: 12px 0;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 8px;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    /* ==========================================================================
+       TASK LISTS & CHECKBOXES
+       ========================================================================== */
     .markdown-section ul.task-list,
     .markdown-section .task-list-item {
-      list-style-type: none;
+      list-style-type: none !important;
     }
     .markdown-section input[type="checkbox"] {
-      margin: 0 8px 0 0 !important;
-      vertical-align: middle !important;
-      display: inline-block !important;
+      appearance: none;
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      border: 1.5px solid #475569;
+      border-radius: 4px;
+      outline: none;
+      background: #0f172a;
       cursor: pointer;
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle !important;
+      margin: 0 10px 0 0 !important;
+      position: relative;
+      top: -1px;
+      transition: all 0.15s ease;
+    }
+    .markdown-section input[type="checkbox"]:checked {
+      background-color: var(--accent-cyan) !important;
+      border-color: var(--accent-cyan) !important;
+    }
+    .markdown-section input[type="checkbox"]:checked::after {
+      content: '';
+      width: 4px;
+      height: 8px;
+      border: solid #090d16;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+      position: relative;
+      top: -1px;
     }
     .markdown-section li > p {
       display: inline !important;
@@ -50,16 +422,33 @@
       vertical-align: middle !important;
     }
     .markdown-section li {
-      margin: 6px 0;
+      margin: 7px 0;
+      line-height: 1.7;
     }
+
     /* Hide GitHub corner ribbon */
     .github-corner {
       display: none !important;
     }
-    /* Mobile responsive tweaks */
+
+    /* Mobile Responsive Optimizations */
     @media screen and (max-width: 768px) {
       .markdown-section {
-        padding: 20px 15px;
+        padding: 20px 18px 60px 18px !important;
+      }
+      .sidebar-toggle {
+        background: rgba(15, 23, 42, 0.8) !important;
+        backdrop-filter: blur(8px) !important;
+        border: 1px solid var(--border-subtle) !important;
+        border-radius: 8px !important;
+        top: 14px !important;
+        left: 14px !important;
+        padding: 8px !important;
+      }
+      .markdown-section table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
       }
     }
   </style>
@@ -75,8 +464,8 @@
       search: {
         maxAge: 86400000,
         paths: 'auto',
-        placeholder: '🔍 Search problems or patterns...',
-        noData: 'No results found',
+        placeholder: '🔍 Search problems, patterns, tags...',
+        noData: 'No matching notes found',
         depth: 4
       },
       copyCode: {
@@ -108,4 +497,3 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 </body>
 </html>
-
