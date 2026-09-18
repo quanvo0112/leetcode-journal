@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **5 / 150 (3%)** | **5** | 3 | 2 | 0 |
+| **6 / 150 (4%)** | **6** | 3 | 3 | 0 |
 
 ---
 
@@ -20,19 +20,20 @@
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | `Medium` | Array, Hash Table, String | [📝 Note](problems/0049-group-anagrams.md) | 🟢 Solved | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | `Easy` | Array, Hash Table | [📝 Note](problems/0217-contains-duplicate.md) | 🟢 Solved | - |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | `Easy` | String, Hash Table, Counting | [📝 Note](problems/0242-valid-anagram.md) | 🟢 Solved | - |
+| 0271 | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode) | `Medium` | Array, String, Design | [📝 Note](problems/0271-encode-and-decode-strings.md) | 🟢 Solved | - |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | `Medium` | Array, Hash Table, Bucket Sort | [📝 Note](problems/0347-top-k-frequent-elements.md) | 🟢 Solved | - |
 
 ---
 
 ### 🎯 NeetCode 150 Roadmap
 
-#### 1. Arrays & Hashing (5/9)
+#### 1. Arrays & Hashing (6/9)
 - [x] [0217. Contains Duplicate](problems/0217-contains-duplicate.md)
 - [x] [0242. Valid Anagram](problems/0242-valid-anagram.md)
 - [x] [0001. Two Sum](problems/0001-two-sum.md)
 - [x] [0049. Group Anagrams](problems/0049-group-anagrams.md)
 - [x] [0347. Top K Frequent Elements](problems/0347-top-k-frequent-elements.md)
-- [ ] 0271\. Encode and Decode Strings
+- [x] [0271. Encode and Decode Strings](problems/0271-encode-and-decode-strings.md)
 - [ ] 0238\. Product of Array Except Self
 - [ ] 0036\. Valid Sudoku
 - [ ] 0128\. Longest Consecutive Sequence
