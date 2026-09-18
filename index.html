@@ -8,95 +8,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
   <!-- Web App Manifest & Mobile Theme Color -->
-  <meta name="theme-color" content="#090d16">
+  <meta name="theme-color" content="#ffffff">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
   <!-- Google Fonts: Be Vietnam Pro & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!-- Docsify Theme Base (Dark) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+  <!-- Docsify Base Theme (Vue Light) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   
   <!-- KaTeX for Math ($O(N)$, etc.) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
 
   <style>
     /* ==========================================================================
-       DARK ENGINEERING CODEX THEME (Linear / Raycast / Tokyo Night inspired)
+       NOTION MINIMALIST DESIGN SYSTEM
        ========================================================================== */
     :root {
-      --bg-canvas: #090d16;
-      --bg-surface: #0f172a;
-      --bg-surface-elevated: #151f38;
-      --bg-sidebar: #0b0f19;
-      --border-subtle: rgba(255, 255, 255, 0.08);
-      --border-focus: rgba(56, 189, 248, 0.4);
-      --text-primary: #f8fafc;
-      --text-secondary: #cbd5e1;
-      --text-muted: #94a3b8;
-      --text-faint: #64748b;
-      --accent-cyan: #38bdf8;
-      --accent-cyan-glow: rgba(56, 189, 248, 0.15);
-      --accent-emerald: #34d399;
-      --accent-amber: #fbbf24;
-      --accent-rose: #f43f5e;
-      --theme-color: #38bdf8;
+      --bg-canvas: #ffffff;
+      --bg-sidebar: #f7f6f5;
+      --bg-hover: rgba(55, 53, 47, 0.06);
+      --bg-active: rgba(55, 53, 47, 0.08);
+      --border-subtle: rgba(55, 53, 47, 0.09);
+      --border-hover: rgba(55, 53, 47, 0.16);
+      --border-focus: rgba(35, 131, 226, 0.4);
+      --text-primary: #37352f;
+      --text-secondary: #787774;
+      --text-muted: #9b9a97;
+      --text-faint: #b4b3b0;
+      --accent-blue: #2383e2;
+      --accent-blue-light: #edf5fa;
+      --tag-easy-bg: #edf6f0;
+      --tag-easy-text: #2e7a48;
+      --tag-easy-border: #d3ebd8;
+      --tag-medium-bg: #fbf3db;
+      --tag-medium-text: #8f6b00;
+      --tag-medium-border: #faeec7;
+      --tag-hard-bg: #fdebec;
+      --tag-hard-text: #c44046;
+      --tag-hard-border: #f9d3d5;
+      --tag-solved-bg: #edf5fa;
+      --tag-solved-text: #287099;
+      --tag-solved-border: #d4e7f3;
+      --code-bg: #1e2227;
+      --code-text: #abb2bf;
+      --callout-bg: #f1f1ef;
+      --theme-color: #2383e2;
     }
 
     /* Global Reset & Typography */
     html, body {
       background-color: var(--bg-canvas) !important;
-      color: var(--text-secondary) !important;
-      font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+      color: var(--text-primary) !important;
+      font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !important;
       font-size: 15px;
-      line-height: 1.75;
-      letter-spacing: -0.011em;
+      line-height: 1.7;
+      letter-spacing: -0.01em;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
 
     /* Selection & Scrollbars */
     ::selection {
-      background: var(--accent-cyan-glow) !important;
-      color: var(--accent-cyan) !important;
+      background: rgba(35, 131, 226, 0.18) !important;
+      color: var(--text-primary) !important;
     }
     ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
+      width: 7px;
+      height: 7px;
     }
     ::-webkit-scrollbar-track {
-      background: var(--bg-canvas);
+      background: transparent;
     }
     ::-webkit-scrollbar-thumb {
-      background: #1e293b;
+      background: rgba(55, 53, 47, 0.14);
       border-radius: 4px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: #334155;
+      background: rgba(55, 53, 47, 0.28);
     }
 
     /* ==========================================================================
-       SIDEBAR
+       NOTION SIDEBAR
        ========================================================================== */
     .sidebar {
       background: var(--bg-sidebar) !important;
       border-right: 1px solid var(--border-subtle) !important;
       color: var(--text-secondary) !important;
-      padding: 24px 16px;
+      padding: 20px 14px;
       font-size: 14px;
     }
     .sidebar > h1 {
       margin: 0 0 16px 0;
-      font-size: 16px;
-      font-weight: 700;
-      letter-spacing: -0.02em;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
     }
     .sidebar > h1 .app-name-link {
       color: var(--text-primary) !important;
-      text-decoration: none;
+      text-decoration: none !important;
       display: flex;
       align-items: center;
       gap: 8px;
@@ -104,66 +117,129 @@
     .sidebar-nav strong {
       color: var(--text-muted) !important;
       font-size: 11px;
-      font-weight: 700;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.06em;
       display: block;
-      margin: 22px 0 8px 8px;
+      margin: 20px 0 6px 8px;
     }
     .sidebar-nav ul {
       padding-left: 0 !important;
       margin: 0 !important;
     }
     .sidebar-nav li {
-      margin: 3px 0 !important;
+      margin: 2px 0 !important;
       list-style: none !important;
     }
     .sidebar-nav li a {
       color: var(--text-secondary) !important;
       text-decoration: none !important;
       display: block;
-      padding: 6px 12px;
-      border-radius: 6px;
+      padding: 5px 10px;
+      border-radius: 4px;
       transition: all 0.15s ease;
       font-size: 13.5px;
-      border-left: 2px solid transparent;
+      border: none !important;
     }
     .sidebar-nav li a:hover {
       color: var(--text-primary) !important;
-      background: rgba(255, 255, 255, 0.04);
+      background: var(--bg-hover) !important;
     }
     .sidebar-nav li.active > a {
-      color: var(--accent-cyan) !important;
-      background: var(--accent-cyan-glow) !important;
-      border-left: 2px solid var(--accent-cyan) !important;
-      font-weight: 600;
+      color: var(--text-primary) !important;
+      background: var(--bg-active) !important;
+      font-weight: 600 !important;
     }
 
-    /* Sidebar Search Box */
+    /* ==========================================================================
+       SIDEBAR SEARCH COMPONENT (Notion Quick Search Style)
+       ========================================================================== */
     .sidebar .search {
-      margin-bottom: 20px;
+      margin-bottom: 16px;
       border-bottom: 1px solid var(--border-subtle);
-      padding-bottom: 16px;
+      padding-bottom: 14px;
     }
     .sidebar .search input {
-      background: var(--bg-surface) !important;
-      border: 1px solid var(--border-subtle) !important;
+      background: #ffffff !important;
+      border: 1px solid var(--border-hover) !important;
       color: var(--text-primary) !important;
-      border-radius: 8px !important;
-      padding: 9px 14px !important;
+      border-radius: 6px !important;
+      padding: 7px 11px !important;
       font-size: 13px !important;
       font-family: inherit !important;
-      transition: all 0.2s ease;
+      transition: all 0.15s ease;
       width: 100%;
       box-sizing: border-box;
+      box-shadow: 0 1px 2px rgba(15, 15, 15, 0.04);
     }
     .sidebar .search input:focus {
-      border-color: var(--accent-cyan) !important;
-      box-shadow: 0 0 0 3px var(--accent-cyan-glow) !important;
+      border-color: var(--accent-blue) !important;
+      box-shadow: 0 0 0 2px rgba(35, 131, 226, 0.2) !important;
       outline: none;
     }
     .sidebar .search input::placeholder {
-      color: var(--text-faint) !important;
+      color: var(--text-muted) !important;
+    }
+
+    /* Search Results Popover Panel */
+    .sidebar .search .results-panel {
+      display: none;
+      background: #ffffff !important;
+      border: 1px solid var(--border-subtle) !important;
+      border-radius: 6px !important;
+      box-shadow: 0 4px 16px rgba(15, 15, 15, 0.08) !important;
+      padding: 6px !important;
+      margin-top: 8px !important;
+      max-height: 380px;
+      overflow-y: auto;
+    }
+    .sidebar .search .results-panel.show {
+      display: block !important;
+    }
+    .sidebar .search .matching-post {
+      padding: 7px 9px !important;
+      border-bottom: 1px solid var(--border-subtle) !important;
+      border-radius: 4px !important;
+      transition: background 0.15s ease !important;
+      margin-bottom: 2px !important;
+    }
+    .sidebar .search .matching-post:last-child {
+      border-bottom: none !important;
+    }
+    .sidebar .search .matching-post:hover {
+      background: var(--bg-hover) !important;
+    }
+    .sidebar .search .matching-post a {
+      text-decoration: none !important;
+      display: block;
+    }
+    .sidebar .search .matching-post h2 {
+      font-size: 13px !important;
+      font-weight: 600 !important;
+      color: var(--text-primary) !important;
+      margin: 0 0 2px 0 !important;
+      border: none !important;
+      padding: 0 !important;
+    }
+    .sidebar .search .matching-post p {
+      font-size: 11.5px !important;
+      color: var(--text-secondary) !important;
+      margin: 0 !important;
+      line-height: 1.4 !important;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .sidebar .search .search-keyword {
+      background: rgba(35, 131, 226, 0.12) !important;
+      color: var(--accent-blue) !important;
+      padding: 0 3px !important;
+      border-radius: 2px !important;
+      font-style: normal !important;
+      font-weight: 600 !important;
+    }
+    .sidebar .search .clear-btn {
+      color: var(--text-muted) !important;
     }
 
     /* ==========================================================================
@@ -171,49 +247,49 @@
        ========================================================================== */
     .content {
       background: var(--bg-canvas) !important;
-      padding-top: 20px;
+      padding-top: 10px;
     }
     .markdown-section {
-      max-width: 880px !important;
+      max-width: 860px !important;
       padding: 30px 40px 80px 40px !important;
-      color: var(--text-secondary) !important;
+      color: var(--text-primary) !important;
     }
 
-    /* Headings */
+    /* Headings (Notion Scale) */
     .markdown-section h1 {
       color: var(--text-primary) !important;
-      font-size: 2rem !important;
+      font-size: 2.1rem !important;
       font-weight: 700 !important;
-      letter-spacing: -0.03em !important;
+      letter-spacing: -0.025em !important;
       margin-top: 0 !important;
       margin-bottom: 1.2rem !important;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 0 !important;
+      border-bottom: none !important;
     }
     .markdown-section h2 {
       color: var(--text-primary) !important;
-      font-size: 1.4rem !important;
+      font-size: 1.45rem !important;
       font-weight: 600 !important;
-      letter-spacing: -0.02em !important;
-      margin-top: 2.5rem !important;
-      margin-bottom: 1rem !important;
-      padding-bottom: 0.3rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      letter-spacing: -0.015em !important;
+      margin-top: 2.2rem !important;
+      margin-bottom: 0.8rem !important;
+      padding-bottom: 0 !important;
+      border-bottom: none !important;
     }
     .markdown-section h3 {
       color: var(--text-primary) !important;
-      font-size: 1.15rem !important;
+      font-size: 1.18rem !important;
       font-weight: 600 !important;
-      letter-spacing: -0.015em !important;
-      margin-top: 1.8rem !important;
-      margin-bottom: 0.75rem !important;
+      letter-spacing: -0.01em !important;
+      margin-top: 1.7rem !important;
+      margin-bottom: 0.6rem !important;
     }
     .markdown-section h4 {
-      color: #e2e8f0 !important;
-      font-size: 1.02rem !important;
+      color: var(--text-primary) !important;
+      font-size: 1.05rem !important;
       font-weight: 600 !important;
-      margin-top: 1.4rem !important;
-      margin-bottom: 0.5rem !important;
+      margin-top: 1.3rem !important;
+      margin-bottom: 0.4rem !important;
     }
 
     /* Horizontal Rules */
@@ -221,98 +297,96 @@
       border: none;
       height: 1px;
       background: var(--border-subtle);
-      margin: 2.2rem 0;
+      margin: 2rem 0;
     }
 
-    /* Blockquotes & Alerts */
+    /* Notion Callout Box / Blockquotes */
     .markdown-section blockquote {
-      background: var(--bg-surface);
-      border-left: 3px solid var(--accent-cyan);
-      border-radius: 0 8px 8px 0;
-      padding: 14px 18px;
-      margin: 1.4rem 0;
-      color: var(--text-secondary);
+      background: var(--callout-bg) !important;
+      border-left: none !important;
+      border-radius: 4px !important;
+      padding: 14px 18px !important;
+      margin: 1.4rem 0 !important;
+      color: var(--text-primary) !important;
       font-size: 14.5px;
     }
     .markdown-section blockquote p {
       margin: 0 !important;
     }
 
-    /* Inline Links */
+    /* Links */
     .markdown-section a {
-      color: var(--accent-cyan) !important;
-      text-decoration: none !important;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.15s ease, color 0.15s ease;
+      color: var(--text-primary) !important;
+      text-decoration: underline !important;
+      text-decoration-color: rgba(55, 53, 47, 0.25) !important;
+      text-underline-offset: 3px;
+      transition: text-decoration-color 0.15s ease;
     }
     .markdown-section a:hover {
-      color: #7dd3fc !important;
-      border-bottom-color: #7dd3fc;
+      text-decoration-color: var(--text-primary) !important;
     }
 
-    /* Inline Code */
+    /* Inline Code (Notion Red/Warm Charcoal) */
     .markdown-section p code,
     .markdown-section li code,
     .markdown-section td code {
-      background: #111a2e !important;
-      color: #38bdf8 !important;
-      border: 1px solid rgba(56, 189, 248, 0.18) !important;
-      padding: 2px 6px !important;
-      border-radius: 4px !important;
+      background: rgba(135, 131, 120, 0.15) !important;
+      color: #eb5757 !important;
+      padding: 2px 5px !important;
+      border-radius: 3px !important;
       font-family: 'JetBrains Mono', 'Consolas', monospace !important;
-      font-size: 0.88em !important;
+      font-size: 85% !important;
+      border: none !important;
     }
 
-    /* Code Blocks */
+    /* Code Blocks (Clean Dark Editor) */
     .markdown-section pre {
-      background: #0d1527 !important;
-      border: 1px solid rgba(56, 189, 248, 0.15) !important;
-      border-radius: 10px !important;
+      background: var(--code-bg) !important;
+      border: 1px solid rgba(0, 0, 0, 0.08) !important;
+      border-radius: 6px !important;
       padding: 18px 20px !important;
       margin: 1.4rem 0 !important;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
       position: relative;
     }
     .markdown-section pre > code {
       background: transparent !important;
-      color: #e2e8f0 !important;
+      color: var(--code-text) !important;
       font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace !important;
       font-size: 13.5px !important;
       line-height: 1.65 !important;
       padding: 0 !important;
     }
 
-    /* Prism Syntax Highlighting Custom Palette (Tokyo Night / One Dark) */
-    .token.comment, .token.prolog, .token.doctype, .token.cdata { color: #64748b !important; font-style: italic; }
-    .token.punctuation { color: #94a3b8 !important; }
-    .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol { color: #f59e0b !important; }
-    .token.selector, .token.attr-name, .token.string, .token.char, .token.builtin { color: #34d399 !important; }
-    .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string { color: #38bdf8 !important; }
-    .token.atrule, .token.attr-value, .token.keyword { color: #ec4899 !important; font-weight: 500; }
-    .token.function, .token.class-name { color: #60a5fa !important; }
-    .token.regex, .token.important, .token.variable { color: #a78bfa !important; }
+    /* Prism Syntax Highlighting (One Dark / Atom Dark) */
+    .token.comment, .token.prolog, .token.doctype, .token.cdata { color: #5c6370 !important; font-style: italic; }
+    .token.punctuation { color: #abb2bf !important; }
+    .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol { color: #d19a66 !important; }
+    .token.selector, .token.attr-name, .token.string, .token.char, .token.builtin { color: #98c379 !important; }
+    .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string { color: #56b6c2 !important; }
+    .token.atrule, .token.attr-value, .token.keyword { color: #c678dd !important; font-weight: 500; }
+    .token.function, .token.class-name { color: #61afef !important; }
+    .token.regex, .token.important, .token.variable { color: #e06c75 !important; }
 
     /* Copy Code Button */
     .docsify-copy-code-button {
-      background: var(--bg-surface-elevated) !important;
-      color: var(--text-muted) !important;
-      border: 1px solid var(--border-subtle) !important;
-      border-radius: 6px !important;
-      padding: 5px 10px !important;
-      font-size: 12px !important;
-      font-family: 'Be Vietnam Pro', sans-serif !important;
-      font-weight: 500;
-      transition: all 0.2s ease;
+      background: rgba(255, 255, 255, 0.15) !important;
+      color: #e5e5e5 !important;
+      border: 1px solid rgba(255, 255, 255, 0.15) !important;
+      border-radius: 4px !important;
+      padding: 4px 9px !important;
+      font-size: 11.5px !important;
+      font-family: inherit !important;
+      transition: all 0.15s ease;
       cursor: pointer;
     }
     .docsify-copy-code-button:hover {
-      background: var(--bg-surface) !important;
-      color: var(--text-primary) !important;
-      border-color: var(--accent-cyan) !important;
+      background: rgba(255, 255, 255, 0.28) !important;
+      color: #ffffff !important;
     }
 
     /* ==========================================================================
-       TABLES (Progress Tracker & Problem Lists)
+       NOTION DATABASE TABLES
        ========================================================================== */
     .markdown-section table {
       width: 100% !important;
@@ -320,10 +394,9 @@
       border-spacing: 0 !important;
       margin: 1.6rem 0 !important;
       border: 1px solid var(--border-subtle) !important;
-      border-radius: 8px !important;
+      border-radius: 6px !important;
       overflow: hidden;
-      background: var(--bg-surface) !important;
-      background-color: var(--bg-surface) !important;
+      background: #ffffff !important;
     }
     .markdown-section table tr,
     .markdown-section table tr:nth-child(2n),
@@ -331,83 +404,84 @@
     .markdown-section table tbody tr,
     .markdown-section table tbody tr:nth-child(2n),
     .markdown-section table tbody tr:nth-child(2n+1) {
-      background: var(--bg-surface) !important;
-      background-color: var(--bg-surface) !important;
+      background: #ffffff !important;
+      background-color: #ffffff !important;
       border: none !important;
     }
-    .markdown-section th {
-      background: #111a2e !important;
-      background-color: #111a2e !important;
-      color: var(--text-muted) !important;
-      font-weight: 600 !important;
+    .markdown-section table th {
+      background: #f7f6f5 !important;
+      background-color: #f7f6f5 !important;
+      color: var(--text-secondary) !important;
+      font-weight: 500 !important;
       font-size: 11.5px !important;
       text-transform: uppercase !important;
-      letter-spacing: 0.06em !important;
-      padding: 12px 16px !important;
+      letter-spacing: 0.05em !important;
+      padding: 10px 14px !important;
       border-bottom: 1px solid var(--border-subtle) !important;
       border-top: none !important;
       border-left: none !important;
       border-right: none !important;
       text-align: left;
     }
-    .markdown-section td {
-      background: transparent !important;
-      background-color: transparent !important;
-      padding: 12px 16px !important;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+    .markdown-section table td {
+      background: #ffffff !important;
+      background-color: #ffffff !important;
+      padding: 10px 14px !important;
+      border-bottom: 1px solid var(--border-subtle) !important;
       border-top: none !important;
       border-left: none !important;
       border-right: none !important;
-      color: var(--text-secondary) !important;
+      color: var(--text-primary) !important;
       font-size: 13.5px !important;
       font-variant-numeric: tabular-nums;
       vertical-align: middle;
     }
-    .markdown-section tr:last-child td {
+    .markdown-section table tr:last-child td {
       border-bottom: none !important;
     }
-    .markdown-section tr:hover td {
-      background-color: rgba(56, 189, 248, 0.04) !important;
+    .markdown-section table tr:hover td {
+      background-color: rgba(55, 53, 47, 0.035) !important;
     }
 
     /* Table Column Typography & Monospace IDs */
     .markdown-section table td:first-child {
       font-family: 'JetBrains Mono', monospace !important;
       font-size: 12.5px !important;
-      color: var(--text-faint) !important;
+      color: var(--text-muted) !important;
     }
 
-    /* Badges (Difficulty & Status) */
+    /* Notion Database Multi-Select Badges */
     .badge {
       display: inline-flex;
       align-items: center;
-      padding: 2px 8px;
+      padding: 2px 7px;
       font-size: 11px;
-      font-weight: 600;
-      border-radius: 4px;
+      font-weight: 500;
+      border-radius: 3px;
       line-height: 1.4;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.02em;
       white-space: nowrap;
+      text-decoration: none !important;
     }
     .badge-easy {
-      background: rgba(52, 211, 153, 0.1) !important;
-      color: #34d399 !important;
-      border: 1px solid rgba(52, 211, 153, 0.25) !important;
+      background: var(--tag-easy-bg) !important;
+      color: var(--tag-easy-text) !important;
+      border: 1px solid var(--tag-easy-border) !important;
     }
     .badge-medium {
-      background: rgba(251, 191, 36, 0.1) !important;
-      color: #fbbf24 !important;
-      border: 1px solid rgba(251, 191, 36, 0.25) !important;
+      background: var(--tag-medium-bg) !important;
+      color: var(--tag-medium-text) !important;
+      border: 1px solid var(--tag-medium-border) !important;
     }
     .badge-hard {
-      background: rgba(244, 63, 94, 0.1) !important;
-      color: #f43f5e !important;
-      border: 1px solid rgba(244, 63, 94, 0.25) !important;
+      background: var(--tag-hard-bg) !important;
+      color: var(--tag-hard-text) !important;
+      border: 1px solid var(--tag-hard-border) !important;
     }
     .badge-solved {
-      background: rgba(56, 189, 248, 0.1) !important;
-      color: #38bdf8 !important;
-      border: 1px solid rgba(56, 189, 248, 0.22) !important;
+      background: var(--tag-solved-bg) !important;
+      color: var(--tag-solved-text) !important;
+      border: 1px solid var(--tag-solved-border) !important;
     }
     .badge-solved::before {
       content: "";
@@ -415,28 +489,27 @@
       width: 5px;
       height: 5px;
       border-radius: 50%;
-      background-color: #38bdf8;
+      background-color: var(--tag-solved-text);
       margin-right: 5px;
     }
 
-    /* Note Link Pill in Tables */
+    /* Notion Button Link Pill in Tables */
     .markdown-section table td a[href*="problems/"] {
       display: inline-flex !important;
       align-items: center !important;
-      padding: 3px 9px !important;
+      padding: 2px 8px !important;
       font-size: 12px !important;
       font-weight: 500 !important;
-      color: #38bdf8 !important;
-      background: rgba(56, 189, 248, 0.08) !important;
-      border: 1px solid rgba(56, 189, 248, 0.2) !important;
+      color: var(--text-primary) !important;
+      background: #f1f1ef !important;
+      border: 1px solid rgba(55, 53, 47, 0.12) !important;
       border-radius: 4px !important;
       text-decoration: none !important;
       transition: all 0.15s ease !important;
     }
     .markdown-section table td a[href*="problems/"]:hover {
-      background: rgba(56, 189, 248, 0.18) !important;
-      border-color: #38bdf8 !important;
-      color: #ffffff !important;
+      background: #e3e2de !important;
+      border-color: rgba(55, 53, 47, 0.2) !important;
     }
 
     /* ==========================================================================
@@ -444,19 +517,20 @@
        ========================================================================== */
     .katex {
       font-size: 1.02em !important;
-      color: #e0e7ff !important;
+      color: var(--text-primary) !important;
     }
     .katex-display {
       margin: 1.2rem 0 !important;
-      padding: 12px 14px;
-      background: rgba(255, 255, 255, 0.02);
-      border-radius: 8px;
+      padding: 12px 16px;
+      background: #f7f6f5;
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
       overflow-x: auto;
       overflow-y: hidden;
     }
 
     /* ==========================================================================
-       TASK LISTS & CHECKBOXES
+       TASK LISTS & CHECKBOXES (Notion Style)
        ========================================================================== */
     .markdown-section ul.task-list,
     .markdown-section .task-list-item {
@@ -465,12 +539,12 @@
     .markdown-section input[type="checkbox"] {
       appearance: none;
       -webkit-appearance: none;
-      width: 16px;
-      height: 16px;
-      border: 1.5px solid #475569;
-      border-radius: 4px;
+      width: 15px;
+      height: 15px;
+      border: 1.5px solid rgba(55, 53, 47, 0.35);
+      border-radius: 3px;
       outline: none;
-      background: #0f172a;
+      background: #ffffff;
       cursor: pointer;
       display: inline-flex !important;
       align-items: center;
@@ -482,14 +556,14 @@
       transition: all 0.15s ease;
     }
     .markdown-section input[type="checkbox"]:checked {
-      background-color: var(--accent-cyan) !important;
-      border-color: var(--accent-cyan) !important;
+      background-color: var(--accent-blue) !important;
+      border-color: var(--accent-blue) !important;
     }
     .markdown-section input[type="checkbox"]:checked::after {
       content: '';
       width: 4px;
       height: 8px;
-      border: solid #090d16;
+      border: solid #ffffff;
       border-width: 0 2px 2px 0;
       transform: rotate(45deg);
       position: relative;
@@ -506,7 +580,7 @@
       vertical-align: middle !important;
     }
     .markdown-section li {
-      margin: 7px 0;
+      margin: 6px 0;
       line-height: 1.7;
     }
 
@@ -515,44 +589,44 @@
       display: none !important;
     }
 
-    /* Sidebar Toggle Button (Desktop & Mobile) */
+    /* ==========================================================================
+       SIDEBAR TOGGLE BUTTON (Desktop & Mobile)
+       ========================================================================== */
     .sidebar-toggle {
       position: fixed !important;
-      top: 14px !important;
-      left: 14px !important;
+      top: 12px !important;
+      left: 12px !important;
       bottom: auto !important;
-      width: 38px !important;
-      height: 38px !important;
+      width: 36px !important;
+      height: 36px !important;
       padding: 0 !important;
       display: flex !important;
       flex-direction: column !important;
       align-items: center !important;
       justify-content: center !important;
-      background: rgba(15, 23, 42, 0.92) !important;
-      backdrop-filter: blur(12px) !important;
-      -webkit-backdrop-filter: blur(12px) !important;
-      border: 1px solid var(--border-subtle) !important;
-      border-radius: 8px !important;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+      background: rgba(255, 255, 255, 0.95) !important;
+      backdrop-filter: blur(8px) !important;
+      -webkit-backdrop-filter: blur(8px) !important;
+      border: 1px solid var(--border-hover) !important;
+      border-radius: 6px !important;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
       cursor: pointer !important;
-      z-index: 999 !important;
-      transition: all 0.2s ease !important;
+      z-index: 1002 !important;
+      transition: all 0.25s ease !important;
     }
     .sidebar-toggle:hover {
-      border-color: var(--accent-cyan) !important;
-      background: rgba(21, 31, 56, 0.98) !important;
+      background: #ffffff !important;
+      border-color: rgba(55, 53, 47, 0.3) !important;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12) !important;
     }
     .sidebar-toggle span {
       display: block !important;
-      background-color: var(--text-secondary) !important;
+      background-color: var(--text-primary) !important;
       height: 2px !important;
-      width: 17px !important;
+      width: 16px !important;
       margin: 2px 0 !important;
       border-radius: 4px !important;
       transition: all 0.2s ease !important;
-    }
-    .sidebar-toggle:hover span {
-      background-color: var(--accent-cyan) !important;
     }
 
     /* ==========================================================================
@@ -560,28 +634,28 @@
        ========================================================================== */
     @media screen and (max-width: 768px) {
       html, body {
-        font-size: 14px !important;
+        font-size: 14.5px !important;
       }
       .content {
         padding-top: 0 !important;
       }
       .markdown-section {
-        padding: 68px 16px 60px 16px !important;
+        padding: 64px 16px 60px 16px !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
       }
       .markdown-section h1 {
-        font-size: 1.6rem !important;
-        letter-spacing: -0.025em !important;
+        font-size: 1.65rem !important;
+        letter-spacing: -0.02em !important;
         margin-bottom: 1rem !important;
       }
       .markdown-section h2 {
-        font-size: 1.25rem !important;
+        font-size: 1.3rem !important;
         margin-top: 2rem !important;
         margin-bottom: 0.8rem !important;
       }
       .markdown-section h3 {
-        font-size: 1.08rem !important;
+        font-size: 1.1rem !important;
         margin-top: 1.5rem !important;
       }
 
@@ -592,7 +666,7 @@
         overflow-x: auto !important;
         -webkit-overflow-scrolling: touch !important;
         white-space: nowrap !important;
-        border-radius: 8px !important;
+        border-radius: 6px !important;
         margin: 1.2rem 0 !important;
       }
       .markdown-section table th,
@@ -608,9 +682,9 @@
 
       /* Responsive Code Blocks */
       .markdown-section pre {
-        padding: 14px 12px !important;
+        padding: 14px 14px !important;
         margin: 1.1rem 0 !important;
-        border-radius: 8px !important;
+        border-radius: 6px !important;
         font-size: 12.5px !important;
       }
       .markdown-section pre > code {
@@ -618,10 +692,19 @@
         line-height: 1.6 !important;
       }
 
-      /* Responsive KaTeX Equations */
-      .katex-display {
-        padding: 8px 6px !important;
-        font-size: 0.92em !important;
+      /* Mobile Sidebar Structure */
+      .sidebar {
+        z-index: 1000 !important;
+        width: 270px !important;
+        background: var(--bg-sidebar) !important;
+        box-shadow: 2px 0 16px rgba(0, 0, 0, 0.08) !important;
+        border-right: 1px solid var(--border-subtle) !important;
+      }
+
+      /* Toggle Button Movement on Mobile when Sidebar is Open */
+      body.close .sidebar-toggle {
+        transform: translateX(230px) !important;
+        background: #ffffff !important;
       }
 
       /* Dim Backdrop Overlay when Sidebar is open on Mobile */
@@ -632,10 +715,10 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.65);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        z-index: 90;
+        background: rgba(15, 15, 15, 0.35);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        z-index: 999 !important;
         pointer-events: auto;
       }
     }
@@ -644,17 +727,38 @@
 <body>
   <div id="app">Loading journal...</div>
   <script>
+    // Pre-clean corrupt/empty local storage search cache from previous sessions
+    try {
+      var sIdx = localStorage.getItem('docsify.search.index');
+      if (!sIdx || sIdx === '{}' || sIdx === '[]') {
+        localStorage.removeItem('docsify.search.expires');
+        localStorage.removeItem('docsify.search.index');
+      }
+    } catch (e) {}
+
     window.$docsify = {
       name: 'LeetCode Journal',
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
       search: {
-        maxAge: 86400000,
-        paths: 'auto',
-        placeholder: 'Search problems, patterns, topics...',
+        maxAge: 3600000, // 1 hour expiration for fresh index
+        paths: [
+          '/',
+          '/README',
+          '/problems/0001-two-sum',
+          '/problems/0049-group-anagrams',
+          '/problems/0217-contains-duplicate',
+          '/problems/0238-product-of-array-except-self',
+          '/problems/0242-valid-anagram',
+          '/problems/0271-encode-and-decode-strings',
+          '/problems/0347-top-k-frequent-elements',
+          '/templates/problem-template'
+        ],
+        placeholder: 'Search notes, problems, topics...',
         noData: 'No matching notes found',
-        depth: 4
+        depth: 6,
+        hideOtherSidebarContent: false
       },
       copyCode: {
         buttonText: 'Copy',
@@ -665,38 +769,27 @@
         previousText: 'Previous',
         nextText: 'Next',
         crossChapter: true
-      },
-      plugins: [
-        function(hook, vm) {
-          hook.doneEach(function() {
-            // Auto-close sidebar on mobile after clicking any sidebar navigation link
-            var sidebarLinks = document.querySelectorAll('.sidebar-nav a');
-            sidebarLinks.forEach(function(link) {
-              link.addEventListener('click', function() {
-                if (window.innerWidth <= 768) {
-                  document.body.classList.remove('close');
-                }
-              });
-            });
-
-            // Close sidebar on mobile when clicking content area
-            var contentArea = document.querySelector('.content');
-            if (contentArea) {
-              contentArea.addEventListener('click', function() {
-                if (window.innerWidth <= 768 && document.body.classList.contains('close')) {
-                  document.body.classList.remove('close');
-                }
-              });
-            }
-          });
-        }
-      ]
+      }
     }
+
+    // Clean Mobile Navigation & Backdrop Handlers
+    document.addEventListener('click', function(e) {
+      if (window.innerWidth <= 768 && document.body.classList.contains('close')) {
+        // If user taps outside sidebar and outside sidebar-toggle, dismiss sidebar
+        if (!e.target.closest('.sidebar') && !e.target.closest('.sidebar-toggle')) {
+          document.body.classList.remove('close');
+        }
+      }
+      // If user taps any sidebar link on mobile, auto-close sidebar
+      if (window.innerWidth <= 768 && e.target.closest('.sidebar-nav a')) {
+        document.body.classList.remove('close');
+      }
+    });
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- Search Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Docsify v4 Core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- Search Plugin (Docsify v4 official) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <!-- Copy Code Plugin -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <!-- Code Highlighting Plugins (Prism) -->
