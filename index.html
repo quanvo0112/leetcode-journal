@@ -590,43 +590,13 @@
     }
 
     /* ==========================================================================
-       SIDEBAR TOGGLE BUTTON (Desktop & Mobile)
+       SIDEBAR TOGGLE BUTTON (Mobile Only)
        ========================================================================== */
-    .sidebar-toggle {
-      position: fixed !important;
-      top: 12px !important;
-      left: 12px !important;
-      bottom: auto !important;
-      width: 36px !important;
-      height: 36px !important;
-      padding: 0 !important;
-      display: flex !important;
-      flex-direction: column !important;
-      align-items: center !important;
-      justify-content: center !important;
-      background: rgba(255, 255, 255, 0.95) !important;
-      backdrop-filter: blur(8px) !important;
-      -webkit-backdrop-filter: blur(8px) !important;
-      border: 1px solid var(--border-hover) !important;
-      border-radius: 6px !important;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
-      cursor: pointer !important;
-      z-index: 1002 !important;
-      transition: all 0.25s ease !important;
-    }
-    .sidebar-toggle:hover {
-      background: #ffffff !important;
-      border-color: rgba(55, 53, 47, 0.3) !important;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12) !important;
-    }
-    .sidebar-toggle span {
-      display: block !important;
-      background-color: var(--text-primary) !important;
-      height: 2px !important;
-      width: 16px !important;
-      margin: 2px 0 !important;
-      border-radius: 4px !important;
-      transition: all 0.2s ease !important;
+    @media screen and (min-width: 769px) {
+      /* On desktop, the sidebar is docked and search bar is unobstructed */
+      .sidebar-toggle {
+        display: none !important;
+      }
     }
 
     /* ==========================================================================
@@ -701,25 +671,47 @@
         border-right: 1px solid var(--border-subtle) !important;
       }
 
-      /* Toggle Button Movement on Mobile when Sidebar is Open */
-      body.close .sidebar-toggle {
-        transform: translateX(230px) !important;
+      /* Floating Toggle Button on Mobile */
+      .sidebar-toggle {
+        position: fixed !important;
+        top: 12px !important;
+        left: 12px !important;
+        bottom: auto !important;
+        width: 36px !important;
+        height: 36px !important;
+        padding: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        backdrop-filter: blur(8px) !important;
+        -webkit-backdrop-filter: blur(8px) !important;
+        border: 1px solid var(--border-hover) !important;
+        border-radius: 6px !important;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+        cursor: pointer !important;
+        z-index: 1002 !important;
+        transition: transform 250ms ease, background 0.2s ease !important;
+      }
+      .sidebar-toggle:hover {
         background: #ffffff !important;
+        border-color: rgba(55, 53, 47, 0.3) !important;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12) !important;
+      }
+      .sidebar-toggle span {
+        display: block !important;
+        background-color: var(--text-primary) !important;
+        height: 2px !important;
+        width: 16px !important;
+        margin: 2px 0 !important;
+        border-radius: 4px !important;
       }
 
-      /* Dim Backdrop Overlay when Sidebar is open on Mobile */
-      body.close::after {
-        content: '';
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(15, 15, 15, 0.35);
-        backdrop-filter: blur(2px);
-        -webkit-backdrop-filter: blur(2px);
-        z-index: 999 !important;
-        pointer-events: auto;
+      /* Toggle Button Movement on Mobile when Sidebar is Open */
+      body.close .sidebar-toggle {
+        transform: translateX(270px) !important;
+        background: #ffffff !important;
       }
     }
   </style>
