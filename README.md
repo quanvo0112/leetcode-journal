@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **6 / 150 (4%)** | **6** | 3 | 3 | 0 |
+| **7 / 150 (5%)** | **7** | 3 | 4 | 0 |
 
 ---
 
@@ -19,6 +19,7 @@
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | `Easy` | Array, Hash Table | [📝 Note](problems/0001-two-sum.md) | 🟢 Solved | - |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | `Medium` | Array, Hash Table, String | [📝 Note](problems/0049-group-anagrams.md) | 🟢 Solved | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | `Easy` | Array, Hash Table | [📝 Note](problems/0217-contains-duplicate.md) | 🟢 Solved | - |
+| 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | `Medium` | Array, Prefix Sum | [📝 Note](problems/0238-product-of-array-except-self.md) | 🟢 Solved | - |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | `Easy` | String, Hash Table, Counting | [📝 Note](problems/0242-valid-anagram.md) | 🟢 Solved | - |
 | 0271 | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode) | `Medium` | Array, String, Design | [📝 Note](problems/0271-encode-and-decode-strings.md) | 🟢 Solved | - |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | `Medium` | Array, Hash Table, Bucket Sort | [📝 Note](problems/0347-top-k-frequent-elements.md) | 🟢 Solved | - |
@@ -27,14 +28,14 @@
 
 ### 🎯 NeetCode 150 Roadmap
 
-#### 1. Arrays & Hashing (6/9)
+#### 1. Arrays & Hashing (7/9)
 - [x] [0217. Contains Duplicate](problems/0217-contains-duplicate.md)
 - [x] [0242. Valid Anagram](problems/0242-valid-anagram.md)
 - [x] [0001. Two Sum](problems/0001-two-sum.md)
 - [x] [0049. Group Anagrams](problems/0049-group-anagrams.md)
 - [x] [0347. Top K Frequent Elements](problems/0347-top-k-frequent-elements.md)
 - [x] [0271. Encode and Decode Strings](problems/0271-encode-and-decode-strings.md)
-- [ ] 0238\. Product of Array Except Self
+- [x] [0238. Product of Array Except Self](problems/0238-product-of-array-except-self.md)
 - [ ] 0036\. Valid Sudoku
 - [ ] 0128\. Longest Consecutive Sequence
 
