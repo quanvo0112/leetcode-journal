@@ -11,5 +11,8 @@
   * [0271. Encode and Decode Strings](problems/0271-encode-and-decode-strings.md)
   * [0347. Top K Frequent Elements](problems/0347-top-k-frequent-elements.md)
 
+* **Two Pointers**
+  * [0125. Valid Palindrome](problems/0125-valid-palindrome.md)
+
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)
