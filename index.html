@@ -55,6 +55,8 @@
       --tag-solved-border: #d4e7f3;
       --code-bg: #1e2227;
       --code-text: #abb2bf;
+      --code-selection: #284c75;
+      --code-comment-selected: #9aa3b5;
       --callout-bg: #f1f1ef;
       --theme-color: #2383e2;
     }
@@ -73,8 +75,7 @@
 
     /* Selection & Scrollbars */
     ::selection {
-      background: rgba(35, 131, 226, 0.18) !important;
-      color: var(--text-primary) !important;
+      background: rgba(35, 131, 226, 0.22) !important;
     }
     ::-webkit-scrollbar {
       width: 7px;
@@ -368,6 +369,15 @@
     .token.function, .token.class-name { color: #61afef !important; }
     .token.regex, .token.important, .token.variable { color: #e06c75 !important; }
 
+    /* Code Blocks Text Selection (VS Code / One Dark Style) */
+    .markdown-section pre::selection,
+    .markdown-section pre *::selection {
+      background: var(--code-selection) !important;
+    }
+    .markdown-section pre .token.comment::selection {
+      color: var(--code-comment-selected) !important;
+    }
+
     /* Copy Code Button */
     .docsify-copy-code-button {
       background: rgba(255, 255, 255, 0.15) !important;
@@ -379,6 +389,8 @@
       font-family: inherit !important;
       transition: all 0.15s ease;
       cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
     }
     .docsify-copy-code-button:hover {
       background: rgba(255, 255, 255, 0.28) !important;
