@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **10 / 150 (7%)** | **10** | 4 | 6 | 0 |
+| **11 / 150 (7%)** | **11** | 4 | 7 | 0 |
 
 ---
 
@@ -21,6 +21,7 @@
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, String | [Note](problems/0049-group-anagrams.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Sequence Start | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | <span class="badge badge-medium">Medium</span> | Two Pointers, Array | [Note](problems/0167-two-sum-ii-input-array-is-sorted.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table | [Note](problems/0217-contains-duplicate.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | <span class="badge badge-medium">Medium</span> | Array, Prefix Sum | [Note](problems/0238-product-of-array-except-self.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | <span class="badge badge-easy">Easy</span> | String, Hash Table, Counting | [Note](problems/0242-valid-anagram.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -42,9 +43,9 @@
 - [x] [0036. Valid Sudoku](problems/0036-valid-sudoku.md)
 - [x] [0128. Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence.md)
 
-#### 2. Two Pointers (1/5)
+#### 2. Two Pointers (2/5)
 - [x] [0125. Valid Palindrome](problems/0125-valid-palindrome.md)
-- [ ] 0167\. Two Sum II - Input Array Is Sorted
+- [x] [0167. Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted.md)
 - [ ] 0015\. 3Sum
 - [ ] 0011\. Container With Most Water
 - [ ] 0042\. Trapping Rain Water

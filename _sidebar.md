@@ -13,6 +13,7 @@
 
 * **Two Pointers**
   * [0125. Valid Palindrome](problems/0125-valid-palindrome.md)
+  * [0167. Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted.md)
 
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)
