@@ -4,6 +4,7 @@
   * [0001. Two Sum](problems/0001-two-sum.md)
   * [0036. Valid Sudoku](problems/0036-valid-sudoku.md)
   * [0049. Group Anagrams](problems/0049-group-anagrams.md)
+  * [0128. Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence.md)
   * [0217. Contains Duplicate](problems/0217-contains-duplicate.md)
   * [0238. Product of Array Except Self](problems/0238-product-of-array-except-self.md)
   * [0242. Valid Anagram](problems/0242-valid-anagram.md)

@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **8 / 150 (5%)** | **8** | 3 | 5 | 0 |
+| **9 / 150 (6%)** | **9** | 3 | 6 | 0 |
 
 ---
 
@@ -19,6 +19,7 @@
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table | [Note](problems/0001-two-sum.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Matrix, Bitmask | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, String | [Note](problems/0049-group-anagrams.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Sequence Start | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table | [Note](problems/0217-contains-duplicate.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | <span class="badge badge-medium">Medium</span> | Array, Prefix Sum | [Note](problems/0238-product-of-array-except-self.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | <span class="badge badge-easy">Easy</span> | String, Hash Table, Counting | [Note](problems/0242-valid-anagram.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -29,7 +30,7 @@
 
 ### NeetCode 150 Roadmap
 
-#### 1. Arrays & Hashing (8/9)
+#### 1. Arrays & Hashing (9/9)
 - [x] [0217. Contains Duplicate](problems/0217-contains-duplicate.md)
 - [x] [0242. Valid Anagram](problems/0242-valid-anagram.md)
 - [x] [0001. Two Sum](problems/0001-two-sum.md)
@@ -38,7 +39,7 @@
 - [x] [0271. Encode and Decode Strings](problems/0271-encode-and-decode-strings.md)
 - [x] [0238. Product of Array Except Self](problems/0238-product-of-array-except-self.md)
 - [x] [0036. Valid Sudoku](problems/0036-valid-sudoku.md)
-- [ ] 0128\. Longest Consecutive Sequence
+- [x] [0128. Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence.md)
 
 #### 2. Two Pointers (0/5)
 - [ ] 0125\. Valid Palindrome
