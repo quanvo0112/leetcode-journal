@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **14 / 150 (9%)** | **14** | 4 | 9 | 1 |
+| **15 / 150 (10%)** | **15** | 5 | 9 | 1 |
 
 ---
 
@@ -22,6 +22,7 @@
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Matrix, Bitmask | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | <span class="badge badge-hard">Hard</span> | Two Pointers, Dynamic Programming | [Note](problems/0042-trapping-rain-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, String | [Note](problems/0049-group-anagrams.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | <span class="badge badge-easy">Easy</span> | Sliding Window, Greedy, Array | [Note](problems/0121-best-time-to-buy-and-sell-stock.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Sequence Start | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | <span class="badge badge-medium">Medium</span> | Two Pointers, Array | [Note](problems/0167-two-sum-ii-input-array-is-sorted.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -53,8 +54,8 @@
 - [x] [0011. Container With Most Water](problems/0011-container-with-most-water.md)
 - [x] [0042. Trapping Rain Water](problems/0042-trapping-rain-water.md)
 
-#### 3. Sliding Window (0/6)
-- [ ] 0121\. Best Time to Buy and Sell Stock
+#### 3. Sliding Window (1/6)
+- [x] [0121. Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock.md)
 - [ ] 0003\. Longest Substring Without Repeating Characters
 - [ ] 0424\. Longest Repeating Character Replacement
 - [ ] 0567\. Permutation in String
