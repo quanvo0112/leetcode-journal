@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting — LeetCode Journal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    // GitHub Pages Smart Redirect: Handles direct URLs typed without '#'
+    (function() {
+      var path = window.location.pathname;
+      var repo = '/leetcode-journal';
+      
+      // Strip repo prefix if present
+      if (path.indexOf(repo) === 0) {
+        path = path.substring(repo.length);
+      }
+      
+      // Clean leading slash
+      if (!path || path === '/') {
+        path = '/';
+      } else if (path.charAt(0) !== '/') {
+        path = '/' + path;
+      }
+
+      // Quick shortcuts table: allows typing /1, /15, /42, /0001, etc.
+      var shortcuts = {
+        '1': '0001-two-sum',
+        '0001': '0001-two-sum',
+        '11': '0011-container-with-most-water',
+        '0011': '0011-container-with-most-water',
+        '15': '0015-3sum',
+        '0015': '0015-3sum',
+        '36': '0036-valid-sudoku',
+        '0036': '0036-valid-sudoku',
+        '42': '0042-trapping-rain-water',
+        '0042': '0042-trapping-rain-water',
+        '49': '0049-group-anagrams',
+        '0049': '0049-group-anagrams',
+        '121': '0121-best-time-to-buy-and-sell-stock',
+        '0121': '0121-best-time-to-buy-and-sell-stock',
+        '125': '0125-valid-palindrome',
+        '0125': '0125-valid-palindrome',
+        '128': '0128-longest-consecutive-sequence',
+        '0128': '0128-longest-consecutive-sequence',
+        '167': '0167-two-sum-ii-input-array-is-sorted',
+        '0167': '0167-two-sum-ii-input-array-is-sorted',
+        '217': '0217-contains-duplicate',
+        '0217': '0217-contains-duplicate',
+        '238': '0238-product-of-array-except-self',
+        '0238': '0238-product-of-array-except-self',
+        '242': '0242-valid-anagram',
+        '0242': '0242-valid-anagram',
+        '271': '0271-encode-and-decode-strings',
+        '0271': '0271-encode-and-decode-strings',
+        '347': '0347-top-k-frequent-elements',
+        '0347': '0347-top-k-frequent-elements'
+      };
+
+      // Check if user typed a number shortcut like /15 or /0015
+      var matchNumber = path.match(/^\/(\d{1,4})\/?$/);
+      if (matchNumber && shortcuts[matchNumber[1]]) {
+        path = '/problems/' + shortcuts[matchNumber[1]];
+      }
+
+      var search = window.location.search || '';
+      var hash = window.location.hash || '';
+      
+      // Redirect seamlessly to the hash-based route Docsify expects
+      var targetUrl = repo + '/#' + path + search + hash;
+      window.location.replace(targetUrl);
+    })();
+  </script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #ffffff;
+      color: #37352f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .spinner {
+      width: 24px;
+      height: 24px;
+      border: 2px solid rgba(55, 53, 47, 0.15);
+      border-top-color: #2383e2;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-bottom: 16px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    a {
+      color: #2383e2;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="spinner"></div>
+  <p>Redirecting to LeetCode Journal...</p>
+  <p style="font-size: 13px; color: #787774;">If you are not redirected automatically, <a href="/leetcode-journal/#/">click here</a>.</p>
+</body>
+</html>
