@@ -773,8 +773,47 @@
       routerMode: 'history',
       basePath: repoBase,
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/leetcode-journal/(.*)': '/$1',
+        '/leetcode-journal/?$': '/'
       },
+      plugins: [
+        function (hook, vm) {
+          // Intercept router assignment to normalize GitHub Pages subfolder routing
+          var _router = null;
+          Object.defineProperty(vm, 'router', {
+            configurable: true,
+            enumerable: true,
+            get: function () { return _router; },
+            set: function (r) {
+              _router = r;
+              if (r && r.mode === 'history' && isGhPages) {
+                var origParse = r.parse;
+                r.parse = function (path) {
+                  var res = origParse.call(this, path);
+                  var base = (this.getBasePath() || '').replace(/\/$/, '');
+                  if (base && (res.path === base || res.path.indexOf(base + '/') === 0)) {
+                    var stripped = res.path.slice(base.length);
+                    res.path = stripped.indexOf('/') === 0 ? stripped : '/' + stripped;
+                    res.file = this.getFile(res.path);
+                  }
+                  return res;
+                };
+
+                var origToURL = r.toURL;
+                r.toURL = function (path, params, currentRoute) {
+                  var url = origToURL.call(this, path, params, currentRoute);
+                  var base = (this.getBasePath() || '').replace(/\/$/, '');
+                  if (base && url.indexOf(base) !== 0) {
+                    url = base + (url.indexOf('/') === 0 ? url : '/' + url);
+                  }
+                  return url;
+                };
+              }
+            }
+          });
+        }
+      ],
       search: {
         maxAge: 3600000, // 1 hour expiration for fresh index
         paths: [
