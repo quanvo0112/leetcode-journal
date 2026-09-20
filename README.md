@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **13 / 150 (9%)** | **13** | 4 | 9 | 0 |
+| **14 / 150 (9%)** | **14** | 4 | 9 | 1 |
 
 ---
 
@@ -20,6 +20,7 @@
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | <span class="badge badge-medium">Medium</span> | Two Pointers, Greedy, Array | [Note](problems/0011-container-with-most-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <span class="badge badge-medium">Medium</span> | Two Pointers, Array, Sorting | [Note](problems/0015-3sum.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Matrix, Bitmask | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | <span class="badge badge-hard">Hard</span> | Two Pointers, Dynamic Programming | [Note](problems/0042-trapping-rain-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, String | [Note](problems/0049-group-anagrams.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Sequence Start | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -45,12 +46,12 @@
 - [x] [0036. Valid Sudoku](problems/0036-valid-sudoku.md)
 - [x] [0128. Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence.md)
 
-#### 2. Two Pointers (4/5)
+#### 2. Two Pointers (5/5)
 - [x] [0125. Valid Palindrome](problems/0125-valid-palindrome.md)
 - [x] [0167. Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted.md)
 - [x] [0015. 3Sum](problems/0015-3sum.md)
 - [x] [0011. Container With Most Water](problems/0011-container-with-most-water.md)
-- [ ] 0042\. Trapping Rain Water
+- [x] [0042. Trapping Rain Water](problems/0042-trapping-rain-water.md)
 
 #### 3. Sliding Window (0/6)
 - [ ] 0121\. Best Time to Buy and Sell Stock
