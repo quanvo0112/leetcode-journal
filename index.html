@@ -23,6 +23,27 @@
   <!-- KaTeX for Math ($O(N)$, etc.) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
 
+  <!-- Single Page Apps for GitHub Pages: Clean URL without '#' (History Mode) -->
+  <script type="text/javascript">
+    (function(l) {
+      // Decode path from 404 redirect query string (?/path)
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&');
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      } else if (l.hash && l.hash.indexOf('#/') === 0) {
+        // Upgrade any legacy hash URL (#/...) into clean URL without '#'
+        var cleanPath = l.hash.slice(2);
+        var base = l.pathname.replace(/\/$/, '');
+        var target = base + (cleanPath ? '/' + cleanPath.replace(/^\//, '') : '/');
+        window.history.replaceState(null, null, target);
+      }
+    }(window.location));
+  </script>
+
   <style>
     /* ==========================================================================
        NOTION MINIMALIST DESIGN SYSTEM
@@ -740,11 +761,20 @@
       }
     } catch (e) {}
 
+    var isGhPages = window.location.pathname.indexOf('/leetcode-journal') === 0;
+    var repoBase = isGhPages ? '/leetcode-journal/' : '/';
+
     window.$docsify = {
       name: 'LeetCode Journal',
+      nameLink: repoBase,
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
+      routerMode: 'history',
+      basePath: repoBase,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       search: {
         maxAge: 3600000, // 1 hour expiration for fresh index
         paths: [
