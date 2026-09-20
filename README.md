@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **11 / 150 (7%)** | **11** | 4 | 7 | 0 |
+| **12 / 150 (8%)** | **12** | 4 | 8 | 0 |
 
 ---
 
@@ -17,6 +17,7 @@
 | # | Title | Difficulty | Topic / Pattern | Solution & Notes | Status | Review Date |
 |:---:|:---|:---:|:---|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table | [Note](problems/0001-two-sum.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <span class="badge badge-medium">Medium</span> | Two Pointers, Array, Sorting | [Note](problems/0015-3sum.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Matrix, Bitmask | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, String | [Note](problems/0049-group-anagrams.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -43,10 +44,10 @@
 - [x] [0036. Valid Sudoku](problems/0036-valid-sudoku.md)
 - [x] [0128. Longest Consecutive Sequence](problems/0128-longest-consecutive-sequence.md)
 
-#### 2. Two Pointers (2/5)
+#### 2. Two Pointers (3/5)
 - [x] [0125. Valid Palindrome](problems/0125-valid-palindrome.md)
 - [x] [0167. Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted.md)
-- [ ] 0015\. 3Sum
+- [x] [0015. 3Sum](problems/0015-3sum.md)
 - [ ] 0011\. Container With Most Water
 - [ ] 0042\. Trapping Rain Water
 
