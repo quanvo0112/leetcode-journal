@@ -21,6 +21,7 @@
 * **Sliding Window**
   * [0003. Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters.md)
   * [0121. Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock.md)
+  * [0424. Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement.md)
 
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)

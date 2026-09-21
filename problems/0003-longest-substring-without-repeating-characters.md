@@ -198,3 +198,4 @@ Longest Substring Without Repeating Characters
 
 * **Next Review Date:** Low priority (benchmark variable-size sliding window with index jumping mastered).
 * **Key Takeaway:** For substrings with uniqueness constraints, tracking the *last seen index* enables $O(1)$ direct left pointer jumps. Always guard with `lastSeen[c] >= left` to prevent the window from ever moving backwards.
+

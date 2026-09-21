@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **16 / 150 (11%)** | **16** | 5 | 10 | 1 |
+| **17 / 150 (11%)** | **17** | 5 | 11 | 1 |
 
 ---
 
@@ -32,6 +32,7 @@
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | <span class="badge badge-easy">Easy</span> | String, Hash Table, Counting | [Note](problems/0242-valid-anagram.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0271 | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode) | <span class="badge badge-medium">Medium</span> | Array, String, Design | [Note](problems/0271-encode-and-decode-strings.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Bucket Sort | [Note](problems/0347-top-k-frequent-elements.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | <span class="badge badge-medium">Medium</span> | Sliding Window, Hash Table, String | [Note](problems/0424-longest-repeating-character-replacement.md) | <span class="badge badge-solved">Solved</span> | - |
 
 ---
 
@@ -55,10 +56,10 @@
 - [x] [0011. Container With Most Water](problems/0011-container-with-most-water.md)
 - [x] [0042. Trapping Rain Water](problems/0042-trapping-rain-water.md)
 
-#### 3. Sliding Window (2/6)
+#### 3. Sliding Window (3/6)
 - [x] [0121. Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock.md)
 - [x] [0003. Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters.md)
-- [ ] 0424\. Longest Repeating Character Replacement
+- [x] [0424. Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement.md)
 - [ ] 0567\. Permutation in String
 - [ ] 0076\. Minimum Window Substring
 - [ ] 0239\. Sliding Window Maximum
