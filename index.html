@@ -772,6 +772,9 @@
       auto2top: true,
       routerMode: 'history',
       basePath: repoBase,
+      requestHeaders: {
+        'cache-control': 'no-cache'
+      },
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md',
         '/leetcode-journal/(.*)': '/$1',
