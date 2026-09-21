@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - **Difficulty:** `Easy`
-- **Topic / Pattern:** `Sliding Window` / `Greedy` / `Array`
+- **NeetCode Category:** `Sliding Window`
+- **LeetCode Topics:** `Array` / `Dynamic Programming`
+- **Core Pattern:** `Greedy + Running Minimum (minPrice Tracking)`
 - **Last Practiced:** 2026-09-20
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

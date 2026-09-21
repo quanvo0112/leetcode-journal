@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/valid-sudoku/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Array` / `Hash Table` / `Matrix` / `Bit Manipulation`
+- **NeetCode Category:** `Arrays & Hashing`
+- **LeetCode Topics:** `Array` / `Hash Table` / `Matrix`
+- **Core Pattern:** `Bitmask / Hash Table (Row, Col, Box Encoding)`
 - **Last Practiced:** 2026-09-19
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

@@ -2,7 +2,9 @@
 
 - **Problem Link:** [NeetCode](https://neetcode.io/problems/string-encode-and-decode) / [LeetCode](https://leetcode.com/problems/encode-and-decode-strings/)
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Array` / `String` / `Design` / `Serialization`
+- **NeetCode Category:** `Arrays & Hashing`
+- **LeetCode Topics:** `Array` / `String` / `Design`
+- **Core Pattern:** `Length-Prefixed Chunk Encoding ("len#content")`
 - **Last Practiced:** 2026-09-18
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

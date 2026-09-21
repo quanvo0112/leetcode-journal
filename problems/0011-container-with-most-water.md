@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/container-with-most-water/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Two Pointers` / `Greedy` / `Array`
+- **NeetCode Category:** `Two Pointers`
+- **LeetCode Topics:** `Array` / `Two Pointers` / `Greedy`
+- **Core Pattern:** `Converging Two Pointers (Shift Shorter Line)`
 - **Last Practiced:** 2026-09-20
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

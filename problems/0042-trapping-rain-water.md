@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/trapping-rain-water/
 - **Difficulty:** `Hard`
-- **Topic / Pattern:** `Two Pointers` / `Dynamic Programming` / `Monotonic Stack`
+- **NeetCode Category:** `Two Pointers`
+- **LeetCode Topics:** `Array` / `Two Pointers` / `Dynamic Programming` / `Stack` / `Monotonic Stack`
+- **Core Pattern:** `Two Pointers with Running leftMax & rightMax`
 - **Last Practiced:** 2026-09-20
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

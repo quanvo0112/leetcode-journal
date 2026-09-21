@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/contains-duplicate/
 - **Difficulty:** `Easy`
-- **Topic / Pattern:** `Array` / `Hash Table`
+- **NeetCode Category:** `Arrays & Hashing`
+- **LeetCode Topics:** `Array` / `Hash Table` / `Sorting`
+- **Core Pattern:** `Hash Set Lookup`
 - **Last Practiced:** 2026-09-17
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

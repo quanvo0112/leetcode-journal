@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/top-k-frequent-elements/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Array` / `Hash Table` / `Bucket Sort` / `Counting`
+- **NeetCode Category:** `Arrays & Hashing`
+- **LeetCode Topics:** `Array` / `Hash Table` / `Divide and Conquer` / `Sorting` / `Heap (Priority Queue)` / `Bucket Sort` / `Counting` / `Quickselect`
+- **Core Pattern:** `Bucket Sort (Count as Index) in O(N) Time`
 - **Last Practiced:** 2026-09-18
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

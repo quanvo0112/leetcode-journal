@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/valid-palindrome/
 - **Difficulty:** `Easy`
-- **Topic / Pattern:** `Two Pointers` / `String`
+- **NeetCode Category:** `Two Pointers`
+- **LeetCode Topics:** `Two Pointers` / `String`
+- **Core Pattern:** `In-place Two Pointers (isalnum / tolower Filtering)`
 - **Last Practiced:** 2026-09-19
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

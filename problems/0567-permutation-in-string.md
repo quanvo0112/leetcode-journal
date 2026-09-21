@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/permutation-in-string/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Sliding Window` / `Hash Table` / `Two Pointers` / `String`
+- **NeetCode Category:** `Sliding Window`
+- **LeetCode Topics:** `Hash Table` / `Two Pointers` / `String` / `Sliding Window`
+- **Core Pattern:** `Fixed Sliding Window + Frequency Array Equality`
 - **Last Practiced:** 2026-09-21
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

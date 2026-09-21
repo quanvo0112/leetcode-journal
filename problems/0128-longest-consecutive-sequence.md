@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/longest-consecutive-sequence/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Array` / `Hash Table` / `Sequence-Start Detection`
+- **NeetCode Category:** `Arrays & Hashing`
+- **LeetCode Topics:** `Array` / `Hash Table` / `Union-Find`
+- **Core Pattern:** `Hash Set + Sequence Start Detection (!set.count(num - 1))`
 - **Last Practiced:** 2026-09-19
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

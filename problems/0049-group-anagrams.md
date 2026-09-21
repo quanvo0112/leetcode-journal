@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/group-anagrams/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Array` / `Hash Table` / `String` / `Counting`
+- **NeetCode Category:** `Arrays & Hashing`
+- **LeetCode Topics:** `Array` / `Hash Table` / `String` / `Sorting`
+- **Core Pattern:** `Categorize by Sorted String / Frequency Array Hash Key`
 - **Last Practiced:** 2026-09-18
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/product-of-array-except-self/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Array` / `Prefix Sum (Product)`
+- **NeetCode Category:** `Arrays & Hashing`
+- **LeetCode Topics:** `Array` / `Prefix Sum`
+- **Core Pattern:** `Prefix & Suffix Running Product in O(1) Extra Space`
 - **Last Practiced:** 2026-09-18
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

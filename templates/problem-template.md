@@ -2,7 +2,9 @@
 
 - **Problem Link:** [LeetCode URL](https://leetcode.com/problems/...)
 - **Difficulty:** `Easy` | `Medium` | `Hard`
-- **Topic / Pattern:** `Array` / `Hash Table` / `Two Pointers` / `Sliding Window` / ...
+- **NeetCode Category:** `Arrays & Hashing` | `Two Pointers` | `Sliding Window` | ...
+- **LeetCode Topics:** `Array` / `Hash Table` / `Two Pointers` / `Sliding Window` / ...
+- **Core Pattern:** `[Primary algorithmic technique / solution chốt]`
 - **Last Practiced:** YYYY-MM-DD
 - **Proficiency Level:** 
   - [ ] Level 1: Solved smoothly (< 20 mins, optimal)

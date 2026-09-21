@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Two Pointers` / `Array`
+- **NeetCode Category:** `Two Pointers`
+- **LeetCode Topics:** `Array` / `Two Pointers` / `Binary Search`
+- **Core Pattern:** `Converging Two Pointers on Sorted Array`
 - **Last Practiced:** 2026-09-19
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/valid-anagram/
 - **Difficulty:** `Easy`
-- **Topic / Pattern:** `String` / `Hash Table` / `Counting`
+- **NeetCode Category:** `Arrays & Hashing`
+- **LeetCode Topics:** `Hash Table` / `String` / `Sorting`
+- **Core Pattern:** `Fixed Frequency Array (array<int, 26>) Counting`
 - **Last Practiced:** 2026-09-17
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)

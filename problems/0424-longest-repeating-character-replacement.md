@@ -2,7 +2,9 @@
 
 - **Problem Link:** https://leetcode.com/problems/longest-repeating-character-replacement/
 - **Difficulty:** `Medium`
-- **Topic / Pattern:** `Sliding Window` / `Hash Table` / `String`
+- **NeetCode Category:** `Sliding Window`
+- **LeetCode Topics:** `Hash Table` / `String` / `Sliding Window`
+- **Core Pattern:** `Variable Sliding Window + Frequency Array + maxFreq`
 - **Last Practiced:** 2026-09-21
 - **Proficiency Level:** 
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
