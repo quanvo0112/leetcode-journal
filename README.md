@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **17 / 150 (11%)** | **17** | 5 | 11 | 1 |
+| **18 / 150 (12%)** | **18** | 5 | 12 | 1 |
 
 ---
 
@@ -33,6 +33,7 @@
 | 0271 | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode) | <span class="badge badge-medium">Medium</span> | Array, String, Design | [Note](problems/0271-encode-and-decode-strings.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Bucket Sort | [Note](problems/0347-top-k-frequent-elements.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | <span class="badge badge-medium">Medium</span> | Sliding Window, Hash Table, String | [Note](problems/0424-longest-repeating-character-replacement.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | <span class="badge badge-medium">Medium</span> | Sliding Window, Hash Table, String | [Note](problems/0567-permutation-in-string.md) | <span class="badge badge-solved">Solved</span> | - |
 
 ---
 
@@ -56,11 +57,11 @@
 - [x] [0011. Container With Most Water](problems/0011-container-with-most-water.md)
 - [x] [0042. Trapping Rain Water](problems/0042-trapping-rain-water.md)
 
-#### 3. Sliding Window (3/6)
+#### 3. Sliding Window (4/6)
 - [x] [0121. Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock.md)
 - [x] [0003. Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters.md)
 - [x] [0424. Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement.md)
-- [ ] 0567\. Permutation in String
+- [x] [0567. Permutation in String](problems/0567-permutation-in-string.md)
 - [ ] 0076\. Minimum Window Substring
 - [ ] 0239\. Sliding Window Maximum
 
