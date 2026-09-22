@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **20 / 150 (13%)** | **20** | 5 | 12 | 3 |
+| **21 / 150 (14%)** | **21** | 6 | 12 | 3 |
 
 ---
 
@@ -20,6 +20,7 @@
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | <span class="badge badge-medium">Medium</span> | Sliding Window | Hash Table, String, Sliding Window | [Note](problems/0003-longest-substring-without-repeating-characters.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | <span class="badge badge-medium">Medium</span> | Two Pointers | Array, Two Pointers, Greedy | [Note](problems/0011-container-with-most-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <span class="badge badge-medium">Medium</span> | Two Pointers | Array, Two Pointers, Sorting | [Note](problems/0015-3sum.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | <span class="badge badge-easy">Easy</span> | Stack | String, Stack | [Note](problems/0020-valid-parentheses.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, Matrix | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | <span class="badge badge-hard">Hard</span> | Two Pointers | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | [Note](problems/0042-trapping-rain-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, String, Sorting | [Note](problems/0049-group-anagrams.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -67,8 +68,8 @@
 - [x] [0076. Minimum Window Substring](problems/0076-minimum-window-substring.md)
 - [x] [0239. Sliding Window Maximum](problems/0239-sliding-window-maximum.md)
 
-#### 4. Stack (0/7)
-- [ ] 0020\. Valid Parentheses
+#### 4. Stack (1/7)
+- [x] [0020. Valid Parentheses](problems/0020-valid-parentheses.md)
 - [ ] 0155\. Min Stack
 - [ ] 0150\. Evaluate Reverse Polish Notation
 - [ ] 0022\. Generate Parentheses

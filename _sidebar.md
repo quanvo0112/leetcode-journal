@@ -26,5 +26,8 @@
   * [0424. Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement.md)
   * [0567. Permutation in String](problems/0567-permutation-in-string.md)
 
+* **Stack**
+  * [0020. Valid Parentheses](problems/0020-valid-parentheses.md)
+
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)
