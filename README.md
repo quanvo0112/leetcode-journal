@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **18 / 150 (12%)** | **18** | 5 | 12 | 1 |
+| **19 / 150 (13%)** | **19** | 5 | 12 | 2 |
 
 ---
 
@@ -23,6 +23,7 @@
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, Matrix | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | <span class="badge badge-hard">Hard</span> | Two Pointers | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | [Note](problems/0042-trapping-rain-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, String, Sorting | [Note](problems/0049-group-anagrams.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | <span class="badge badge-hard">Hard</span> | Sliding Window | Hash Table, String, Sliding Window | [Note](problems/0076-minimum-window-substring.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | <span class="badge badge-easy">Easy</span> | Sliding Window | Array, Dynamic Programming | [Note](problems/0121-best-time-to-buy-and-sell-stock.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, Union-Find | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -57,12 +58,12 @@
 - [x] [0011. Container With Most Water](problems/0011-container-with-most-water.md)
 - [x] [0042. Trapping Rain Water](problems/0042-trapping-rain-water.md)
 
-#### 3. Sliding Window (4/6)
+#### 3. Sliding Window (5/6)
 - [x] [0121. Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock.md)
 - [x] [0003. Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters.md)
 - [x] [0424. Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement.md)
 - [x] [0567. Permutation in String](problems/0567-permutation-in-string.md)
-- [ ] 0076\. Minimum Window Substring
+- [x] [0076. Minimum Window Substring](problems/0076-minimum-window-substring.md)
 - [ ] 0239\. Sliding Window Maximum
 
 #### 4. Stack (0/7)
