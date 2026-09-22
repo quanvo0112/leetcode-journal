@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **19 / 150 (13%)** | **19** | 5 | 12 | 2 |
+| **20 / 150 (13%)** | **20** | 5 | 12 | 3 |
 
 ---
 
@@ -30,6 +30,7 @@
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | <span class="badge badge-medium">Medium</span> | Two Pointers | Array, Two Pointers, Binary Search | [Note](problems/0167-two-sum-ii-input-array-is-sorted.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | <span class="badge badge-easy">Easy</span> | Arrays & Hashing | Array, Hash Table, Sorting | [Note](problems/0217-contains-duplicate.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Prefix Sum | [Note](problems/0238-product-of-array-except-self.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | <span class="badge badge-hard">Hard</span> | Sliding Window | Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum/Maximum Query | [Note](problems/0239-sliding-window-maximum.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | <span class="badge badge-easy">Easy</span> | Arrays & Hashing | Hash Table, String, Sorting | [Note](problems/0242-valid-anagram.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0271 | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, String, Design | [Note](problems/0271-encode-and-decode-strings.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | [Note](problems/0347-top-k-frequent-elements.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -58,13 +59,13 @@
 - [x] [0011. Container With Most Water](problems/0011-container-with-most-water.md)
 - [x] [0042. Trapping Rain Water](problems/0042-trapping-rain-water.md)
 
-#### 3. Sliding Window (5/6)
+#### 3. Sliding Window (6/6)
 - [x] [0121. Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock.md)
 - [x] [0003. Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters.md)
 - [x] [0424. Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement.md)
 - [x] [0567. Permutation in String](problems/0567-permutation-in-string.md)
 - [x] [0076. Minimum Window Substring](problems/0076-minimum-window-substring.md)
-- [ ] 0239\. Sliding Window Maximum
+- [x] [0239. Sliding Window Maximum](problems/0239-sliding-window-maximum.md)
 
 #### 4. Stack (0/7)
 - [ ] 0020\. Valid Parentheses

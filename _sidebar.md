@@ -22,6 +22,7 @@
   * [0003. Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters.md)
   * [0076. Minimum Window Substring](problems/0076-minimum-window-substring.md)
   * [0121. Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock.md)
+  * [0239. Sliding Window Maximum](problems/0239-sliding-window-maximum.md)
   * [0424. Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement.md)
   * [0567. Permutation in String](problems/0567-permutation-in-string.md)
 
