@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **21 / 150 (14%)** | **21** | 6 | 12 | 3 |
+| **22 / 150 (15%)** | **22** | 6 | 13 | 3 |
 
 ---
 
@@ -28,6 +28,7 @@
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | <span class="badge badge-easy">Easy</span> | Sliding Window | Array, Dynamic Programming | [Note](problems/0121-best-time-to-buy-and-sell-stock.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, Union-Find | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | <span class="badge badge-medium">Medium</span> | Stack | Stack, Design | [Note](problems/0155-min-stack.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | <span class="badge badge-medium">Medium</span> | Two Pointers | Array, Two Pointers, Binary Search | [Note](problems/0167-two-sum-ii-input-array-is-sorted.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | <span class="badge badge-easy">Easy</span> | Arrays & Hashing | Array, Hash Table, Sorting | [Note](problems/0217-contains-duplicate.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Prefix Sum | [Note](problems/0238-product-of-array-except-self.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -68,9 +69,9 @@
 - [x] [0076. Minimum Window Substring](problems/0076-minimum-window-substring.md)
 - [x] [0239. Sliding Window Maximum](problems/0239-sliding-window-maximum.md)
 
-#### 4. Stack (1/7)
+#### 4. Stack (2/7)
 - [x] [0020. Valid Parentheses](problems/0020-valid-parentheses.md)
-- [ ] 0155\. Min Stack
+- [x] [0155. Min Stack](problems/0155-min-stack.md)
 - [ ] 0150\. Evaluate Reverse Polish Notation
 - [ ] 0022\. Generate Parentheses
 - [ ] 0739\. Daily Temperatures

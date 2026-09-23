@@ -28,6 +28,7 @@
 
 * **Stack**
   * [0020. Valid Parentheses](problems/0020-valid-parentheses.md)
+  * [0155. Min Stack](problems/0155-min-stack.md)
 
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)
