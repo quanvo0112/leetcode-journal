@@ -272,7 +272,7 @@
       padding-top: 10px;
     }
     .markdown-section {
-      max-width: 860px !important;
+      max-width: 1160px !important;
       padding: 30px 40px 80px 40px !important;
       color: var(--text-primary) !important;
     }
@@ -423,9 +423,8 @@
        ========================================================================== */
     .markdown-section table {
       width: 100% !important;
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
+      display: table !important;
+      table-layout: auto !important;
       border-collapse: separate !important;
       border-spacing: 0 !important;
       margin: 1.6rem 0 !important;
@@ -639,6 +638,14 @@
       /* On desktop, the sidebar is docked and search bar is unobstructed */
       .sidebar-toggle {
         display: none !important;
+      }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1100px) {
+      .markdown-section table {
+        display: block !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
       }
     }
 
