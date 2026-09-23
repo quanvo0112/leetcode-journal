@@ -71,11 +71,10 @@
 - [x] [0076. Minimum Window Substring](problems/0076-minimum-window-substring.md)
 - [x] [0239. Sliding Window Maximum](problems/0239-sliding-window-maximum.md)
 
-#### 4. Stack (4/7)
+#### 4. Stack (4/6)
 - [x] [0020. Valid Parentheses](problems/0020-valid-parentheses.md)
 - [x] [0155. Min Stack](problems/0155-min-stack.md)
 - [x] [0150. Evaluate Reverse Polish Notation](problems/0150-evaluate-reverse-polish-notation.md)
-- [ ] 0022\. Generate Parentheses
 - [x] [0739. Daily Temperatures](problems/0739-daily-temperatures.md)
 - [ ] 0853\. Car Fleet
 - [ ] 0084\. Largest Rectangle in Histogram
@@ -119,12 +118,7 @@
 - [ ] 0124\. Binary Tree Maximum Path Sum
 - [ ] 0297\. Serialize and Deserialize Binary Tree
 
-#### 8. Tries (0/3)
-- [ ] 0208\. Implement Trie (Prefix Tree)
-- [ ] 0211\. Design Add and Search Words Data Structure
-- [ ] 0212\. Word Search II
-
-#### 9. Heap / Priority Queue (0/7)
+#### 8. Heap / Priority Queue (0/7)
 - [ ] 0703\. Kth Largest Element in a Stream
 - [ ] 1046\. Last Stone Weight
 - [ ] 0973\. K Closest Points to Origin
@@ -133,16 +127,22 @@
 - [ ] 0355\. Design Twitter
 - [ ] 0295\. Find Median from Data Stream
 
-#### 10. Backtracking (0/9)
+#### 9. Backtracking (0/10)
 - [ ] 0078\. Subsets
 - [ ] 0039\. Combination Sum
+- [ ] 0040\. Combination Sum II
 - [ ] 0046\. Permutations
 - [ ] 0090\. Subsets II
-- [ ] 0040\. Combination Sum II
+- [ ] 0022\. Generate Parentheses
 - [ ] 0079\. Word Search
 - [ ] 0131\. Palindrome Partitioning
 - [ ] 0017\. Letter Combinations of a Phone Number
 - [ ] 0051\. N-Queens
+
+#### 10. Tries (0/3)
+- [ ] 0208\. Implement Trie (Prefix Tree)
+- [ ] 0211\. Design Add and Search Words Data Structure
+- [ ] 0212\. Word Search II
 
 #### 11. Graphs (0/13)
 - [ ] 0200\. Number of Islands
