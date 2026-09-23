@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **22 / 150 (15%)** | **22** | 6 | 13 | 3 |
+| **23 / 150 (15%)** | **23** | 6 | 14 | 3 |
 
 ---
 
@@ -38,6 +38,7 @@
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | [Note](problems/0347-top-k-frequent-elements.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | <span class="badge badge-medium">Medium</span> | Sliding Window | Hash Table, String, Sliding Window | [Note](problems/0424-longest-repeating-character-replacement.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | <span class="badge badge-medium">Medium</span> | Sliding Window | Hash Table, Two Pointers, String, Sliding Window | [Note](problems/0567-permutation-in-string.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | <span class="badge badge-medium">Medium</span> | Stack | Array, Stack, Monotonic Stack | [Note](problems/0739-daily-temperatures.md) | <span class="badge badge-solved">Solved</span> | - |
 
 ---
 
@@ -69,12 +70,12 @@
 - [x] [0076. Minimum Window Substring](problems/0076-minimum-window-substring.md)
 - [x] [0239. Sliding Window Maximum](problems/0239-sliding-window-maximum.md)
 
-#### 4. Stack (2/7)
+#### 4. Stack (3/7)
 - [x] [0020. Valid Parentheses](problems/0020-valid-parentheses.md)
 - [x] [0155. Min Stack](problems/0155-min-stack.md)
 - [ ] 0150\. Evaluate Reverse Polish Notation
 - [ ] 0022\. Generate Parentheses
-- [ ] 0739\. Daily Temperatures
+- [x] [0739. Daily Temperatures](problems/0739-daily-temperatures.md)
 - [ ] 0853\. Car Fleet
 - [ ] 0084\. Largest Rectangle in Histogram
 
