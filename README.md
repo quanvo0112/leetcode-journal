@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **23 / 150 (15%)** | **23** | 6 | 14 | 3 |
+| **24 / 150 (16%)** | **24** | 6 | 15 | 3 |
 
 ---
 
@@ -28,6 +28,7 @@
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | <span class="badge badge-easy">Easy</span> | Sliding Window | Array, Dynamic Programming | [Note](problems/0121-best-time-to-buy-and-sell-stock.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Arrays & Hashing | Array, Hash Table, Union-Find | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | <span class="badge badge-medium">Medium</span> | Stack | Array, Math, Stack | [Note](problems/0150-evaluate-reverse-polish-notation.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | <span class="badge badge-medium">Medium</span> | Stack | Stack, Design | [Note](problems/0155-min-stack.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | <span class="badge badge-medium">Medium</span> | Two Pointers | Array, Two Pointers, Binary Search | [Note](problems/0167-two-sum-ii-input-array-is-sorted.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | <span class="badge badge-easy">Easy</span> | Arrays & Hashing | Array, Hash Table, Sorting | [Note](problems/0217-contains-duplicate.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -70,10 +71,10 @@
 - [x] [0076. Minimum Window Substring](problems/0076-minimum-window-substring.md)
 - [x] [0239. Sliding Window Maximum](problems/0239-sliding-window-maximum.md)
 
-#### 4. Stack (3/7)
+#### 4. Stack (4/7)
 - [x] [0020. Valid Parentheses](problems/0020-valid-parentheses.md)
 - [x] [0155. Min Stack](problems/0155-min-stack.md)
-- [ ] 0150\. Evaluate Reverse Polish Notation
+- [x] [0150. Evaluate Reverse Polish Notation](problems/0150-evaluate-reverse-polish-notation.md)
 - [ ] 0022\. Generate Parentheses
 - [x] [0739. Daily Temperatures](problems/0739-daily-temperatures.md)
 - [ ] 0853\. Car Fleet

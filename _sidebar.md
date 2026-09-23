@@ -28,6 +28,7 @@
 
 * **Stack**
   * [0020. Valid Parentheses](problems/0020-valid-parentheses.md)
+  * [0150. Evaluate Reverse Polish Notation](problems/0150-evaluate-reverse-polish-notation.md)
   * [0155. Min Stack](problems/0155-min-stack.md)
   * [0739. Daily Temperatures](problems/0739-daily-temperatures.md)
 
