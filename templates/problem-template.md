@@ -4,7 +4,7 @@
 - **Difficulty:** `Easy` | `Medium` | `Hard`
 - **NeetCode Category:** `Arrays & Hashing` | `Two Pointers` | `Sliding Window` | ...
 - **LeetCode Topics:** `Array` / `Hash Table` / `Two Pointers` / `Sliding Window` / ...
-- **Core Pattern:** `[Primary algorithmic technique / solution chốt]`
+- **Core Pattern:** `[Primary algorithmic technique / core pattern]`
 - **Last Practiced:** YYYY-MM-DD
 - **Proficiency Level:** 
   - [ ] Level 1: Solved smoothly (< 20 mins, optimal)

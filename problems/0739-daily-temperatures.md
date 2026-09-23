@@ -23,7 +23,7 @@
   - This is the classic **Next Greater Element** problem in disguise.
   - A brute-force scan from each index to the right takes $O(N^2)$, which TLEs for $N \le 10^5$.
   - Instead of actively searching to the right for every day, invert the thinking:
-    $$\text{"Lưu những ngày đang chờ. Khi gặp một ngày có nhiệt độ cao hơn, giải quyết tất cả những ngày đang chờ mà nó vượt qua."}$$
+    $$\text{"Store unresolved days. When a warmer day arrives, resolve all waiting colder days that it surpasses."}$$
   - We maintain a **Monotonic Decreasing Stack** of indices where temperatures are in descending order from bottom to top:
     $$\text{temperatures}[\text{stack}[0]] \ge \text{temperatures}[\text{stack}[1]] \ge \text{temperatures}[\text{stack}[2]] \dots$$
   - When a warmer day `temperatures[i]` arrives, it resolves any colder days waiting at the top of the stack (`temperatures[i] > temperatures[prev]`).

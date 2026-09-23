@@ -22,8 +22,7 @@
   - In a standard stack `[v1, v2, v3]`, finding the minimum element requires an $O(N)$ linear scan across all elements.
   - To achieve $O(1)$ retrieval without scanning, **each node must carry historical knowledge of the minimum value up to its level**.
   - Fundamental rule:
-    $$\text{"Mỗi node biết minimum của toàn bộ stack từ đáy đến chính nó."}$$
-    *(Each node knows the minimum of the entire stack from the bottom up to itself).*
+    $$\text{"Each node knows the minimum of the entire stack from the bottom up to itself."}$$
   - When a new element `val` is pushed:
     - If the stack is empty, the current minimum is simply `val`.
     - If the stack is non-empty, the new minimum is $\min(\text{val}, \text{currentMin of previous top})$.

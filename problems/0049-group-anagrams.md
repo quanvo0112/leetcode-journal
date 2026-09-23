@@ -189,7 +189,7 @@ public:
 | :--- | :---: | :---: | :--- |
 | **1. Sort String Key** | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | Easiest to write, shortest code. |
 | **2. Frequency $\rightarrow$ String Key** | $O(N \cdot K)$ | $O(N \cdot K)$ | Linear asymptotic complexity, standard interview-friendly. |
-| **3. Frequency $\rightarrow$ Array Key (Chốt)** | **$O(N \cdot K)$** | **$O(N \cdot K)$** | **Optimal in practice: Zero heap allocations for keys, zero string serialization.** |
+| **3. Frequency $\rightarrow$ Array Key (Optimal Choice)** | **$O(N \cdot K)$** | **$O(N \cdot K)$** | **Optimal in practice: Zero heap allocations for keys, zero string serialization.** |
 
 ---
 

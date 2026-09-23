@@ -109,9 +109,9 @@ width = 8 - 0 = 8
 h = min(1, 7) = 1
 area = 8 * 1 = 8 -> maxWater = 8
 Since height[left] (1) < height[right] (7):
--> Cột '1' đã bị vắt kiệt diện tích tối đa (vì bề rộng 8 là rộng nhất có thể).
--> Mọi cột bên trong kết hợp với cột '1' sẽ chỉ có width < 8 và height <= 1 -> diện tích chắc chắn < 8.
--> Bắt buộc dịch left sang phải: ++left
+-> Bar '1' has yielded its maximum possible area (width 8 is the maximum possible).
+-> Any inner bar paired with bar '1' has width < 8 and height <= 1 -> area strictly < 8.
+-> We must discard and advance left: ++left
 
 Step 2:
       left                                 right
@@ -121,10 +121,10 @@ width = 8 - 1 = 7
 h = min(8, 7) = 7
 area = 7 * 7 = 49 -> maxWater = 49
 Since height[left] (8) > height[right] (7):
--> Cột '7' là bottleneck -> Dịch right sang trái: --right
+-> Bar '7' is the limiting bottleneck -> Decrement right: --right
 
-... (tiếp tục hội tụ vào giữa) ...
-Final maxWater = 49 (được tạo bởi cột 8 tại index 1 và cột 7 tại index 8).
+... (continue converging toward center) ...
+Final maxWater = 49 (formed by bar 8 at index 1 and bar 7 at index 8).
 ```
 
 ---
@@ -132,15 +132,15 @@ Final maxWater = 49 (được tạo bởi cột 8 tại index 1 và cột 7 tạ
 ### The Two Pointers Elimination Invariant
 
 ```text
-Container bị giới hạn bởi bên thấp hơn
+Container capacity is bounded by the shorter wall
                   ↓
-       width luôn giảm dần (N-1 -> 1)
+       Width monotonically shrinks (N-1 -> 1)
                   ↓
-   Muốn area tăng, chiều cao min PHẢI tăng
+   To increase area, minimum height MUST increase
                   ↓
-Giữ bên thấp hơn chỉ làm diện tích GIẢM (width giảm, height bị chặn)
+Retaining shorter wall guarantees smaller area (width shrinks, height capped)
                   ↓
-Quy tắc vàng: Luôn dịch chuyển con trỏ ở phía THẤP HƠN
+Golden Rule: Always advance pointer at the SHORTER wall
 ```
 
 ---

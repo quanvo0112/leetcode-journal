@@ -103,42 +103,42 @@ Step 1:
  left                      right
   ↓                          ↓
 [ 2,    7,     11,          15 ]
-sum = 2 + 15 = 17 > 9 (quá lớn)
--> Vì array đã sorted tăng dần, 15 kết hợp với phần tử nhỏ nhất (2) đã vượt quá 9,
-   nên 15 không thể ghép với bất kỳ phần tử nào khác để ra 9.
--> Loại bỏ 15: --right
+sum = 2 + 15 = 17 > 9 (too large)
+-> Since array is sorted ascending, 15 paired with the smallest element (2) already exceeds 9,
+   so 15 cannot pair with any other element to reach 9.
+-> Eliminate 15: --right
 
 Step 2:
  left               right
   ↓                   ↓
 [ 2,    7,     11,   15 ]
-sum = 2 + 11 = 13 > 9 (vẫn quá lớn)
--> Tương tự, loại bỏ 11: --right
+sum = 2 + 11 = 13 > 9 (still too large)
+-> Similarly, eliminate 11: --right
 
 Step 3:
  left   right
   ↓       ↓
 [ 2,      7,   11,   15 ]
 sum = 2 + 7 = 9 == target -> MATCH!
--> Trả về 1-indexed: {left + 1, right + 1} = {1, 2}
+-> Return 1-indexed: {left + 1, right + 1} = {1, 2}
 ```
 
 ---
 
-### Quy tắc dịch chuyển cốt lõi
+### Core Pointer Movement Invariant
 
 ```text
-sum < target  →  cần tăng tổng   →  left++
-sum > target  →  cần giảm tổng   →  right--
-sum == target →  đạt kết quả     →  return {left + 1, right + 1}
+sum < target  →  need larger sum   →  left++
+sum > target  →  need smaller sum   →  right--
+sum == target →  match found      →  return {left + 1, right + 1}
 ```
 
 ```text
-       sum nhỏ (sum < target)
+       sum too small (sum < target)
             left  →
      [  .   .   .   .   .   .   .  ]
                         ←  right
-       sum lớn (sum > target)
+       sum too large (sum > target)
 ```
 
 ---
@@ -146,11 +146,11 @@ sum == target →  đạt kết quả     →  return {left + 1, right + 1}
 ### The Architectural Pattern
 
 ```text
-Two Sum II (Array đã sorted)
+Two Sum II (Sorted Array)
            ↓
 Two Pointers (left = 0, right = n - 1)
            ↓
-Duyệt đến khi left < right:
+Loop while left < right:
   ├─ sum < target  → ++left
   ├─ sum > target  → --right
   └─ sum == target → return {left + 1, right + 1}

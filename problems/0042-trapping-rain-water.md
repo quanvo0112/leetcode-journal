@@ -23,7 +23,7 @@
   - **The Two Pointers Insight:** We do not need to know the *exact* maximum on both sides simultaneously. We only need to know **which side is the bottleneck**.
     - If `height[left] <= height[right]`: We know with mathematical certainty that there is already a boundary to the right that is at least as tall as `height[left]`. Thus, the right side can never be the limiting factor for `left`. The water trapped at `left` is entirely governed by `leftMax`.
     - If `height[right] < height[left]`: Symmetrically, there is a boundary to the left at least as tall as `height[right]`. The water trapped at `right` is strictly governed by `rightMax`.
-  - **Core Rule:** *"Nhỏ bên nào $\rightarrow$ xử lý bên đó"* (Always advance and process the side with the smaller current height).
+  - **Core Rule:** Always advance and process the side with the smaller boundary height (the bottleneck).
 
 ---
 
@@ -179,11 +179,11 @@ Two Pointers (left = 0, right = n - 1)
 leftMax / rightMax tracking
         ↓
 height[left] <= height[right] ?
-  ├─ TRUE  → Xử lý bên trái: update leftMax, water += leftMax - height[left], ++left
-  └─ FALSE → Xử lý bên phải: update rightMax, water += rightMax - height[right], --right
+  ├─ TRUE  → Process left:  update leftMax,  water += leftMax - height[left],   ++left
+  └─ FALSE → Process right: update rightMax, water += rightMax - height[right], --right
 ```
 
-> **Nhỏ bên nào $\rightarrow$ xử lý bên đó.**
+> **Always process the bottleneck (smaller side) first.**
 
 ---
 
