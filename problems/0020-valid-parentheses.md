@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `String` / `Stack`
 - **Core Pattern:** `LIFO Stack (Vector-backed, Push Opening / Match & Pop Closing)`
 - **Last Practiced:** 2026-09-22
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints

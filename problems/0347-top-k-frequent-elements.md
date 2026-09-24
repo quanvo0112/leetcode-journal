@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Array` / `Hash Table` / `Divide and Conquer` / `Sorting` / `Heap (Priority Queue)` / `Bucket Sort` / `Counting` / `Quickselect`
 - **Core Pattern:** `Bucket Sort (Count as Index) in O(N) Time`
 - **Last Practiced:** 2026-09-18
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints

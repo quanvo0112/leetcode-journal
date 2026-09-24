@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Array` / `Math` / `Stack`
 - **Core Pattern:** `Stack-Based Arithmetic Expression Evaluation (Pop Right, Pop Left, Push Result)`
 - **Last Practiced:** 2026-09-23
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints

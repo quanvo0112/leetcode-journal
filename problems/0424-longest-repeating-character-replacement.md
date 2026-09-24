@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Hash Table` / `String` / `Sliding Window`
 - **Core Pattern:** `Variable Sliding Window + Frequency Array + maxFreq`
 - **Last Practiced:** 2026-09-21
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints
@@ -91,7 +91,7 @@ public:
     int characterReplacement(string s, int k) {
         // Frequency array for uppercase English letters 'A' through 'Z'
         array<int, 26> freq{};
-        
+
         int left = 0;
         int maxFreq = 0;
         int maxLength = 0;

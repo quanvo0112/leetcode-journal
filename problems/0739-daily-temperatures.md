@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Array` / `Stack` / `Monotonic Stack`
 - **Core Pattern:** `Monotonic Decreasing Stack (Store Indices, Resolve Next Greater Element)`
 - **Last Practiced:** 2026-09-23
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints
@@ -128,7 +128,7 @@ i=4 (temp=69): 69 < temp[3] (71) -> cannot resolve.
                push 4.
                stack: [2, 3, 4]
 
-i=5 (temp=72): 
+i=5 (temp=72):
   - 72 > temp[4] (69) -> resolve 4! result[4] = 5 - 4 = 1, pop 4.
   - 72 > temp[3] (71) -> resolve 3! result[3] = 5 - 3 = 2, pop 3.
   - 72 < temp[2] (75) -> stop while loop!

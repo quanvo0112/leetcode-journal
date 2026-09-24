@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Two Pointers` / `String`
 - **Core Pattern:** `In-place Two Pointers (isalnum / tolower Filtering)`
 - **Last Practiced:** 2026-09-19
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints
@@ -124,7 +124,7 @@ int isalnum(int ch);
 int tolower(int ch);
 ```
 
-The standard mandates that the value of `ch` **must be representable as an `unsigned char` or equal to `EOF`**. 
+The standard mandates that the value of `ch` **must be representable as an `unsigned char` or equal to `EOF`**.
 
 On platforms where `char` is signed (the default on most x86/ARM compilers), any non-ASCII byte with the high bit set has a negative value when widened to `int`. Passing a negative value other than `EOF` results in an **out-of-bounds lookup into the internal character-classification table** (Undefined Behavior / memory fault).
 

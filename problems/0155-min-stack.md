@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Stack` / `Design`
 - **Core Pattern:** `Min Stack (Vector-backed Pair of {value, currentMin}, O(1) All Ops)`
 - **Last Practiced:** 2026-09-23
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints
@@ -91,20 +91,20 @@ private:
 public:
     MinStack() {
     }
-    
+
     void push(int val) {
         int currentMin = stack.empty() ? val : min(val, stack.back().second);
         stack.push_back({val, currentMin});
     }
-    
+
     void pop() {
         stack.pop_back();
     }
-    
+
     int top() {
         return stack.back().first;
     }
-    
+
     int getMin() {
         return stack.back().second;
     }

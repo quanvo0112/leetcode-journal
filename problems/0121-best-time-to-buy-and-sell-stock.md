@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Array` / `Dynamic Programming`
 - **Core Pattern:** `Greedy + Running Minimum (minPrice Tracking)`
 - **Last Practiced:** 2026-09-20
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints
@@ -127,7 +127,7 @@ Result: 5 (Buy at price 1 on day 1, Sell at price 6 on day 4).
 
 ### Why Not Bidirectional Two Pointers?
 
-While classified under Sliding Window in NeetCode 150, this problem does **not** employ converging two pointers (`left → ... ← right`). 
+While classified under Sliding Window in NeetCode 150, this problem does **not** employ converging two pointers (`left → ... ← right`).
 
 Instead, it embodies **Single Pass + Running Minimum**:
 - At each step $i$, we make a locally optimal greedy inquiry: *"If I were forced to sell today, what was the cheapest purchase price available before today?"*

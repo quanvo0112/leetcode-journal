@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Array` / `String` / `Design`
 - **Core Pattern:** `Length-Prefixed Chunk Encoding ("len#content")`
 - **Last Practiced:** 2026-09-18
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints

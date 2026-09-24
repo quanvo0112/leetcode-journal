@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Array` / `Hash Table` / `Sorting`
 - **Core Pattern:** `Hash Set Lookup`
 - **Last Practiced:** 2026-09-17
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints
@@ -50,14 +50,14 @@ class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
         unordered_set<int> seen;
-        
+
         for (int num : nums) {
             if (seen.find(num) != seen.end()) {
                 return true;
             }
             seen.insert(num);
         }
-        
+
         return false;
     }
 };

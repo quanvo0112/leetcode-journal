@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Array` / `Two Pointers` / `Greedy`
 - **Core Pattern:** `Converging Two Pointers (Shift Shorter Line)`
 - **Last Practiced:** 2026-09-20
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints
