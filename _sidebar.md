@@ -31,6 +31,7 @@
   * [0150. Evaluate Reverse Polish Notation](problems/0150-evaluate-reverse-polish-notation.md)
   * [0155. Min Stack](problems/0155-min-stack.md)
   * [0739. Daily Temperatures](problems/0739-daily-temperatures.md)
+  * [0853. Car Fleet](problems/0853-car-fleet.md)
 
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)
