@@ -34,5 +34,8 @@
   * [0739. Daily Temperatures](problems/0739-daily-temperatures.md)
   * [0853. Car Fleet](problems/0853-car-fleet.md)
 
+* **Binary Search**
+  * [0704. Binary Search](problems/0704-binary-search.md)
+
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)

@@ -6,7 +6,7 @@
 - **LeetCode Topics:** `Array` / `Stack` / `Monotonic Stack`
 - **Core Pattern:** `Monotonic Increasing Stack + Virtual Sentinel 0 (Previous & Next Smaller Element Boundaries)`
 - **Last Practiced:** 2026-09-24
-- **Proficiency Level:** 
+- **Proficiency Level:**
   - [x] Level 1: Solved smoothly (< 20 mins, optimal)
   - [ ] Level 2: Struggled / Non-optimal / Edge-case bugs
   - [ ] Level 3: Needed editorial or hints

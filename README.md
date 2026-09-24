@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **26 / 150 (17%)** | **26** | 6 | 16 | 4 |
+| **27 / 150 (18%)** | **27** | 7 | 16 | 4 |
 
 ---
 
@@ -40,6 +40,7 @@
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | [Note](problems/0347-top-k-frequent-elements.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | <span class="badge badge-medium">Medium</span> | Hash Table, String, Sliding Window | [Note](problems/0424-longest-repeating-character-replacement.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | <span class="badge badge-medium">Medium</span> | Hash Table, Two Pointers, String, Sliding Window | [Note](problems/0567-permutation-in-string.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | <span class="badge badge-easy">Easy</span> | Array, Binary Search | [Note](problems/0704-binary-search.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | <span class="badge badge-medium">Medium</span> | Array, Stack, Monotonic Stack | [Note](problems/0739-daily-temperatures.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | <span class="badge badge-medium">Medium</span> | Array, Stack, Sorting, Monotonic Stack | [Note](problems/0853-car-fleet.md) | <span class="badge badge-solved">Solved</span> | - |
 
@@ -81,8 +82,8 @@
 - [x] [0853. Car Fleet](problems/0853-car-fleet.md)
 - [x] [0084. Largest Rectangle in Histogram](problems/0084-largest-rectangle-in-histogram.md)
 
-#### 5. Binary Search (0/7)
-- [ ] 0704\. Binary Search
+#### 5. Binary Search (1/7)
+- [x] [0704. Binary Search](problems/0704-binary-search.md)
 - [ ] 0074\. Search a 2D Matrix
 - [ ] 0875\. Koko Eating Bananas
 - [ ] 0153\. Find Minimum in Rotated Sorted Array
