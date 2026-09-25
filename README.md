@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **29 / 150 (19%)** | **29** | 7 | 18 | 4 |
+| **30 / 150 (20%)** | **30** | 7 | 19 | 4 |
 
 ---
 
@@ -31,6 +31,7 @@
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Union-Find | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | <span class="badge badge-medium">Medium</span> | Array, Math, Stack | [Note](problems/0150-evaluate-reverse-polish-notation.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0153-find-minimum-in-rotated-sorted-array.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | <span class="badge badge-medium">Medium</span> | Stack, Design | [Note](problems/0155-min-stack.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Binary Search | [Note](problems/0167-two-sum-ii-input-array-is-sorted.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table, Sorting | [Note](problems/0217-contains-duplicate.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -84,11 +85,11 @@
 - [x] [0853. Car Fleet](problems/0853-car-fleet.md)
 - [x] [0084. Largest Rectangle in Histogram](problems/0084-largest-rectangle-in-histogram.md)
 
-#### 5. Binary Search (3/7)
+#### 5. Binary Search (4/7)
 - [x] [0704. Binary Search](problems/0704-binary-search.md)
 - [x] [0074. Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)
 - [x] [0875. Koko Eating Bananas](problems/0875-koko-eating-bananas.md)
-- [ ] 0153\. Find Minimum in Rotated Sorted Array
+- [x] [0153. Find Minimum in Rotated Sorted Array](problems/0153-find-minimum-in-rotated-sorted-array.md)
 - [ ] 0033\. Search in Rotated Sorted Array
 - [ ] 0981\. Time Based Key-Value Store
 - [ ] 0004\. Median of Two Sorted Arrays
