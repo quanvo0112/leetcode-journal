@@ -37,6 +37,7 @@
 * **Binary Search**
   * [0074. Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)
   * [0704. Binary Search](problems/0704-binary-search.md)
+  * [0875. Koko Eating Bananas](problems/0875-koko-eating-bananas.md)
 
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)

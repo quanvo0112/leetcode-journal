@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **28 / 150 (19%)** | **28** | 7 | 17 | 4 |
+| **29 / 150 (19%)** | **29** | 7 | 18 | 4 |
 
 ---
 
@@ -44,6 +44,7 @@
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | <span class="badge badge-easy">Easy</span> | Array, Binary Search | [Note](problems/0704-binary-search.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | <span class="badge badge-medium">Medium</span> | Array, Stack, Monotonic Stack | [Note](problems/0739-daily-temperatures.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | <span class="badge badge-medium">Medium</span> | Array, Stack, Sorting, Monotonic Stack | [Note](problems/0853-car-fleet.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0875-koko-eating-bananas.md) | <span class="badge badge-solved">Solved</span> | - |
 
 ---
 
@@ -83,10 +84,10 @@
 - [x] [0853. Car Fleet](problems/0853-car-fleet.md)
 - [x] [0084. Largest Rectangle in Histogram](problems/0084-largest-rectangle-in-histogram.md)
 
-#### 5. Binary Search (2/7)
+#### 5. Binary Search (3/7)
 - [x] [0704. Binary Search](problems/0704-binary-search.md)
 - [x] [0074. Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)
-- [ ] 0875\. Koko Eating Bananas
+- [x] [0875. Koko Eating Bananas](problems/0875-koko-eating-bananas.md)
 - [ ] 0153\. Find Minimum in Rotated Sorted Array
 - [ ] 0033\. Search in Rotated Sorted Array
 - [ ] 0981\. Time Based Key-Value Store
