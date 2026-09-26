@@ -170,4 +170,3 @@ public:
 
 * **Next Review Date:** Low priority (standard serialization protocol).
 * **Key Takeaway:** Length-prefix encoding (`[length]#[data]`) is the de-facto solution for serializing arbitrarily formatted byte streams without escaping or collision.
-

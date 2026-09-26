@@ -183,4 +183,3 @@ Longest Repeating Character Replacement
 
 * **Next Review Date:** Low priority (benchmark variable-size sliding window with frequency bounds mastered).
 * **Key Takeaway:** When allowed at most $k$ operations to make a window uniform, the number of changes required is always $\text{windowSize} - maxFreq$. Stale $maxFreq$ values during shrinking never invalidate the search for a new global maximum.
-

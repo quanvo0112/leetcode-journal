@@ -138,4 +138,3 @@ Instead of allocating memory for both `prefix[]` and `suffix[]`, we reuse the ou
 
 * **Next Review Date:** Low priority (benchmark prefix-product pattern).
 * **Key Takeaway:** When calculating symmetric left/right aggregates without extra space, populate the output array in the forward direction, then fold the reverse aggregate in-place using a scalar accumulator.
-

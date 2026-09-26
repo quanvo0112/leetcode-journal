@@ -180,4 +180,3 @@ Result: stack.back() = 6.
 
 * **Next Review Date:** Low priority (benchmark postfix expression evaluation pattern mastered).
 * **Key Takeaway:** For any postfix/RPN expression evaluation, a stack is the canonical data structure. Always remember: **the first popped element is the right-hand side operand (`right`), and the second popped element is the left-hand side operand (`left`)**.
-

@@ -182,4 +182,3 @@ public:
 
 * **Next Review Date:** Medium priority (classic bucket sort paradigm).
 * **Key Takeaway:** The maximum frequency of any element in an array of size $N$ cannot exceed $N$. Using frequency as an array index (`buckets[f]`) guarantees an $O(N)$ reverse-order collection.
-

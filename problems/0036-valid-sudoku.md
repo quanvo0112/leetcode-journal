@@ -175,4 +175,3 @@ Check with bitwise AND (&), update with bitwise OR (|=)
 
 * **Next Review Date:** Low priority (benchmark bitmask constraint pattern mastered).
 * **Key Takeaway:** Whenever an algorithm needs to track membership over a small, bounded universe ($\le 32$ or $\le 64$ distinct items), replace hash tables with primitive integer bitmasks.
-

@@ -229,4 +229,3 @@ Sliding Window Maximum
 
 * **Next Review Date:** Low priority (benchmark monotonic deque pattern mastered).
 * **Key Takeaway:** For any fixed or sliding window min/max query, a **monotonic deque** provides optimal $O(N)$ performance by storing indices in decreasing (or increasing) order and discarding candidates that are both older and smaller than newly arriving elements.
-

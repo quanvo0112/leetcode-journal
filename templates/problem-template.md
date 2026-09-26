@@ -55,4 +55,3 @@
 
 * *Next Review Date:* YYYY-MM-DD
 * *Key Takeaway:*
-
