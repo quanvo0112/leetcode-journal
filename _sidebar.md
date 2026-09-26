@@ -35,6 +35,7 @@
   * [0853. Car Fleet](problems/0853-car-fleet.md)
 
 * **Binary Search**
+  * [0033. Search in Rotated Sorted Array](problems/0033-search-in-rotated-sorted-array.md)
   * [0074. Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)
   * [0153. Find Minimum in Rotated Sorted Array](problems/0153-find-minimum-in-rotated-sorted-array.md)
   * [0704. Binary Search](problems/0704-binary-search.md)

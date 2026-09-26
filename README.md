@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **30 / 150 (20%)** | **30** | 7 | 19 | 4 |
+| **31 / 150 (21%)** | **31** | 7 | 20 | 4 |
 
 ---
 
@@ -21,6 +21,7 @@
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Greedy | [Note](problems/0011-container-with-most-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Sorting | [Note](problems/0015-3sum.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | <span class="badge badge-easy">Easy</span> | String, Stack | [Note](problems/0020-valid-parentheses.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0033-search-in-rotated-sorted-array.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Matrix | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | <span class="badge badge-hard">Hard</span> | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | [Note](problems/0042-trapping-rain-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, String, Sorting | [Note](problems/0049-group-anagrams.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -85,12 +86,12 @@
 - [x] [0853. Car Fleet](problems/0853-car-fleet.md)
 - [x] [0084. Largest Rectangle in Histogram](problems/0084-largest-rectangle-in-histogram.md)
 
-#### 5. Binary Search (4/7)
+#### 5. Binary Search (5/7)
 - [x] [0704. Binary Search](problems/0704-binary-search.md)
 - [x] [0074. Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)
 - [x] [0875. Koko Eating Bananas](problems/0875-koko-eating-bananas.md)
 - [x] [0153. Find Minimum in Rotated Sorted Array](problems/0153-find-minimum-in-rotated-sorted-array.md)
-- [ ] 0033\. Search in Rotated Sorted Array
+- [x] [0033. Search in Rotated Sorted Array](problems/0033-search-in-rotated-sorted-array.md)
 - [ ] 0981\. Time Based Key-Value Store
 - [ ] 0004\. Median of Two Sorted Arrays
 
