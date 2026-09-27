@@ -43,5 +43,8 @@
   * [0875. Koko Eating Bananas](problems/0875-koko-eating-bananas.md)
   * [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 
+* **Linked List**
+  * [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
+
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)

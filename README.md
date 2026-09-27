@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **33 / 150 (22%)** | **33** | 7 | 21 | 5 |
+| **34 / 150 (23%)** | **34** | 8 | 21 | 5 |
 
 ---
 
@@ -36,6 +36,7 @@
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0153-find-minimum-in-rotated-sorted-array.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | <span class="badge badge-medium">Medium</span> | Stack, Design | [Note](problems/0155-min-stack.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Binary Search | [Note](problems/0167-two-sum-ii-input-array-is-sorted.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | <span class="badge badge-easy">Easy</span> | Linked List, Recursion | [Note](problems/0206-reverse-linked-list.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table, Sorting | [Note](problems/0217-contains-duplicate.md) | <span class="badge badge-solved">Solved</span> | 2026-09-26 |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | <span class="badge badge-medium">Medium</span> | Array, Prefix Sum | [Note](problems/0238-product-of-array-except-self.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | <span class="badge badge-hard">Hard</span> | Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum/Maximum Query | [Note](problems/0239-sliding-window-maximum.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -97,8 +98,8 @@
 - [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 - [x] [0004. Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays.md)
 
-#### 6. Linked List (0/11)
-- [ ] 0206\. Reverse Linked List
+#### 6. Linked List (1/11)
+- [x] [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 - [ ] 0021\. Merge Two Sorted Lists
 - [ ] 0143\. Reorder List
 - [ ] 0019\. Remove Nth Node From End of List
