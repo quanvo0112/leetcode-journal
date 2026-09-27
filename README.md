@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **31 / 150 (21%)** | **31** | 7 | 20 | 4 |
+| **32 / 150 (21%)** | **32** | 7 | 21 | 4 |
 
 ---
 
@@ -47,6 +47,7 @@
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | <span class="badge badge-medium">Medium</span> | Array, Stack, Monotonic Stack | [Note](problems/0739-daily-temperatures.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | <span class="badge badge-medium">Medium</span> | Array, Stack, Sorting, Monotonic Stack | [Note](problems/0853-car-fleet.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0875-koko-eating-bananas.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | <span class="badge badge-medium">Medium</span> | Hash Table, String, Binary Search, Design | [Note](problems/0981-time-based-key-value-store.md) | <span class="badge badge-solved">Solved</span> | - |
 
 ---
 
@@ -86,13 +87,13 @@
 - [x] [0853. Car Fleet](problems/0853-car-fleet.md)
 - [x] [0084. Largest Rectangle in Histogram](problems/0084-largest-rectangle-in-histogram.md)
 
-#### 5. Binary Search (5/7)
+#### 5. Binary Search (6/7)
 - [x] [0704. Binary Search](problems/0704-binary-search.md)
 - [x] [0074. Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)
 - [x] [0875. Koko Eating Bananas](problems/0875-koko-eating-bananas.md)
 - [x] [0153. Find Minimum in Rotated Sorted Array](problems/0153-find-minimum-in-rotated-sorted-array.md)
 - [x] [0033. Search in Rotated Sorted Array](problems/0033-search-in-rotated-sorted-array.md)
-- [ ] 0981\. Time Based Key-Value Store
+- [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 - [ ] 0004\. Median of Two Sorted Arrays
 
 #### 6. Linked List (0/11)

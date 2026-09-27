@@ -40,6 +40,7 @@
   * [0153. Find Minimum in Rotated Sorted Array](problems/0153-find-minimum-in-rotated-sorted-array.md)
   * [0704. Binary Search](problems/0704-binary-search.md)
   * [0875. Koko Eating Bananas](problems/0875-koko-eating-bananas.md)
+  * [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 
 * **Templates & Guide**
   * [Problem Template](templates/problem-template.md)
