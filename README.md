@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **32 / 150 (21%)** | **32** | 7 | 21 | 4 |
+| **33 / 150 (22%)** | **33** | 7 | 21 | 5 |
 
 ---
 
@@ -18,6 +18,7 @@
 |:---:|:---|:---:|:---|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table | [Note](problems/0001-two-sum.md) | <span class="badge badge-solved">Solved</span> | 2026-09-26 |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | <span class="badge badge-medium">Medium</span> | Hash Table, String, Sliding Window | [Note](problems/0003-longest-substring-without-repeating-characters.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | <span class="badge badge-hard">Hard</span> | Array, Binary Search, Divide and Conquer | [Note](problems/0004-median-of-two-sorted-arrays.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Greedy | [Note](problems/0011-container-with-most-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Sorting | [Note](problems/0015-3sum.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | <span class="badge badge-easy">Easy</span> | String, Stack | [Note](problems/0020-valid-parentheses.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -87,14 +88,14 @@
 - [x] [0853. Car Fleet](problems/0853-car-fleet.md)
 - [x] [0084. Largest Rectangle in Histogram](problems/0084-largest-rectangle-in-histogram.md)
 
-#### 5. Binary Search (6/7)
+#### 5. Binary Search (7/7)
 - [x] [0704. Binary Search](problems/0704-binary-search.md)
 - [x] [0074. Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)
 - [x] [0875. Koko Eating Bananas](problems/0875-koko-eating-bananas.md)
 - [x] [0153. Find Minimum in Rotated Sorted Array](problems/0153-find-minimum-in-rotated-sorted-array.md)
 - [x] [0033. Search in Rotated Sorted Array](problems/0033-search-in-rotated-sorted-array.md)
 - [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
-- [ ] 0004\. Median of Two Sorted Arrays
+- [x] [0004. Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays.md)
 
 #### 6. Linked List (0/11)
 - [ ] 0206\. Reverse Linked List
