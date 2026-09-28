@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **36 / 150 (24%)** | **36** | 10 | 21 | 5 |
+| **37 / 150 (25%)** | **37** | 10 | 22 | 5 |
 
 ---
 
@@ -34,6 +34,7 @@
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Union-Find | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | <span class="badge badge-easy">Easy</span> | Hash Table, Linked List, Two Pointers | [Note](problems/0141-linked-list-cycle.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | <span class="badge badge-medium">Medium</span> | Linked List, Two Pointers, Stack, Recursion | [Note](problems/0143-reorder-list.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | <span class="badge badge-medium">Medium</span> | Array, Math, Stack | [Note](problems/0150-evaluate-reverse-polish-notation.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0153-find-minimum-in-rotated-sorted-array.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | <span class="badge badge-medium">Medium</span> | Stack, Design | [Note](problems/0155-min-stack.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -100,10 +101,10 @@
 - [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 - [x] [0004. Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays.md)
 
-#### 6. Linked List (3/11)
+#### 6. Linked List (4/11)
 - [x] [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 - [x] [0021. Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)
-- [ ] 0143\. Reorder List
+- [x] [0143. Reorder List](problems/0143-reorder-list.md)
 - [ ] 0019\. Remove Nth Node From End of List
 - [ ] 0138\. Copy List with Random Pointer
 - [ ] 0002\. Add Two Numbers
