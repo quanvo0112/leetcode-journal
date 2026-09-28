@@ -45,6 +45,7 @@
 
 * **Linked List**
   * [0021. Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)
+  * [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
   * [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 
 * **Templates & Guide**
