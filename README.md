@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **37 / 150 (25%)** | **37** | 10 | 22 | 5 |
+| **38 / 150 (25%)** | **38** | 10 | 23 | 5 |
 
 ---
 
@@ -21,6 +21,7 @@
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | <span class="badge badge-hard">Hard</span> | Array, Binary Search, Divide and Conquer | [Note](problems/0004-median-of-two-sorted-arrays.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Greedy | [Note](problems/0011-container-with-most-water.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Sorting | [Note](problems/0015-3sum.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | <span class="badge badge-medium">Medium</span> | Linked List, Two Pointers | [Note](problems/0019-remove-nth-node-from-end-of-list.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | <span class="badge badge-easy">Easy</span> | String, Stack | [Note](problems/0020-valid-parentheses.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | <span class="badge badge-easy">Easy</span> | Linked List, Recursion | [Note](problems/0021-merge-two-sorted-lists.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0033-search-in-rotated-sorted-array.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -101,11 +102,11 @@
 - [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 - [x] [0004. Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays.md)
 
-#### 6. Linked List (4/11)
+#### 6. Linked List (5/11)
 - [x] [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 - [x] [0021. Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)
 - [x] [0143. Reorder List](problems/0143-reorder-list.md)
-- [ ] 0019\. Remove Nth Node From End of List
+- [x] [0019. Remove Nth Node From End of List](problems/0019-remove-nth-node-from-end-of-list.md)
 - [ ] 0138\. Copy List with Random Pointer
 - [ ] 0002\. Add Two Numbers
 - [x] [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
