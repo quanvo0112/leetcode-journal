@@ -106,11 +106,11 @@
 #### 6. Linked List (6/11)
 - [x] [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 - [x] [0021. Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)
+- [x] [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
 - [x] [0143. Reorder List](problems/0143-reorder-list.md)
 - [x] [0019. Remove Nth Node From End of List](problems/0019-remove-nth-node-from-end-of-list.md)
 - [x] [0138. Copy List with Random Pointer](problems/0138-copy-list-with-random-pointer.md)
 - [ ] 0002\. Add Two Numbers
-- [x] [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
 - [ ] 0287\. Find the Duplicate Number
 - [ ] 0146\. LRU Cache
 - [ ] 0023\. Merge k Sorted Lists
@@ -164,23 +164,23 @@
 - [ ] 0695\. Max Area of Island
 - [ ] 0133\. Clone Graph
 - [ ] 0286\. Walls and Gates / Islands and Treasure
+- [ ] 0994\. Rotting Oranges
 - [ ] 0417\. Pacific Atlantic Water Flow
 - [ ] 0130\. Surrounded Regions
-- [ ] 0994\. Rotting Oranges
 - [ ] 0207\. Course Schedule
 - [ ] 0210\. Course Schedule II
-- [ ] 0684\. Redundant Connection
-- [ ] 0323\. Number of Connected Components
 - [ ] 0261\. Graph Valid Tree
+- [ ] 0323\. Number of Connected Components in an Undirected Graph
+- [ ] 0684\. Redundant Connection
 - [ ] 0127\. Word Ladder
 
 #### 12. Advanced Graphs (0/6)
+- [ ] 0743\. Network Delay Time
 - [ ] 0332\. Reconstruct Itinerary
 - [ ] 1584\. Min Cost to Connect All Points
-- [ ] 0743\. Network Delay Time
-- [ ] 0787\. Cheapest Flights Within K Stops
 - [ ] 0778\. Swim in Rising Water
 - [ ] 0269\. Alien Dictionary
+- [ ] 0787\. Cheapest Flights Within K Stops
 
 #### 13. 1-D Dynamic Programming (0/12)
 - [ ] 0070\. Climbing Stairs
