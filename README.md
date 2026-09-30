@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **39 / 150 (26%)** | **39** | 10 | 24 | 5 |
+| **40 / 150 (27%)** | **40** | 10 | 25 | 5 |
 
 ---
 
@@ -17,6 +17,7 @@
 | # | Title | Difficulty | Topics (LeetCode) | Solution & Notes | Status | Review Date |
 |:---:|:---|:---:|:---|:---:|:---:|:---:|
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table | [Note](problems/0001-two-sum.md) | <span class="badge badge-solved">Solved</span> | 2026-09-26 |
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | <span class="badge badge-medium">Medium</span> | Linked List, Math, Recursion | [Note](problems/0002-add-two-numbers.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | <span class="badge badge-medium">Medium</span> | Hash Table, String, Sliding Window | [Note](problems/0003-longest-substring-without-repeating-characters.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | <span class="badge badge-hard">Hard</span> | Array, Binary Search, Divide and Conquer | [Note](problems/0004-median-of-two-sorted-arrays.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Greedy | [Note](problems/0011-container-with-most-water.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -103,14 +104,14 @@
 - [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 - [x] [0004. Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays.md)
 
-#### 6. Linked List (6/11)
+#### 6. Linked List (7/11)
 - [x] [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 - [x] [0021. Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)
 - [x] [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
 - [x] [0143. Reorder List](problems/0143-reorder-list.md)
 - [x] [0019. Remove Nth Node From End of List](problems/0019-remove-nth-node-from-end-of-list.md)
 - [x] [0138. Copy List with Random Pointer](problems/0138-copy-list-with-random-pointer.md)
-- [ ] 0002\. Add Two Numbers
+- [x] [0002. Add Two Numbers](problems/0002-add-two-numbers.md)
 - [ ] 0287\. Find the Duplicate Number
 - [ ] 0146\. LRU Cache
 - [ ] 0023\. Merge k Sorted Lists
