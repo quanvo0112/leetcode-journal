@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **40 / 150 (27%)** | **40** | 10 | 25 | 5 |
+| **41 / 150 (27%)** | **41** | 10 | 26 | 5 |
 
 ---
 
@@ -48,6 +48,7 @@
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | <span class="badge badge-hard">Hard</span> | Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum/Maximum Query | [Note](problems/0239-sliding-window-maximum.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | <span class="badge badge-easy">Easy</span> | Hash Table, String, Sorting | [Note](problems/0242-valid-anagram.md) | <span class="badge badge-solved">Solved</span> | 2026-09-26 |
 | 0271 | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode) | <span class="badge badge-medium">Medium</span> | Array, String, Design | [Note](problems/0271-encode-and-decode-strings.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Binary Search, Bit Manipulation | [Note](problems/0287-find-the-duplicate-number.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | [Note](problems/0347-top-k-frequent-elements.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | <span class="badge badge-medium">Medium</span> | Hash Table, String, Sliding Window | [Note](problems/0424-longest-repeating-character-replacement.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | <span class="badge badge-medium">Medium</span> | Hash Table, Two Pointers, String, Sliding Window | [Note](problems/0567-permutation-in-string.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -104,7 +105,7 @@
 - [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 - [x] [0004. Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays.md)
 
-#### 6. Linked List (7/11)
+#### 6. Linked List (8/11)
 - [x] [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 - [x] [0021. Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)
 - [x] [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
@@ -112,7 +113,7 @@
 - [x] [0019. Remove Nth Node From End of List](problems/0019-remove-nth-node-from-end-of-list.md)
 - [x] [0138. Copy List with Random Pointer](problems/0138-copy-list-with-random-pointer.md)
 - [x] [0002. Add Two Numbers](problems/0002-add-two-numbers.md)
-- [ ] 0287\. Find the Duplicate Number
+- [x] [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
 - [ ] 0146\. LRU Cache
 - [ ] 0023\. Merge k Sorted Lists
 - [ ] 0025\. Reverse Nodes in k-Group
