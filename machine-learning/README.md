@@ -16,7 +16,7 @@
 
 | # | Module | Problem Name | Difficulty | Framework | Solution & Notes | Status | Review Date |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|:---:|
-| 01 | Math Foundations | [Gradient Descent](https://neetcode.io/problems/gradient-descent) | <span class="badge badge-easy">Easy</span> | Python | [Note](gradient-descent.md) | <span class="badge badge-solved">Solved</span> | 2026-10-01 |
+| 01 | Math Foundations | [Gradient Descent](https://neetcode.io/problems/gradient-descent) | <span class="badge badge-easy">Easy</span> | Python | [Note](gradient-descent.md) | <span class="badge badge-solved">Solved</span> | - |
 
 ---
 
