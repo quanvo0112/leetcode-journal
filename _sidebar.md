@@ -55,7 +55,7 @@
   * [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
 
 * **Machine Learning (NeetCode ML)**
-  * [ML Curriculum Overview](machine-learning/README.md)
+  * [ML Progress Tracker](machine-learning/README.md)
 
 * **Templates & Guides**
   * [DSA Problem Template](templates/problem-template.md)
