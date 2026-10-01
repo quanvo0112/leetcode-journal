@@ -16,11 +16,11 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **0 / 36 (0%)** | **0** | 0 / 13 | 0 / 21 | 0 / 2 |
+| **1 / 36 (3%)** | **1** | 1 / 13 | 0 / 21 | 0 / 2 |
 
 | Module | Solved / Total | Status |
 | :---| :---: | :---: |
-| 1. Math Foundations | 0 / 6 | 0% |
+| 1. Math Foundations | 1 / 6 | 17% |
 | 2. Build a Neural Net | 0 / 5 | 0% |
 | 3. PyTorch | 0 / 4 | 0% |
 | 4. Training | 0 / 4 | 0% |
@@ -271,13 +271,13 @@
 
 ### NeetCode Machine Learning Roadmap (36 Problems)
 
-#### 1. Math Foundations (0/6)
+#### 1. Math Foundations (1/6)
 - [ ] Linear Regression (Forward)
 - [ ] Linear Regression (Training / Gradient Descent)
 - [ ] Logistic Regression (Forward)
 - [ ] Logistic Regression (Training)
+- [x] [Gradient Descent](machine-learning/gradient-descent.md)
 - [ ] Matrix Multiplication from Scratch
-- [ ] Mean Squared Error & Loss Functions
 
 #### 2. Build a Neural Net (0/5)
 - [ ] Dense Linear Layer

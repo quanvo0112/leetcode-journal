@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **0 / 36 (0%)** | **0** | 0 / 13 | 0 / 21 | 0 / 2 |
+| **1 / 36 (3%)** | **1** | 1 / 13 | 0 / 21 | 0 / 2 |
 
 ---
 
@@ -16,18 +16,18 @@
 
 | # | Module | Problem Name | Difficulty | Framework | Solution & Notes | Status | Review Date |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|:---:|
-| - | - | *(No ML problems solved yet)* | - | - | - | - | - |
+| 01 | Math Foundations | [Gradient Descent](https://neetcode.io/problems/gradient-descent) | <span class="badge badge-easy">Easy</span> | Python | [Note](gradient-descent.md) | <span class="badge badge-solved">Solved</span> | 2026-10-01 |
 
 ---
 
 ### NeetCode Machine Learning Roadmap (36 Problems)
 
-#### 1. Math Foundations (0/6)
+#### 1. Math Foundations (1/6)
 - [ ] [Linear Regression (Forward)](https://neetcode.io/practice/machine-learning)
 - [ ] [Linear Regression (Training)](https://neetcode.io/practice/machine-learning)
 - [ ] [Logistic Regression (Forward)](https://neetcode.io/practice/machine-learning)
 - [ ] [Logistic Regression (Training)](https://neetcode.io/practice/machine-learning)
-- [ ] [Gradient Descent](https://neetcode.io/practice/machine-learning)
+- [x] [Gradient Descent](gradient-descent.md)
 - [ ] [Matrix Multiplication from Scratch](https://neetcode.io/practice/machine-learning)
 
 #### 2. Build a Neural Net (0/5)
