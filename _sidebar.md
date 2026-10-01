@@ -50,6 +50,7 @@
   * [0138. Copy List with Random Pointer](problems/0138-copy-list-with-random-pointer.md)
   * [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
   * [0143. Reorder List](problems/0143-reorder-list.md)
+  * [0146. LRU Cache](problems/0146-lru-cache.md)
   * [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
   * [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
 

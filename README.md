@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **41 / 150 (27%)** | **41** | 10 | 26 | 5 |
+| **42 / 150 (28%)** | **42** | 10 | 27 | 5 |
 
 ---
 
@@ -38,6 +38,7 @@
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | <span class="badge badge-medium">Medium</span> | Hash Table, Linked List | [Note](problems/0138-copy-list-with-random-pointer.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | <span class="badge badge-easy">Easy</span> | Hash Table, Linked List, Two Pointers | [Note](problems/0141-linked-list-cycle.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | <span class="badge badge-medium">Medium</span> | Linked List, Two Pointers, Stack, Recursion | [Note](problems/0143-reorder-list.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | <span class="badge badge-medium">Medium</span> | Hash Table, Linked List, Design, Doubly-Linked List | [Note](problems/0146-lru-cache.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | <span class="badge badge-medium">Medium</span> | Array, Math, Stack | [Note](problems/0150-evaluate-reverse-polish-notation.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0153-find-minimum-in-rotated-sorted-array.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | <span class="badge badge-medium">Medium</span> | Stack, Design | [Note](problems/0155-min-stack.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -105,7 +106,7 @@
 - [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 - [x] [0004. Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays.md)
 
-#### 6. Linked List (8/11)
+#### 6. Linked List (9/11)
 - [x] [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 - [x] [0021. Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)
 - [x] [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
@@ -114,7 +115,7 @@
 - [x] [0138. Copy List with Random Pointer](problems/0138-copy-list-with-random-pointer.md)
 - [x] [0002. Add Two Numbers](problems/0002-add-two-numbers.md)
 - [x] [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
-- [ ] 0146\. LRU Cache
+- [x] [0146. LRU Cache](problems/0146-lru-cache.md)
 - [ ] 0023\. Merge k Sorted Lists
 - [ ] 0025\. Reverse Nodes in k-Group
 
