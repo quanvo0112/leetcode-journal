@@ -18,16 +18,6 @@
 | :---: | :---: | :---: | :---: | :---: |
 | **1 / 36 (3%)** | **1** | 1 / 13 | 0 / 21 | 0 / 2 |
 
-| Module | Solved / Total | Status |
-| :---| :---: | :---: |
-| 1. Math Foundations | 1 / 6 | 17% |
-| 2. Build a Neural Net | 0 / 5 | 0% |
-| 3. PyTorch | 0 / 4 | 0% |
-| 4. Training | 0 / 4 | 0% |
-| 5. NLP | 0 / 4 | 0% |
-| 6. Attention & Transformers | 0 / 3 | 0% |
-| 7. Build GPT | 0 / 10 | 0% |
-
 ---
 
 ### Solved Problem Notes
