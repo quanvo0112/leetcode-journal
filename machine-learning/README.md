@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **1 / 36 (3%)** | **1** | 1 / 13 | 0 / 21 | 0 / 2 |
+| **2 / 36 (6%)** | **2** | 2 / 13 | 0 / 21 | 0 / 2 |
 
 ---
 
@@ -17,14 +17,15 @@
 | # | Module | Problem Name | Difficulty | Framework | Solution & Notes | Status | Review Date |
 |:---:|:---|:---|:---:|:---:|:---:|:---:|:---:|
 | 01 | Math Foundations | [Gradient Descent](https://neetcode.io/problems/gradient-descent) | <span class="badge badge-easy">Easy</span> | Python | [Note](gradient-descent.md) | <span class="badge badge-solved">Solved</span> | - |
+| 02 | Math Foundations | [Sigmoid & ReLU](https://neetcode.io/problems/sigmoid-and-relu) | <span class="badge badge-easy">Easy</span> | NumPy | [Note](sigmoid-and-relu.md) | <span class="badge badge-solved">Solved</span> | - |
 
 ---
 
 ### NeetCode Machine Learning Roadmap (36 Problems)
 
-#### 1. Math Foundations (1/6)
+#### 1. Math Foundations (2/6)
 - [x] [Gradient Descent](gradient-descent.md)
-- [ ] Sigmoid & ReLU
+- [x] [Sigmoid & ReLU](sigmoid-and-relu.md)
 - [ ] Softmax
 - [ ] Cross-Entropy Loss
 - [ ] Linear Regression (Forward)

@@ -57,6 +57,7 @@
 * **Machine Learning (NeetCode ML)**
   * [ML Progress Tracker](machine-learning/README.md)
   * [Gradient Descent](machine-learning/gradient-descent.md)
+  * [Sigmoid & ReLU](machine-learning/sigmoid-and-relu.md)
 
 * **Templates & Guides**
   * [DSA Problem Template](templates/problem-template.md)
