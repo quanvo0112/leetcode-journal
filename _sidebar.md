@@ -54,5 +54,9 @@
   * [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
   * [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
 
-* **Templates & Guide**
-  * [Problem Template](templates/problem-template.md)
+* **Machine Learning (NeetCode ML)**
+  * [ML Curriculum Overview](machine-learning/README.md)
+
+* **Templates & Guides**
+  * [DSA Problem Template](templates/problem-template.md)
+  * [ML Problem Template](templates/ml-problem-template.md)

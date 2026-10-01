@@ -1,14 +1,32 @@
-# LeetCode Journal & Problem Notes
+# Tech Journal
 
-> A structured personal technical notebook for documenting LeetCode solutions, algorithmic patterns, problem-solving intuitions, and tracking practice progress following the **[NeetCode 150](https://neetcode.io/practice/practice/neetcode150)** roadmap.
+> A structured personal engineering notebook for documenting algorithmic patterns, data structures (**[NeetCode 150](https://neetcode.io/practice/practice/neetcode150)**), and machine learning from scratch (**[NeetCode ML](https://neetcode.io/practice/machine-learning)**).
 
 ---
 
-### Progress Tracker
+### Progress Trackers
+
+#### 1. Data Structures & Algorithms (NeetCode 150)
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
 | **42 / 150 (28%)** | **42** | 10 | 27 | 5 |
+
+#### 2. Machine Learning from Scratch (NeetCode ML)
+
+| Progress | Total Solved | Easy | Medium | Hard |
+| :---: | :---: | :---: | :---: | :---: |
+| **0 / 36 (0%)** | **0** | 0 / 13 | 0 / 21 | 0 / 2 |
+
+| Module | Solved / Total | Status |
+| :---| :---: | :---: |
+| 1. Math Foundations | 0 / 6 | 0% |
+| 2. Build a Neural Net | 0 / 5 | 0% |
+| 3. PyTorch | 0 / 4 | 0% |
+| 4. Training | 0 / 4 | 0% |
+| 5. NLP Foundations | 0 / 4 | 0% |
+| 6. Attention & Transformers | 0 / 3 | 0% |
+| 7. Build GPT | 0 / 10 | 0% |
 
 ---
 
@@ -251,15 +269,69 @@
 
 ---
 
+### NeetCode Machine Learning Roadmap (36 Problems)
+
+#### 1. Math Foundations (0/6)
+- [ ] Linear Regression (Forward)
+- [ ] Linear Regression (Training / Gradient Descent)
+- [ ] Logistic Regression (Forward)
+- [ ] Logistic Regression (Training)
+- [ ] Matrix Multiplication from Scratch
+- [ ] Mean Squared Error & Loss Functions
+
+#### 2. Build a Neural Net (0/5)
+- [ ] Dense Linear Layer
+- [ ] ReLU Activation
+- [ ] Sigmoid Activation
+- [ ] Softmax Function (Numerically Stable)
+- [ ] Two-Layer Neural Network (Forward & Backward)
+
+#### 3. PyTorch (0/4)
+- [ ] PyTorch Tensor Basics & Operations
+- [ ] Custom `nn.Module` Layer
+- [ ] PyTorch Loss & Backprop
+- [ ] PyTorch Training Loop & Optimizer
+
+#### 4. Training (0/4)
+- [ ] Mini-Batch Gradient Descent
+- [ ] Cross-Entropy Loss & Softmax Backprop
+- [ ] L2 Regularization (Weight Decay)
+- [ ] Adam Optimizer from Scratch
+
+#### 5. NLP Foundations (0/4)
+- [ ] Simple Tokenizer
+- [ ] Embedding Layer
+- [ ] Cosine Similarity
+- [ ] Positional Encoding
+
+#### 6. Attention & Transformers (0/3)
+- [ ] Scaled Dot-Product Attention
+- [ ] Causal Masking (Look-Ahead Mask)
+- [ ] Multi-Head Attention
+
+#### 7. Build GPT (0/10)
+- [ ] Layer Normalization
+- [ ] Feed-Forward Network (FFN)
+- [ ] Residual Connections
+- [ ] Transformer Decoder Block
+- [ ] GPT Language Model Architecture
+- [ ] Cross-Entropy Loss over Vocab
+- [ ] Text Generation & Sampling (Greedy / Temperature)
+- [ ] Top-K Sampling
+- [ ] Byte-Pair Encoding (BPE) Basics
+- [ ] End-to-End GPT Training & Inference
+
+---
+
 ### How to Read Notes Anywhere (PC & Mobile)
 
 1. **Option 1: Personal Web App via GitHub Pages (Recommended)**
-   - Visit your site on mobile or desktop: **[quanvo0112.github.io/leetcode-journal](https://quanvo0112.github.io/leetcode-journal/)**.
-   - Tap **"Add to Home Screen"** on Safari/Chrome to use it as a standalone app with instant full-text search, KaTeX math rendering ($O(N)$, $O(\log N)$), and C++ syntax highlighting.
+   - Visit your site on mobile or desktop: **[quanvo0112.github.io/tech-journal](https://quanvo0112.github.io/tech-journal/)** *(or legacy URL: [quanvo0112.github.io/leetcode-journal](https://quanvo0112.github.io/leetcode-journal/))*.
+   - Tap **"Add to Home Screen"** on Safari/Chrome to use it as a standalone app with instant full-text search, KaTeX math rendering ($O(N)$, $O(\log N)$), and C++/Python syntax highlighting.
 
 2. **Option 2: Official GitHub Mobile App**
    - Install the official **GitHub** app on [iOS](https://apps.apple.com/app/github/id1477376905) or [Android](https://play.google.com/store/apps/details?id=com.github.android).
-   - Open the repository and browse the `problems/` directory anytime.
+   - Open the repository and browse `problems/` and `machine-learning/` directories anytime.
 
 3. **Option 3: Obsidian Vault (Offline & Sync)**
    - Open this folder directly as a vault in [Obsidian](https://obsidian.md/).

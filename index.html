@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>LeetCode Journal — NeetCode 150</title>
+  <title>Tech Journal — Algorithms & Machine Learning</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Personal LeetCode Journal & Problem Notes following NeetCode 150">
+  <meta name="description" content="Personal Engineering Journal: Data Structures & Algorithms (NeetCode 150) and Machine Learning from Scratch (NeetCode ML)">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
   <!-- Web App Manifest & Mobile Theme Color -->
@@ -830,11 +830,14 @@
       }
     } catch (e) {}
 
-    var isGhPages = window.location.pathname.indexOf('/leetcode-journal') === 0;
-    var repoBase = isGhPages ? '/leetcode-journal/' : '/';
+    var pathname = window.location.pathname;
+    var isGhPagesTech = pathname.indexOf('/tech-journal') === 0;
+    var isGhPagesLeet = pathname.indexOf('/leetcode-journal') === 0;
+    var isGhPages = isGhPagesTech || isGhPagesLeet;
+    var repoBase = isGhPagesTech ? '/tech-journal/' : (isGhPagesLeet ? '/leetcode-journal/' : '/');
 
     window.$docsify = {
-      name: 'LeetCode Journal',
+      name: 'Tech Journal',
       nameLink: repoBase,
       loadSidebar: true,
       subMaxLevel: 3,
@@ -846,6 +849,8 @@
       },
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md',
+        '/tech-journal/(.*)': '/$1',
+        '/tech-journal/?$': '/',
         '/leetcode-journal/(.*)': '/$1',
         '/leetcode-journal/?$': '/'
       },
