@@ -16,7 +16,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **2 / 36 (6%)** | **2** | 2 / 13 | 0 / 21 | 0 / 2 |
+| **4 / 36 (11%)** | **4** | 4 / 13 | 0 / 21 | 0 / 2 |
 
 ---
 
@@ -264,11 +264,11 @@
 
 ### NeetCode Machine Learning Roadmap (36 Problems)
 
-#### 1. Math Foundations (2/6)
+#### 1. Math Foundations (4/6)
 - [x] [Gradient Descent](machine-learning/gradient-descent.md)
 - [x] [Sigmoid & ReLU](machine-learning/sigmoid-and-relu.md)
-- [ ] Softmax
-- [ ] Cross-Entropy Loss
+- [x] [Softmax](machine-learning/softmax.md)
+- [x] [Cross-Entropy Loss](machine-learning/cross-entropy-loss.md)
 - [ ] Linear Regression (Forward)
 - [ ] Linear Regression (Training)
 

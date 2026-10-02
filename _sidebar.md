@@ -63,6 +63,8 @@
   * [ML Progress Tracker](machine-learning/README.md)
   * [Gradient Descent](machine-learning/gradient-descent.md)
   * [Sigmoid & ReLU](machine-learning/sigmoid-and-relu.md)
+  * [Softmax](machine-learning/softmax.md)
+  * [Cross-Entropy Loss](machine-learning/cross-entropy-loss.md)
 
 * **Templates & Guides**
   * [DSA Problem Template](templates/problem-template.md)

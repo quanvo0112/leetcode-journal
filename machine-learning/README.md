@@ -8,7 +8,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **2 / 36 (6%)** | **2** | 2 / 13 | 0 / 21 | 0 / 2 |
+| **4 / 36 (11%)** | **4** | 4 / 13 | 0 / 21 | 0 / 2 |
 
 ---
 
@@ -18,16 +18,18 @@
 |:---:|:---|:---|:---:|:---:|:---:|:---:|:---:|
 | 01 | Math Foundations | [Gradient Descent](https://neetcode.io/problems/gradient-descent) | <span class="badge badge-easy">Easy</span> | Python | [Note](gradient-descent.md) | <span class="badge badge-solved">Solved</span> | - |
 | 02 | Math Foundations | [Sigmoid & ReLU](https://neetcode.io/problems/sigmoid-and-relu) | <span class="badge badge-easy">Easy</span> | NumPy | [Note](sigmoid-and-relu.md) | <span class="badge badge-solved">Solved</span> | - |
+| 03 | Math Foundations | [Softmax](https://neetcode.io/problems/softmax) | <span class="badge badge-easy">Easy</span> | NumPy | [Note](softmax.md) | <span class="badge badge-solved">Solved</span> | - |
+| 04 | Math Foundations | [Cross-Entropy Loss](https://neetcode.io/problems/cross-entropy-loss) | <span class="badge badge-easy">Easy</span> | NumPy | [Note](cross-entropy-loss.md) | <span class="badge badge-solved">Solved</span> | - |
 
 ---
 
 ### NeetCode Machine Learning Roadmap (36 Problems)
 
-#### 1. Math Foundations (2/6)
+#### 1. Math Foundations (4/6)
 - [x] [Gradient Descent](gradient-descent.md)
 - [x] [Sigmoid & ReLU](sigmoid-and-relu.md)
-- [ ] Softmax
-- [ ] Cross-Entropy Loss
+- [x] [Softmax](softmax.md)
+- [x] [Cross-Entropy Loss](cross-entropy-loss.md)
 - [ ] Linear Regression (Forward)
 - [ ] Linear Regression (Training)
 
