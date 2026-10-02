@@ -10,7 +10,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **44 / 150 (29%)** | **44** | 10 | 28 | 6 |
+| **45 / 150 (30%)** | **45** | 10 | 28 | 7 |
 
 #### 2. Machine Learning from Scratch (NeetCode ML)
 
@@ -35,6 +35,7 @@
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | <span class="badge badge-easy">Easy</span> | Linked List, Recursion | [Note](problems/0021-merge-two-sorted-lists.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | <span class="badge badge-medium">Medium</span> | String, Dynamic Programming, Backtracking | [Note](problems/0022-generate-parentheses.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | <span class="badge badge-hard">Hard</span> | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | [Note](problems/0023-merge-k-sorted-lists.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0025 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | <span class="badge badge-hard">Hard</span> | Linked List, Recursion | [Note](problems/0025-reverse-nodes-in-k-group.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0033-search-in-rotated-sorted-array.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Matrix | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | <span class="badge badge-hard">Hard</span> | Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack | [Note](problems/0042-trapping-rain-water.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -116,7 +117,7 @@
 - [x] [0981. Time Based Key-Value Store](problems/0981-time-based-key-value-store.md)
 - [x] [0004. Median of Two Sorted Arrays](problems/0004-median-of-two-sorted-arrays.md)
 
-#### 6. Linked List (10/11)
+#### 6. Linked List (11/11)
 - [x] [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
 - [x] [0021. Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)
 - [x] [0141. Linked List Cycle](problems/0141-linked-list-cycle.md)
@@ -127,7 +128,7 @@
 - [x] [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
 - [x] [0146. LRU Cache](problems/0146-lru-cache.md)
 - [x] [0023. Merge k Sorted Lists](problems/0023-merge-k-sorted-lists.md)
-- [ ] 0025\. Reverse Nodes in k-Group
+- [x] [0025. Reverse Nodes in k-Group](problems/0025-reverse-nodes-in-k-group.md)
 
 #### 7. Trees (0/15)
 - [ ] 0226\. Invert Binary Tree
