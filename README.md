@@ -10,7 +10,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **43 / 150 (29%)** | **43** | 10 | 27 | 6 |
+| **44 / 150 (29%)** | **44** | 10 | 28 | 6 |
 
 #### 2. Machine Learning from Scratch (NeetCode ML)
 
@@ -33,6 +33,7 @@
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | <span class="badge badge-medium">Medium</span> | Linked List, Two Pointers | [Note](problems/0019-remove-nth-node-from-end-of-list.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | <span class="badge badge-easy">Easy</span> | String, Stack | [Note](problems/0020-valid-parentheses.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | <span class="badge badge-easy">Easy</span> | Linked List, Recursion | [Note](problems/0021-merge-two-sorted-lists.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | <span class="badge badge-medium">Medium</span> | String, Dynamic Programming, Backtracking | [Note](problems/0022-generate-parentheses.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | <span class="badge badge-hard">Hard</span> | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | [Note](problems/0023-merge-k-sorted-lists.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search | [Note](problems/0033-search-in-rotated-sorted-array.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Matrix | [Note](problems/0036-valid-sudoku.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -154,13 +155,13 @@
 - [ ] 0355\. Design Twitter
 - [ ] 0295\. Find Median from Data Stream
 
-#### 9. Backtracking (0/10)
+#### 9. Backtracking (1/10)
 - [ ] 0078\. Subsets
 - [ ] 0039\. Combination Sum
 - [ ] 0040\. Combination Sum II
 - [ ] 0046\. Permutations
 - [ ] 0090\. Subsets II
-- [ ] 0022\. Generate Parentheses
+- [x] [0022. Generate Parentheses](problems/0022-generate-parentheses.md)
 - [ ] 0079\. Word Search
 - [ ] 0131\. Palindrome Partitioning
 - [ ] 0017\. Letter Combinations of a Phone Number

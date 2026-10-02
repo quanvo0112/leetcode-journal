@@ -55,6 +55,9 @@
   * [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
   * [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
 
+* **Backtracking**
+  * [0022. Generate Parentheses](problems/0022-generate-parentheses.md)
+
 * **Machine Learning (NeetCode ML)**
   * [ML Progress Tracker](machine-learning/README.md)
   * [Gradient Descent](machine-learning/gradient-descent.md)
