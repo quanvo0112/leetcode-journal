@@ -57,6 +57,7 @@
   * [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
 
 * **Trees**
+  * [0104. Maximum Depth of Binary Tree](problems/0104-maximum-depth-of-binary-tree.md)
   * [0226. Invert Binary Tree](problems/0226-invert-binary-tree.md)
 
 * **Backtracking**
@@ -68,6 +69,8 @@
   * [Sigmoid & ReLU](machine-learning/sigmoid-and-relu.md)
   * [Softmax](machine-learning/softmax.md)
   * [Cross-Entropy Loss](machine-learning/cross-entropy-loss.md)
+  * [Linear Regression (Forward)](machine-learning/linear-regression-forward.md)
+  * [Linear Regression (Training)](machine-learning/linear-regression-training.md)
 
 * **Templates & Guides**
   * [DSA Problem Template](templates/problem-template.md)
