@@ -56,6 +56,9 @@
   * [0206. Reverse Linked List](problems/0206-reverse-linked-list.md)
   * [0287. Find the Duplicate Number](problems/0287-find-the-duplicate-number.md)
 
+* **Trees**
+  * [0226. Invert Binary Tree](problems/0226-invert-binary-tree.md)
+
 * **Backtracking**
   * [0022. Generate Parentheses](problems/0022-generate-parentheses.md)
 

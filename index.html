@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Personal Engineering Journal: Data Structures & Algorithms (NeetCode 150) and Machine Learning from Scratch (NeetCode ML)">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  
+
   <!-- Web App Manifest & Mobile Theme Color -->
   <meta name="theme-color" content="#ffffff">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,7 +19,7 @@
 
   <!-- Docsify Base Theme (Vue Light) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  
+
   <!-- KaTeX for Math ($O(N)$, etc.) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
 
@@ -28,7 +28,7 @@
     (function(l) {
       // Decode path from 404 redirect query string (?/path)
       if (l.search[1] === '/' ) {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
+        var decoded = l.search.slice(1).split('&').map(function(s) {
           return s.replace(/~and~/g, '&');
         }).join('?');
         window.history.replaceState(null, null,
@@ -915,6 +915,7 @@
           '/problems/0155-min-stack',
           '/problems/0167-two-sum-ii-input-array-is-sorted',
           '/problems/0217-contains-duplicate',
+          '/problems/0226-invert-binary-tree',
           '/problems/0238-product-of-array-except-self',
           '/problems/0239-sliding-window-maximum',
           '/problems/0242-valid-anagram',

@@ -10,7 +10,7 @@
 
 | Progress | Total Solved | Easy | Medium | Hard |
 | :---: | :---: | :---: | :---: | :---: |
-| **45 / 150 (30%)** | **45** | 10 | 28 | 7 |
+| **47 / 150 (31%)** | **47** | 12 | 28 | 7 |
 
 #### 2. Machine Learning from Scratch (NeetCode ML)
 
@@ -43,6 +43,7 @@
 | 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | <span class="badge badge-medium">Medium</span> | Array, Binary Search, Matrix | [Note](problems/0074-search-a-2d-matrix.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | <span class="badge badge-hard">Hard</span> | Hash Table, String, Sliding Window | [Note](problems/0076-minimum-window-substring.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0084 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | <span class="badge badge-hard">Hard</span> | Array, Stack, Monotonic Stack | [Note](problems/0084-largest-rectangle-in-histogram.md) | <span class="badge badge-solved">Solved</span> | - |
+| 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | <span class="badge badge-easy">Easy</span> | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [Note](problems/0104-maximum-depth-of-binary-tree.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | <span class="badge badge-easy">Easy</span> | Array, Dynamic Programming | [Note](problems/0121-best-time-to-buy-and-sell-stock.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | <span class="badge badge-easy">Easy</span> | Two Pointers, String | [Note](problems/0125-valid-palindrome.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | <span class="badge badge-medium">Medium</span> | Array, Hash Table, Union-Find | [Note](problems/0128-longest-consecutive-sequence.md) | <span class="badge badge-solved">Solved</span> | - |
@@ -56,6 +57,7 @@
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | <span class="badge badge-medium">Medium</span> | Array, Two Pointers, Binary Search | [Note](problems/0167-two-sum-ii-input-array-is-sorted.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | <span class="badge badge-easy">Easy</span> | Linked List, Recursion | [Note](problems/0206-reverse-linked-list.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | <span class="badge badge-easy">Easy</span> | Array, Hash Table, Sorting | [Note](problems/0217-contains-duplicate.md) | <span class="badge badge-solved">Solved</span> | 2026-09-26 |
+| 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | <span class="badge badge-easy">Easy</span> | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [Note](problems/0226-invert-binary-tree.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | <span class="badge badge-medium">Medium</span> | Array, Prefix Sum | [Note](problems/0238-product-of-array-except-self.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | <span class="badge badge-hard">Hard</span> | Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum/Maximum Query | [Note](problems/0239-sliding-window-maximum.md) | <span class="badge badge-solved">Solved</span> | - |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | <span class="badge badge-easy">Easy</span> | Hash Table, String, Sorting | [Note](problems/0242-valid-anagram.md) | <span class="badge badge-solved">Solved</span> | 2026-09-26 |
@@ -130,9 +132,9 @@
 - [x] [0023. Merge k Sorted Lists](problems/0023-merge-k-sorted-lists.md)
 - [x] [0025. Reverse Nodes in k-Group](problems/0025-reverse-nodes-in-k-group.md)
 
-#### 7. Trees (0/15)
-- [ ] 0226\. Invert Binary Tree
-- [ ] 0104\. Maximum Depth of Binary Tree
+#### 7. Trees (2/15)
+- [x] [0226. Invert Binary Tree](problems/0226-invert-binary-tree.md)
+- [x] [0104. Maximum Depth of Binary Tree](problems/0104-maximum-depth-of-binary-tree.md)
 - [ ] 0543\. Diameter of Binary Tree
 - [ ] 0110\. Balanced Binary Tree
 - [ ] 0100\. Same Tree
